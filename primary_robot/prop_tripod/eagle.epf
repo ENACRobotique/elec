@@ -361,8 +361,8 @@ UsedLibrary="/media/yoyo/BCACD6C6ACD679FA/Goolge Drive/Projets persos/Library Ea
 
 [Win_1]
 Type="Control Panel"
-Loc="523 58 1269 592"
-State=2
+Loc="47 24 646 423"
+State=1
 Number=0
 
 [Desktop]
