@@ -1,0 +1,23 @@
+Rx 0:
+Tx 1:
+i  2: codeur1, interruption
+i~ 3: codeur2, interruption
+   4: couleur
+  ~5: moteur1, vitesse
+  ~6: moteur2, vitesse
+   7: codeur1, état
+   8: codeur2, état
+  ~9: tirette (et éventuellement haut-parleur)
+ ~10: servo pendule
+ ~11: mosfet ventilateur
+  12: moteur1, direction
+  13: moteur2, direction
+  
+  A0: manuel 1
+  A1: manuel 2
+  A2:
+  A3:
+  A4: I2C SDA  accéléromètre
+  A5: I2C SCL  accéléromètre
+
+si besoin d'un servo pour les tapis: passer la tirette sur A2 ou A3 et le servo sur la pin 9.
