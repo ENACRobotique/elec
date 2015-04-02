@@ -16007,9 +16007,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="-86.36" y1="5.08" x2="-81.28" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="EXT1" gate="A" pin="15"/>
-<wire x1="-228.6" y1="81.28" x2="-236.22" y2="81.28" width="0.1524" layer="91"/>
-<label x="-254" y="81.28" size="1.778" layer="95"/>
+<wire x1="-220.98" y1="81.28" x2="-213.36" y2="81.28" width="0.1524" layer="91"/>
+<label x="-213.36" y="81.28" size="1.778" layer="95"/>
+<pinref part="EXT1" gate="A" pin="16"/>
 </segment>
 </net>
 <net name="CHB_POD2_LPC" class="0">
@@ -16086,12 +16086,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="-91.44" y1="73.66" x2="-78.74" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SD2_POD3_LPC" class="0">
-<segment>
-<pinref part="EXT1" gate="A" pin="13"/>
-<wire x1="-228.6" y1="78.74" x2="-236.22" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="CHA_POD1_LPC" class="0">
 <segment>
 <wire x1="-114.3" y1="0" x2="-93.98" y2="0" width="0.1524" layer="91"/>
@@ -16103,9 +16097,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <junction x="-93.98" y="0"/>
 </segment>
 <segment>
-<pinref part="EXT1" gate="A" pin="16"/>
-<wire x1="-220.98" y1="81.28" x2="-213.36" y2="81.28" width="0.1524" layer="91"/>
-<label x="-213.36" y="81.28" size="1.778" layer="95"/>
+<pinref part="EXT1" gate="A" pin="13"/>
+<wire x1="-228.6" y1="78.74" x2="-236.22" y2="78.74" width="0.1524" layer="91"/>
+<label x="-254" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CHA_POD2_LPC" class="0">
