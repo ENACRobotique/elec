@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9921,7 +9921,6 @@ Source: www.piher.net .. 04-CI-11v04.pdf</description>
 <part name="LCD-GND" library="con-lstb" deviceset="MA05-1" device=""/>
 <part name="POTAR-CONTRASTE" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="CODER-MOTOR" library="con-lstb" deviceset="MA04-1" device=""/>
-<part name="UART" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="I²C" library="con-lstb" deviceset="MA04-1" device=""/>
 <part name="ALIM" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="SERVO/PWM-IHM" library="con-lstb" deviceset="MA03-1" device=""/>
@@ -9933,6 +9932,7 @@ Source: www.piher.net .. 04-CI-11v04.pdf</description>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM"/>
 <part name="SW1" library="piher" deviceset="CI-11" device=""/>
+<part name="SV1" library="con-lstb" deviceset="MA04-1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9955,13 +9955,13 @@ Source: www.piher.net .. 04-CI-11v04.pdf</description>
 <instance part="LCD-GND" gate="G$1" x="213.36" y="-15.24" rot="R180"/>
 <instance part="POTAR-CONTRASTE" gate="G$1" x="180.34" y="5.08"/>
 <instance part="CODER-MOTOR" gate="1" x="205.74" y="63.5" rot="R180"/>
-<instance part="UART" gate="G$1" x="208.28" y="83.82" rot="R180"/>
 <instance part="I²C" gate="1" x="167.64" y="83.82" rot="R180"/>
 <instance part="ALIM" gate="G$1" x="17.78" y="86.36"/>
 <instance part="R3" gate="G$1" x="162.56" y="121.92"/>
 <instance part="R4" gate="G$1" x="162.56" y="137.16"/>
 <instance part="LED1" gate="G$1" x="172.72" y="137.16" rot="MR270"/>
 <instance part="LED2" gate="G$1" x="172.72" y="121.92" rot="MR270"/>
+<instance part="SV1" gate="1" x="208.28" y="81.28" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -10087,6 +10087,11 @@ Source: www.piher.net .. 04-CI-11v04.pdf</description>
 <wire x1="55.88" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <label x="91.44" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="1" pin="4"/>
+<wire x1="200.66" y1="78.74" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
+<label x="193.04" y="78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -10138,9 +10143,9 @@ Source: www.piher.net .. 04-CI-11v04.pdf</description>
 <label x="190.5" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="UART" gate="G$1" pin="3"/>
 <wire x1="200.66" y1="81.28" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
 <label x="193.04" y="81.28" size="1.778" layer="95"/>
+<pinref part="SV1" gate="1" pin="3"/>
 </segment>
 <segment>
 <pinref part="I²C" gate="1" pin="2"/>
@@ -10237,19 +10242,19 @@ Source: www.piher.net .. 04-CI-11v04.pdf</description>
 <pinref part="IC1" gate="G$1" pin="PD0(RXD)"/>
 <wire x1="142.24" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="68.58" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="UART" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="81.28" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="86.36" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="UART" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="83.82" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="83.82" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="78.74" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="149.86" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$25" class="0">
