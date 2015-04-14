@@ -4984,8 +4984,8 @@ SMT- SWCH-08247</description>
 <text x="205.74" y="-27.94" size="1.778" layer="91" rot="R180">SCL</text>
 <text x="200.66" y="-3.81" size="1.778" layer="91">0 RX</text>
 <text x="200.66" y="-1.27" size="1.778" layer="91">1 TX</text>
-<text x="50.8" y="-40.64" size="1.778" layer="91">RX</text>
-<text x="50.8" y="-38.1" size="1.778" layer="91">TX</text>
+<text x="50.8" y="-40.64" size="1.778" layer="91">TX</text>
+<text x="50.8" y="-38.1" size="1.778" layer="91">RX</text>
 <text x="200.66" y="1.27" size="1.778" layer="91">2</text>
 <text x="200.66" y="3.81" size="1.778" layer="91">3</text>
 <text x="200.66" y="6.35" size="1.778" layer="91">4</text>
@@ -5017,6 +5017,7 @@ SMT- SWCH-08247</description>
 <text x="10.16" y="-116.84" size="1.778" layer="91">SDA</text>
 <text x="10.16" y="-114.3" size="1.778" layer="91">SCL</text>
 <text x="213.36" y="22.86" size="5.08" layer="91">!! Utiliser une lib arduino pour éviter les problèmes !!</text>
+<text x="22.86" y="-48.26" size="2.032" layer="91">WTF ces résistances ?   =&gt;</text>
 </plain>
 <instances>
 <instance part="ARDUINO1" gate="A" x="199.39" y="34.29"/>
