@@ -12384,30 +12384,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="91.44" y="33.02"/>
 </segment>
 </net>
-<net name="TX2_BBB" class="0">
-<segment>
-<pinref part="U$3" gate="P9" pin="GPIO_3"/>
-<wire x1="10.16" y1="-109.22" x2="5.08" y2="-109.22" width="0.1524" layer="91"/>
-<label x="-5.08" y="-109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="CON_I2C_UART" gate="G$1" pin="5"/>
-<wire x1="144.78" y1="-99.06" x2="142.24" y2="-99.06" width="0.1524" layer="91"/>
-<label x="132.08" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RX2_BBB" class="0">
-<segment>
-<pinref part="U$3" gate="P9" pin="GPIO_2"/>
-<wire x1="50.8" y1="-109.22" x2="55.88" y2="-109.22" width="0.1524" layer="91"/>
-<label x="55.88" y="-109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="CON_I2C_UART" gate="G$1" pin="6"/>
-<wire x1="144.78" y1="-101.6" x2="142.24" y2="-101.6" width="0.1524" layer="91"/>
-<label x="132.08" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -12471,6 +12447,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="91.44" y1="68.58" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="P-UP_SCL" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TX1_BBB" class="0">
+<segment>
+<pinref part="U$3" gate="P9" pin="GPIO_15"/>
+<wire x1="50.8" y1="-111.76" x2="55.88" y2="-111.76" width="0.1524" layer="91"/>
+<label x="55.88" y="-111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CON_I2C_UART" gate="G$1" pin="5"/>
+<wire x1="144.78" y1="-99.06" x2="142.24" y2="-99.06" width="0.1524" layer="91"/>
+<label x="132.08" y="-99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RX1_BBB" class="0">
+<segment>
+<pinref part="U$3" gate="P9" pin="GPIO_14"/>
+<wire x1="50.8" y1="-114.3" x2="55.88" y2="-114.3" width="0.1524" layer="91"/>
+<label x="55.88" y="-114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CON_I2C_UART" gate="G$1" pin="6"/>
+<wire x1="144.78" y1="-101.6" x2="142.24" y2="-101.6" width="0.1524" layer="91"/>
+<label x="132.08" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
