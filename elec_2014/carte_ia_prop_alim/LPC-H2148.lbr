@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.635" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="LPC-H2148">
+<pad name="EXT1-1" x="0" y="0" drill="0.8" shape="square"/>
+<wire x1="-3" y1="-13" x2="30.94" y2="-13" width="0.127" layer="21"/>
+<wire x1="30.94" y1="-13" x2="30.94" y2="43.98" width="0.127" layer="21"/>
+<wire x1="30.94" y1="43.98" x2="-3" y2="43.98" width="0.127" layer="21"/>
+<wire x1="-3" y1="43.98" x2="-3" y2="-13" width="0.127" layer="21"/>
+<pad name="EXT1-2" x="2.54" y="0" drill="0.8"/>
+<pad name="EXT1-3" x="0" y="2.54" drill="0.8"/>
+<pad name="EXT1-4" x="2.54" y="2.54" drill="0.8"/>
+<pad name="EXT1-5" x="0" y="5.08" drill="0.8"/>
+<pad name="EXT1-6" x="2.54" y="5.08" drill="0.8"/>
+<pad name="EXT1-7" x="0" y="7.62" drill="0.8"/>
+<pad name="EXT1-8" x="2.54" y="7.62" drill="0.8"/>
+<pad name="EXT1-9" x="0" y="10.16" drill="0.8"/>
+<pad name="EXT1-10" x="2.54" y="10.16" drill="0.8"/>
+<pad name="EXT1-11" x="0" y="12.7" drill="0.8"/>
+<pad name="EXT1-12" x="2.54" y="12.7" drill="0.8"/>
+<pad name="EXT1-13" x="0" y="15.24" drill="0.8"/>
+<pad name="EXT1-14" x="2.54" y="15.24" drill="0.8"/>
+<pad name="EXT1-15" x="0" y="17.78" drill="0.8"/>
+<pad name="EXT1-16" x="2.54" y="17.78" drill="0.8"/>
+<pad name="EXT1-17" x="0" y="20.32" drill="0.8"/>
+<pad name="EXT1-18" x="2.54" y="20.32" drill="0.8"/>
+<pad name="EXT1-19" x="0" y="22.86" drill="0.8"/>
+<pad name="EXT1-20" x="2.54" y="22.86" drill="0.8"/>
+<pad name="EXT1-21" x="0" y="25.4" drill="0.8"/>
+<pad name="EXT1-22" x="2.54" y="25.4" drill="0.8"/>
+<pad name="EXT1-23" x="0" y="27.94" drill="0.8"/>
+<pad name="EXT1-24" x="2.54" y="27.94" drill="0.8"/>
+<pad name="EXT1-25" x="0" y="30.48" drill="0.8"/>
+<pad name="EXT1-26" x="2.54" y="30.48" drill="0.8"/>
+<pad name="EXT2-1" x="25.4" y="0" drill="0.8" shape="square"/>
+<pad name="EXT2-2" x="27.94" y="0" drill="0.8"/>
+<pad name="EXT2-3" x="25.4" y="2.54" drill="0.8"/>
+<pad name="EXT2-4" x="27.94" y="2.54" drill="0.8"/>
+<pad name="EXT2-5" x="25.4" y="5.08" drill="0.8"/>
+<pad name="EXT2-6" x="27.94" y="5.08" drill="0.8"/>
+<pad name="EXT2-7" x="25.4" y="7.62" drill="0.8"/>
+<pad name="EXT2-8" x="27.94" y="7.62" drill="0.8"/>
+<pad name="EXT2-9" x="25.4" y="10.16" drill="0.8"/>
+<pad name="EXT2-10" x="27.94" y="10.16" drill="0.8"/>
+<pad name="EXT2-11" x="25.4" y="12.7" drill="0.8"/>
+<pad name="EXT2-12" x="27.94" y="12.7" drill="0.8"/>
+<pad name="EXT2-13" x="25.4" y="15.24" drill="0.8"/>
+<pad name="EXT2-14" x="27.94" y="15.24" drill="0.8"/>
+<pad name="EXT2-15" x="25.4" y="17.78" drill="0.8"/>
+<pad name="EXT2-16" x="27.94" y="17.78" drill="0.8"/>
+<pad name="EXT2-17" x="25.4" y="20.32" drill="0.8"/>
+<pad name="EXT2-18" x="27.94" y="20.32" drill="0.8"/>
+<pad name="EXT2-19" x="25.4" y="22.86" drill="0.8"/>
+<pad name="EXT2-20" x="27.94" y="22.86" drill="0.8"/>
+<pad name="EXT2-21" x="25.4" y="25.4" drill="0.8"/>
+<pad name="EXT2-22" x="27.94" y="25.4" drill="0.8"/>
+<pad name="EXT2-23" x="25.4" y="27.94" drill="0.8"/>
+<pad name="EXT2-24" x="27.94" y="27.94" drill="0.8"/>
+<pad name="EXT2-25" x="25.4" y="30.48" drill="0.8"/>
+<pad name="EXT2-26" x="27.94" y="30.48" drill="0.8"/>
+<wire x1="8" y1="35" x2="19.94" y2="35" width="0.127" layer="21"/>
+<wire x1="19.94" y1="35" x2="19.94" y2="50.98" width="0.127" layer="21"/>
+<wire x1="19.94" y1="50.98" x2="8" y2="50.98" width="0.127" layer="21"/>
+<wire x1="8" y1="50.98" x2="8" y2="35" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LPC-H2148">
+<rectangle x1="0" y1="0" x2="5.08" y2="35.56" layer="94"/>
+<pin name="EXT1-1" x="-5.08" y="2.54" length="middle"/>
+<pin name="EXT1-3" x="-5.08" y="5.08" length="middle"/>
+<pin name="EXT1-5" x="-5.08" y="7.62" length="middle"/>
+<pin name="EXT1-7" x="-5.08" y="10.16" length="middle"/>
+<pin name="EXT1-9" x="-5.08" y="12.7" length="middle"/>
+<pin name="EXT1-11" x="-5.08" y="15.24" length="middle"/>
+<pin name="EXT1-13" x="-5.08" y="17.78" length="middle"/>
+<pin name="EXT1-15" x="-5.08" y="20.32" length="middle"/>
+<pin name="EXT1-17" x="-5.08" y="22.86" length="middle"/>
+<pin name="EXT1-19" x="-5.08" y="25.4" length="middle"/>
+<pin name="EXT1-21" x="-5.08" y="27.94" length="middle"/>
+<pin name="EXT1-23" x="-5.08" y="30.48" length="middle"/>
+<pin name="EXT1-25" x="-5.08" y="33.02" length="middle"/>
+<pin name="EXT1-26" x="10.16" y="33.02" length="middle" rot="R180"/>
+<pin name="EXT1-24" x="10.16" y="30.48" length="middle" rot="R180"/>
+<pin name="EXT1-22" x="10.16" y="27.94" length="middle" rot="R180"/>
+<pin name="EXT1-20" x="10.16" y="25.4" length="middle" rot="R180"/>
+<pin name="EXT1-18" x="10.16" y="22.86" length="middle" rot="R180"/>
+<pin name="EXT1-16" x="10.16" y="20.32" length="middle" rot="R180"/>
+<pin name="EXT1-14" x="10.16" y="17.78" length="middle" rot="R180"/>
+<pin name="EXT1-12" x="10.16" y="15.24" length="middle" rot="R180"/>
+<pin name="EXT1-10" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="EXT1-8" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="EXT1-6" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="EXT1-4" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="EXT1-2" x="10.16" y="2.54" length="middle" rot="R180"/>
+<rectangle x1="25.4" y1="0" x2="30.48" y2="35.56" layer="94"/>
+<pin name="EXT2-1" x="20.32" y="2.54" length="middle"/>
+<pin name="EXT2-3" x="20.32" y="5.08" length="middle"/>
+<pin name="EXT2-5" x="20.32" y="7.62" length="middle"/>
+<pin name="EXT2-7" x="20.32" y="10.16" length="middle"/>
+<pin name="EXT2-9" x="20.32" y="12.7" length="middle"/>
+<pin name="EXT2-11" x="20.32" y="15.24" length="middle"/>
+<pin name="EXT2-13" x="20.32" y="17.78" length="middle"/>
+<pin name="EXT2-15" x="20.32" y="20.32" length="middle"/>
+<pin name="EXT2-17" x="20.32" y="22.86" length="middle"/>
+<pin name="EXT2-19" x="20.32" y="25.4" length="middle"/>
+<pin name="EXT2-21" x="20.32" y="27.94" length="middle"/>
+<pin name="EXT2-23" x="20.32" y="30.48" length="middle"/>
+<pin name="EXT2-25" x="20.32" y="33.02" length="middle"/>
+<pin name="EXT2-26" x="35.56" y="33.02" length="middle" rot="R180"/>
+<pin name="EXT2-24" x="35.56" y="30.48" length="middle" rot="R180"/>
+<pin name="EXT2-22" x="35.56" y="27.94" length="middle" rot="R180"/>
+<pin name="EXT2-20" x="35.56" y="25.4" length="middle" rot="R180"/>
+<pin name="EXT2-18" x="35.56" y="22.86" length="middle" rot="R180"/>
+<pin name="EXT2-16" x="35.56" y="20.32" length="middle" rot="R180"/>
+<pin name="EXT2-14" x="35.56" y="17.78" length="middle" rot="R180"/>
+<pin name="EXT2-12" x="35.56" y="15.24" length="middle" rot="R180"/>
+<pin name="EXT2-10" x="35.56" y="12.7" length="middle" rot="R180"/>
+<pin name="EXT2-8" x="35.56" y="10.16" length="middle" rot="R180"/>
+<pin name="EXT2-6" x="35.56" y="7.62" length="middle" rot="R180"/>
+<pin name="EXT2-4" x="35.56" y="5.08" length="middle" rot="R180"/>
+<pin name="EXT2-2" x="35.56" y="2.54" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LPC-H2148">
+<gates>
+<gate name="G$1" symbol="LPC-H2148" x="-15.24" y="-15.24"/>
+</gates>
+<devices>
+<device name="LPC-H2148" package="LPC-H2148">
+<connects>
+<connect gate="G$1" pin="EXT1-1" pad="EXT1-1"/>
+<connect gate="G$1" pin="EXT1-10" pad="EXT1-10"/>
+<connect gate="G$1" pin="EXT1-11" pad="EXT1-11"/>
+<connect gate="G$1" pin="EXT1-12" pad="EXT1-12"/>
+<connect gate="G$1" pin="EXT1-13" pad="EXT1-13"/>
+<connect gate="G$1" pin="EXT1-14" pad="EXT1-14"/>
+<connect gate="G$1" pin="EXT1-15" pad="EXT1-15"/>
+<connect gate="G$1" pin="EXT1-16" pad="EXT1-16"/>
+<connect gate="G$1" pin="EXT1-17" pad="EXT1-17"/>
+<connect gate="G$1" pin="EXT1-18" pad="EXT1-18"/>
+<connect gate="G$1" pin="EXT1-19" pad="EXT1-19"/>
+<connect gate="G$1" pin="EXT1-2" pad="EXT1-2"/>
+<connect gate="G$1" pin="EXT1-20" pad="EXT1-20"/>
+<connect gate="G$1" pin="EXT1-21" pad="EXT1-21"/>
+<connect gate="G$1" pin="EXT1-22" pad="EXT1-22"/>
+<connect gate="G$1" pin="EXT1-23" pad="EXT1-23"/>
+<connect gate="G$1" pin="EXT1-24" pad="EXT1-24"/>
+<connect gate="G$1" pin="EXT1-25" pad="EXT1-25"/>
+<connect gate="G$1" pin="EXT1-26" pad="EXT1-26"/>
+<connect gate="G$1" pin="EXT1-3" pad="EXT1-3"/>
+<connect gate="G$1" pin="EXT1-4" pad="EXT1-4"/>
+<connect gate="G$1" pin="EXT1-5" pad="EXT1-5"/>
+<connect gate="G$1" pin="EXT1-6" pad="EXT1-6"/>
+<connect gate="G$1" pin="EXT1-7" pad="EXT1-7"/>
+<connect gate="G$1" pin="EXT1-8" pad="EXT1-8"/>
+<connect gate="G$1" pin="EXT1-9" pad="EXT1-9"/>
+<connect gate="G$1" pin="EXT2-1" pad="EXT2-1"/>
+<connect gate="G$1" pin="EXT2-10" pad="EXT2-10"/>
+<connect gate="G$1" pin="EXT2-11" pad="EXT2-11"/>
+<connect gate="G$1" pin="EXT2-12" pad="EXT2-12"/>
+<connect gate="G$1" pin="EXT2-13" pad="EXT2-13"/>
+<connect gate="G$1" pin="EXT2-14" pad="EXT2-14"/>
+<connect gate="G$1" pin="EXT2-15" pad="EXT2-15"/>
+<connect gate="G$1" pin="EXT2-16" pad="EXT2-16"/>
+<connect gate="G$1" pin="EXT2-17" pad="EXT2-17"/>
+<connect gate="G$1" pin="EXT2-18" pad="EXT2-18"/>
+<connect gate="G$1" pin="EXT2-19" pad="EXT2-19"/>
+<connect gate="G$1" pin="EXT2-2" pad="EXT2-2"/>
+<connect gate="G$1" pin="EXT2-20" pad="EXT2-20"/>
+<connect gate="G$1" pin="EXT2-21" pad="EXT2-21"/>
+<connect gate="G$1" pin="EXT2-22" pad="EXT2-22"/>
+<connect gate="G$1" pin="EXT2-23" pad="EXT2-23"/>
+<connect gate="G$1" pin="EXT2-24" pad="EXT2-24"/>
+<connect gate="G$1" pin="EXT2-25" pad="EXT2-25"/>
+<connect gate="G$1" pin="EXT2-26" pad="EXT2-26"/>
+<connect gate="G$1" pin="EXT2-3" pad="EXT2-3"/>
+<connect gate="G$1" pin="EXT2-4" pad="EXT2-4"/>
+<connect gate="G$1" pin="EXT2-5" pad="EXT2-5"/>
+<connect gate="G$1" pin="EXT2-6" pad="EXT2-6"/>
+<connect gate="G$1" pin="EXT2-7" pad="EXT2-7"/>
+<connect gate="G$1" pin="EXT2-8" pad="EXT2-8"/>
+<connect gate="G$1" pin="EXT2-9" pad="EXT2-9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

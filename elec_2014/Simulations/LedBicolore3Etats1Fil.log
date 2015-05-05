@@ -1,0 +1,22 @@
+Circuit: * C:\Users\Ludovic Lacoste\Dropbox\Club Robot ENAC\Coupe 2014\Robot principal\Elec\Simulations\LedBicolore3Etats1Fil.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Feb 18 00:02:59 2014
+Total elapsed time: 0.068 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3301
+traniter = 3275
+tranpoints = 1073
+accept = 880
+rejected = 193
+matrix size = 13
+fillins = 6
+solver = Normal
+Matrix Compiler1: 870 octets object code size  0.4/0.2/[0.2]
+Matrix Compiler2: off  [0.2]/0.4/0.4
+
+
