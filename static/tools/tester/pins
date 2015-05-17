@@ -1,0 +1,22 @@
+PD0: 0  : servo2
+PD1: 1  : servo3
+PD2: 2  : codeur (interruption)
+PD3: 3  : codeur
+PD4: 4  : encodeur(a)
+PD5: 5  : encodeur(b)
+PD6: 6  : encodeur-select
+PD7: 7  : LCD1
+
+PB0: 8  : LCD2
+PB1: 9  : LCD3
+PB2: 10 : LCD4
+PB3: 11 : servo/pwm
+PB4: 12 : LCD5
+PB5: 13 : LCD6
+
+PC0: A0 : Analog Read
+PC1: A1 : led1
+PC2: A2 : led2
+PC3: A3 : return
+PC4: A4 : I²C : SDA
+PC5: A5 : I²C : SCL

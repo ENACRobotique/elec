@@ -11123,7 +11123,7 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="162.56" y1="25.4" x2="170.18" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SENS_ODO+SERVO2" class="0">
+<net name="SENS_ODO" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD3(INT1)"/>
 <label x="142.24" y="60.96" size="1.778" layer="95"/>
@@ -11134,7 +11134,7 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="177.8" y1="20.32" x2="210.82" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TX" class="0">
+<net name="SERVO3" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD1(TXD)"/>
 <label x="142.24" y="66.04" size="1.778" layer="95"/>
@@ -11145,7 +11145,7 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="JP1" gate="A" pin="16"/>
 </segment>
 </net>
-<net name="RX" class="0">
+<net name="SERVO2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD0(RXD)"/>
 <label x="142.24" y="68.58" size="1.778" layer="95"/>
