@@ -8775,6 +8775,66 @@ Source: www.piher.net .. 04-CI-11v04.pdf</description>
 <rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
 <rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
 </package>
+<package name="1X03">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+<package name="1X03/90">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
+<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
+<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
+<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
+<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PINH2X12">
@@ -8842,6 +8902,17 @@ Source: www.piher.net .. 04-CI-11v04.pdf</description>
 <text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="PINHD3">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8988,6 +9059,34 @@ Source: www.piher.net .. 04-CI-11v04.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-1X3" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X03">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/90" package="1X03/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10723,7 +10822,6 @@ Grid 5.00 mm&lt;p&gt;
 <part name="R4" library="resistor" deviceset="R-EU_" device="0204/5"/>
 <part name="SERVO-IHM" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="CODER-IHM" library="con-lstb" deviceset="MA04-1" device=""/>
-<part name="UART-IHM" library="con-lstb" deviceset="MA04-1" device=""/>
 <part name="I2C-IHM" library="con-lstb" deviceset="MA04-1" device=""/>
 <part name="ENCODER-IHM" library="piher" deviceset="CI-11" device=""/>
 <part name="IC3" library="v-reg" deviceset="78XXS" device=""/>
@@ -10753,6 +10851,13 @@ Grid 5.00 mm&lt;p&gt;
 <part name="MOTOR" library="con-wago-500" deviceset="W237-102" device=""/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="0204/7"/>
 <part name="X1" library="con-wago-500" deviceset="W237-102" device=""/>
+<part name="SERVO-IHM1" library="con-lstb" deviceset="MA03-1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="SWITCH_5V" library="pinhead" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10776,6 +10881,7 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="ALIM" gate="G$1" x="20.32" y="86.36" rot="R180"/>
 <instance part="X1" gate="-1" x="5.08" y="33.02"/>
 <instance part="X1" gate="-2" x="5.08" y="27.94"/>
+<instance part="SWITCH_5V" gate="A" x="81.28" y="35.56"/>
 </instances>
 <busses>
 </busses>
@@ -11090,9 +11196,12 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="38.1" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C2-REGULATOR1" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="38.1" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <junction x="40.64" y="38.1"/>
 <label x="43.18" y="38.1" size="1.778" layer="95"/>
+<wire x1="40.64" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="38.1" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="SWITCH_5V" gate="A" pin="3"/>
+<wire x1="66.04" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND_IHM" class="0">
@@ -11154,6 +11263,20 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="165.1" y1="30.48" x2="170.18" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="5V_P/A" class="0">
+<segment>
+<pinref part="SWITCH_5V" gate="A" pin="2"/>
+<wire x1="78.74" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
+<label x="66.04" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC_IHM" class="0">
+<segment>
+<pinref part="SWITCH_5V" gate="A" pin="1"/>
+<wire x1="71.12" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
+<label x="66.04" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -11162,7 +11285,6 @@ Grid 5.00 mm&lt;p&gt;
 <instances>
 <instance part="SERVO-IHM" gate="G$1" x="53.34" y="48.26" rot="R180"/>
 <instance part="CODER-IHM" gate="1" x="213.36" y="2.54" rot="R180"/>
-<instance part="UART-IHM" gate="1" x="172.72" y="7.62" rot="R180"/>
 <instance part="I2C-IHM" gate="1" x="147.32" y="12.7" rot="R180"/>
 <instance part="ENCODER-IHM" gate="A" x="104.14" y="-7.62" rot="R270"/>
 <instance part="ENCODER-IHM" gate="B" x="55.88" y="-2.54" rot="R270"/>
@@ -11178,6 +11300,7 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="MOTOR" gate="-1" x="78.74" y="66.04"/>
 <instance part="MOTOR" gate="-2" x="78.74" y="60.96"/>
 <instance part="R2" gate="G$1" x="66.04" y="48.26"/>
+<instance part="SERVO-IHM1" gate="G$1" x="172.72" y="10.16" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -11212,9 +11335,9 @@ Grid 5.00 mm&lt;p&gt;
 <label x="114.3" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="UART-IHM" gate="1" pin="2"/>
-<wire x1="165.1" y1="10.16" x2="157.48" y2="10.16" width="0.1524" layer="91"/>
-<label x="157.48" y="10.16" size="1.778" layer="95"/>
+<wire x1="165.1" y1="12.7" x2="154.94" y2="12.7" width="0.1524" layer="91"/>
+<label x="154.94" y="12.7" size="1.778" layer="95"/>
+<pinref part="SERVO-IHM1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="I2C-IHM" gate="1" pin="2"/>
@@ -11225,11 +11348,6 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="CODER-IHM" gate="1" pin="2"/>
 <wire x1="205.74" y1="5.08" x2="198.12" y2="5.08" width="0.1524" layer="91"/>
 <label x="195.58" y="5.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ENCODER-IHM" gate="A" pin="C"/>
-<wire x1="111.76" y1="-7.62" x2="116.84" y2="-7.62" width="0.1524" layer="91"/>
-<label x="114.3" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ENCODER-IHM" gate="B" pin="D"/>
@@ -11291,6 +11409,11 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="78.74" y1="43.18" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
 <label x="78.74" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ENCODER-IHM" gate="A" pin="B"/>
+<wire x1="99.06" y1="-10.16" x2="93.98" y2="-10.16" width="0.1524" layer="91"/>
+<label x="91.44" y="-10.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$10" class="0">
 <segment>
@@ -11320,11 +11443,6 @@ Grid 5.00 mm&lt;p&gt;
 <label x="53.34" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="UART-IHM" gate="1" pin="1"/>
-<wire x1="165.1" y1="12.7" x2="157.48" y2="12.7" width="0.1524" layer="91"/>
-<label x="157.48" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="CODER-IHM" gate="1" pin="1"/>
 <wire x1="205.74" y1="7.62" x2="198.12" y2="7.62" width="0.1524" layer="91"/>
 <label x="195.58" y="7.62" size="1.778" layer="95"/>
@@ -11347,15 +11465,8 @@ Grid 5.00 mm&lt;p&gt;
 <net name="N$14" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="14"/>
-<pinref part="UART-IHM" gate="1" pin="3"/>
 <wire x1="76.2" y1="7.62" x2="165.1" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="UART-IHM" gate="1" pin="4"/>
-<pinref part="JP2" gate="A" pin="16"/>
-<wire x1="165.1" y1="5.08" x2="76.2" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="SERVO-IHM1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -11372,12 +11483,6 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="144.78" y1="-2.54" x2="147.32" y2="0" width="0.1524" layer="91"/>
 <pinref part="CODER-IHM" gate="1" pin="4"/>
 <wire x1="147.32" y1="0" x2="205.74" y2="0" width="0.1524" layer="91"/>
-<pinref part="SERVO-IHM2" gate="G$1" pin="3"/>
-<wire x1="167.64" y1="-20.32" x2="149.86" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-20.32" x2="147.32" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="-17.78" x2="147.32" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="-5.08" x2="144.78" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="144.78" y="-2.54"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -11389,12 +11494,14 @@ Grid 5.00 mm&lt;p&gt;
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="ENCODER-IHM" gate="A" pin="B"/>
-<wire x1="99.06" y1="-10.16" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-10.16" x2="63.5" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-7.62" x2="63.5" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="23"/>
 <wire x1="63.5" y1="-5.08" x2="68.58" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-7.62" x2="71.12" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-15.24" x2="106.68" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-15.24" x2="111.76" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="ENCODER-IHM" gate="A" pin="C"/>
+<wire x1="111.76" y1="-10.16" x2="111.76" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -11502,18 +11609,6 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="40.64" y1="-10.16" x2="40.64" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5V_POWER" class="0">
-<segment>
-<pinref part="SERVO-IHM" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
-<label x="30.48" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SERVO-IHM2" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="-17.78" x2="160.02" y2="-17.78" width="0.1524" layer="91"/>
-<label x="152.4" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -11533,6 +11628,34 @@ Grid 5.00 mm&lt;p&gt;
 <segment>
 <pinref part="MOTOR" gate="-1" pin="KL"/>
 <wire x1="83.82" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="SERVO-IHM2" gate="G$1" pin="3"/>
+<wire x1="167.64" y1="-20.32" x2="149.86" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-20.32" x2="147.32" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="16"/>
+<wire x1="127" y1="5.08" x2="76.2" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-17.78" x2="147.32" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-15.24" x2="127" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V_P/A" class="0">
+<segment>
+<pinref part="SERVO-IHM" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
+<label x="30.48" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SERVO-IHM2" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="-17.78" x2="160.02" y2="-17.78" width="0.1524" layer="91"/>
+<label x="152.4" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SERVO-IHM1" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="10.16" x2="154.94" y2="10.16" width="0.1524" layer="91"/>
+<label x="154.94" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
