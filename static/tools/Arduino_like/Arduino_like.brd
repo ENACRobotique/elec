@@ -30,35 +30,35 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -74,7 +74,7 @@
 <wire x1="63.48" y1="0" x2="63.48" y2="41.58" width="0" layer="20"/>
 <wire x1="63.48" y1="41.58" x2="0" y2="41.58" width="0" layer="20"/>
 <wire x1="0" y1="41.58" x2="0" y2="0" width="0" layer="20"/>
-<text x="14.605" y="9.525" size="1.778" layer="1">0</text>
+<text x="18.415" y="12.065" size="1.4224" layer="1">0</text>
 <text x="19.685" y="6.35" size="1.778" layer="1">1</text>
 <text x="22.225" y="6.35" size="1.778" layer="1">2</text>
 <text x="24.765" y="6.35" size="1.778" layer="1">3</text>
@@ -99,7 +99,7 @@
 <text x="45.085" y="4.445" size="1.778" layer="1">~</text>
 <text x="47.625" y="4.445" size="1.778" layer="1">~</text>
 <text x="19.685" y="4.445" size="1.27" layer="1">TX</text>
-<text x="11.43" y="9.525" size="1.27" layer="1">RX</text>
+<text x="15.875" y="12.065" size="1.016" layer="1">RX</text>
 <wire x1="27.94" y1="41.275" x2="27.94" y2="32.385" width="0.4064" layer="21"/>
 <wire x1="27.94" y1="41.275" x2="48.26" y2="41.275" width="0.4064" layer="21"/>
 <wire x1="48.26" y1="41.275" x2="48.26" y2="32.385" width="0.4064" layer="21"/>
@@ -114,6 +114,7 @@
 <dimension x1="53.34" y1="10.16" x2="53.34" y2="27.94" x3="78.74" y3="19.05" layer="47"/>
 <dimension x1="43.18" y1="27.94" x2="33.02" y2="27.94" x3="38.1" y3="48.26" layer="47"/>
 <text x="1.905" y="9.525" size="1.778" layer="1">+12v</text>
+<text x="10.16" y="9.525" size="1.27" layer="1">reset</text>
 </plain>
 <libraries>
 <library name="atmel">
@@ -1921,10 +1922,10 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="13.335" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="13.335" y="5.08" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP4" library="pinhead" package="1X05" value="" x="22.86" y="10.16"/>
 <element name="JP3" library="pinhead" package="1X05" value="" x="48.26" y="27.94" rot="R180"/>
 <element name="JP5" library="pinhead" package="1X04" value="" x="49.53" y="10.16"/>
 <element name="JP6" library="pinhead" package="1X03" value="" x="15.24" y="27.94" rot="R180"/>
+<element name="JP4" library="pinhead" package="1X06" value="" x="21.59" y="10.16"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1969,8 +1970,10 @@ design rules under a new name.</description>
 <wire x1="10.0838" y1="7.3406" x2="15.24" y2="7.3406" width="1.016" layer="16"/>
 <wire x1="15.24" y1="7.3406" x2="16.5862" y2="7.3406" width="1.016" layer="16"/>
 <wire x1="17.78" y1="15.24" x2="17.78" y2="13.97" width="1.016" layer="16"/>
-<wire x1="17.78" y1="13.97" x2="15.24" y2="11.43" width="1.016" layer="16"/>
-<wire x1="15.24" y1="11.43" x2="15.24" y2="7.3406" width="1.016" layer="16"/>
+<contactref element="JP4" pad="1"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="7.3406" width="1.016" layer="16"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="11.43" width="1.016" layer="16"/>
+<wire x1="15.24" y1="11.43" x2="17.78" y2="13.97" width="1.016" layer="16"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC1" pad="20"/>
@@ -2134,38 +2137,38 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$14">
 <contactref element="IC1" pad="2"/>
-<contactref element="JP4" pad="1"/>
-<wire x1="17.78" y1="10.16" x2="17.78" y2="11.43" width="1.016" layer="16"/>
 <wire x1="17.78" y1="11.43" x2="20.32" y2="13.97" width="1.016" layer="16"/>
 <wire x1="20.32" y1="13.97" x2="20.32" y2="15.24" width="1.016" layer="16"/>
+<contactref element="JP4" pad="2"/>
+<wire x1="17.78" y1="11.43" x2="17.78" y2="10.16" width="1.016" layer="16"/>
 </signal>
 <signal name="N$16">
 <contactref element="IC1" pad="3"/>
-<contactref element="JP4" pad="2"/>
-<wire x1="20.32" y1="10.16" x2="20.32" y2="11.43" width="1.016" layer="16"/>
 <wire x1="20.32" y1="11.43" x2="22.86" y2="13.97" width="1.016" layer="16"/>
 <wire x1="22.86" y1="13.97" x2="22.86" y2="15.24" width="1.016" layer="16"/>
+<contactref element="JP4" pad="3"/>
+<wire x1="20.32" y1="11.43" x2="20.32" y2="10.16" width="1.016" layer="16"/>
 </signal>
 <signal name="N$17">
 <contactref element="IC1" pad="4"/>
-<contactref element="JP4" pad="3"/>
-<wire x1="22.86" y1="10.16" x2="22.86" y2="11.43" width="1.016" layer="16"/>
 <wire x1="22.86" y1="11.43" x2="25.4" y2="13.97" width="1.016" layer="16"/>
 <wire x1="25.4" y1="13.97" x2="25.4" y2="15.24" width="1.016" layer="16"/>
+<contactref element="JP4" pad="4"/>
+<wire x1="22.86" y1="11.43" x2="22.86" y2="10.16" width="1.016" layer="16"/>
 </signal>
 <signal name="N$18">
 <contactref element="IC1" pad="5"/>
-<contactref element="JP4" pad="4"/>
-<wire x1="25.4" y1="10.16" x2="25.4" y2="11.43" width="1.016" layer="16"/>
 <wire x1="25.4" y1="11.43" x2="27.94" y2="13.97" width="1.016" layer="16"/>
 <wire x1="27.94" y1="13.97" x2="27.94" y2="15.24" width="1.016" layer="16"/>
+<contactref element="JP4" pad="5"/>
+<wire x1="25.4" y1="11.43" x2="25.4" y2="10.16" width="1.016" layer="16"/>
 </signal>
 <signal name="N$19">
 <contactref element="IC1" pad="6"/>
-<contactref element="JP4" pad="5"/>
-<wire x1="27.94" y1="10.16" x2="27.94" y2="11.43" width="1.016" layer="16"/>
 <wire x1="27.94" y1="11.43" x2="30.48" y2="13.97" width="1.016" layer="16"/>
 <wire x1="30.48" y1="13.97" x2="30.48" y2="15.24" width="1.016" layer="16"/>
+<contactref element="JP4" pad="6"/>
+<wire x1="27.94" y1="11.43" x2="27.94" y2="10.16" width="1.016" layer="16"/>
 </signal>
 <signal name="N$20">
 <contactref element="IC1" pad="11"/>
@@ -2277,6 +2280,50 @@ design rules under a new name.</description>
 <wire x1="93.98" y1="0.635" x2="100.33" y2="0.635" width="0.4064" layer="16"/>
 </signal>
 </signals>
+<errors>
+<approved hash="19,1,c29dc3e7c3eac290"/>
+<approved hash="5,1,951a2a360233497b"/>
+<approved hash="5,1,010f16c9c1f04451"/>
+<approved hash="19,1,9b3c698995d26057"/>
+<approved hash="19,1,000f0539e4b409f3"/>
+<approved hash="19,1,0d0cca3f29b6768f"/>
+<approved hash="19,1,dcc0cbe0e013d4be"/>
+<approved hash="19,1,d0c8a5ffd6211b17"/>
+<approved hash="5,1,fe3e51d6336d0d78"/>
+<approved hash="19,1,7a1b0f2c7ea8b39e"/>
+<approved hash="19,1,2e2f9c84e9d5ffac"/>
+<approved hash="19,1,38db29a8282a6e68"/>
+<approved hash="19,1,f8e3cb552bd8bb03"/>
+<approved hash="19,1,1990933b4090a060"/>
+<approved hash="19,1,cb240e9ad497bee7"/>
+<approved hash="19,1,0070d36af3d780c4"/>
+<approved hash="19,1,6e2aa5bd2eb2fcd5"/>
+<approved hash="19,1,6055814c85ec4ce3"/>
+<approved hash="19,1,0c4d4b514be31c06"/>
+<approved hash="19,1,9938c0a180ab22c2"/>
+<approved hash="19,1,a4c85fa906a15437"/>
+<approved hash="19,1,bc404d5e01e748f8"/>
+<approved hash="19,1,4846035cf3e038f3"/>
+<approved hash="19,1,984cd152cdd38cfd"/>
+<approved hash="19,1,9c7a07de1b011150"/>
+<approved hash="19,1,f77c02c342a626e6"/>
+<approved hash="19,1,605d83c94033c86b"/>
+<approved hash="19,1,319808a2e097b262"/>
+<approved hash="19,1,1049afc302a620d2"/>
+<approved hash="19,1,787807fa792c274b"/>
+<approved hash="19,1,7caea7ad06aae451"/>
+<approved hash="19,1,215bc8dccab926df"/>
+<approved hash="19,1,ac600be4962f2656"/>
+<approved hash="19,1,87bcbaa984a32e4e"/>
+<approved hash="5,1,41f7baef7bcd43e0"/>
+<approved hash="19,1,8840415e0def3cf0"/>
+<approved hash="19,1,8b4c51a11ea92db3"/>
+<approved hash="19,1,00a00baa0ba500af"/>
+<approved hash="19,16,44160244fc53ba01"/>
+<approved hash="5,16,51a27b80f1a52965"/>
+<approved hash="5,16,a1b2187803e79745"/>
+<approved hash="5,16,51a27b80f1a52965"/>
+</errors>
 </board>
 </drawing>
 </eagle>
