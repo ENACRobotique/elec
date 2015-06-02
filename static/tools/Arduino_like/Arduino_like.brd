@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -116,8 +116,8 @@
 <text x="1.905" y="9.525" size="1.778" layer="1">+12v</text>
 <text x="10.16" y="9.525" size="1.27" layer="1">reset</text>
 <dimension x1="4" y1="3" x2="58" y2="3" x3="31" y3="-25.4" layer="47"/>
-<dimension x1="58" y1="3" x2="58" y2="35" x3="84.359996875" y3="19" layer="47"/>
-<dimension x1="4" y1="3" x2="4" y2="35" x3="-5" y3="19" layer="47"/>
+<dimension x1="58" y1="3" x2="58" y2="33" x3="84.359996875" y3="18" layer="47"/>
+<dimension x1="4" y1="3" x2="4" y2="33" x3="-5" y3="18" layer="47"/>
 </plain>
 <libraries>
 <library name="atmel">
@@ -199,6 +199,27 @@ Based on the following sources:&lt;p&gt;
 <description>&lt;b&gt;WIMA Capacitors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
+<package name="C5B3.5">
+<description>&lt;B&gt;MKS2&lt;/B&gt;, 7.5 x 4 mm, grid 5.08 mm</description>
+<wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.635" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="0" x2="-1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.3302" y1="0.635" x2="0.3302" y2="0" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0" x2="0.3302" y2="-0.635" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3.683" y1="1.524" x2="-3.683" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-1.778" x2="3.429" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="3.683" y1="-1.524" x2="3.683" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="1.778" x2="-3.429" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="1.778" x2="3.683" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="3.429" y1="-1.778" x2="3.683" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.683" y1="-1.524" x2="-3.429" y2="-1.778" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.683" y1="1.524" x2="-3.429" y2="1.778" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<text x="-2.54" y="2.032" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 <package name="C5B5">
 <description>&lt;B&gt;MKS2&lt;/B&gt;, 7.5 x 5 mm, grid 5.08 mm</description>
 <wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
@@ -1910,8 +1931,8 @@ design rules under a new name.</description>
 <element name="C1-CRYSTAL" library="capacitor-wima" package="C5B5" value="20 pF" x="31.75" y="7.62" rot="R270"/>
 <element name="C2-CRYSTAL" library="capacitor-wima" package="C5B5" value="20 pF" x="41.91" y="7.62" rot="R90"/>
 <element name="IC2" library="v-reg" package="78XXS" value="" x="1.905" y="20.32" rot="R90"/>
-<element name="C1-REGULATOR" library="capacitor-wima" package="C5B5" value="" x="5.715" y="12.7"/>
-<element name="C2-REGULATOR" library="capacitor-wima" package="C5B5" value="" x="5.715" y="27.94"/>
+<element name="C1-REGULATOR" library="capacitor-wima" package="C5B3.5" value="" x="5.715" y="12.7"/>
+<element name="C2-REGULATOR" library="capacitor-wima" package="C5B3.5" value="" x="5.715" y="27.94"/>
 <element name="ALIM" library="pinhead" package="1X02" value="" x="6.35" y="7.62" rot="R180"/>
 <element name="JP1" library="pinhead" package="2X05" value="" x="38.1" y="36.83"/>
 <element name="CAVALIER_VCC" library="pinhead" package="1X02" value="" x="22.86" y="36.195" rot="R180"/>
@@ -1997,8 +2018,9 @@ design rules under a new name.</description>
 <wire x1="17.78" y1="26.67" x2="17.78" y2="27.94" width="1.016" layer="16"/>
 <wire x1="21.59" y1="36.195" x2="17.78" y2="32.385" width="1.016" layer="16"/>
 <wire x1="17.78" y1="32.385" x2="17.78" y2="27.94" width="1.016" layer="16"/>
-<wire x1="3.175" y1="27.94" x2="7.62" y2="32.385" width="1.016" layer="16"/>
-<wire x1="7.62" y1="32.385" x2="17.78" y2="32.385" width="1.016" layer="16"/>
+<wire x1="3.175" y1="27.94" x2="5.715" y2="27.94" width="1.016" layer="16"/>
+<wire x1="5.715" y1="27.94" x2="10.16" y2="32.385" width="1.016" layer="16"/>
+<wire x1="10.16" y1="32.385" x2="17.78" y2="32.385" width="1.016" layer="16"/>
 <wire x1="4.445" y1="22.86" x2="4.445" y2="26.67" width="1.016" layer="16"/>
 <wire x1="4.445" y1="26.67" x2="3.175" y2="27.94" width="1.016" layer="16"/>
 </signal>
@@ -2025,8 +2047,8 @@ design rules under a new name.</description>
 <wire x1="35.56" y1="38.1" x2="38.1" y2="38.1" width="1.016" layer="16"/>
 <wire x1="38.1" y1="38.1" x2="40.64" y2="38.1" width="1.016" layer="16"/>
 <wire x1="40.64" y1="38.1" x2="43.18" y2="38.1" width="1.016" layer="16"/>
-<wire x1="58.42" y1="27.94" x2="48.26" y2="38.1" width="1.016" layer="16"/>
-<wire x1="48.26" y1="38.1" x2="43.18" y2="38.1" width="1.016" layer="16"/>
+<wire x1="58.42" y1="26.94" x2="47.26" y2="38.1" width="1.016" layer="16"/>
+<wire x1="47.26" y1="38.1" x2="43.18" y2="38.1" width="1.016" layer="16"/>
 <contactref element="S1" pad="4"/>
 <wire x1="8.255" y1="27.94" x2="8.255" y2="20.32" width="1.27" layer="16"/>
 <wire x1="8.255" y1="20.32" x2="8.255" y2="12.7" width="1.27" layer="16"/>
@@ -2036,7 +2058,7 @@ design rules under a new name.</description>
 <wire x1="58.42" y1="19.05" x2="58.42" y2="11.43" width="1.016" layer="16"/>
 <wire x1="58.42" y1="11.43" x2="52.07" y2="5.08" width="1.016" layer="16"/>
 <wire x1="52.07" y1="5.08" x2="41.91" y2="5.08" width="1.016" layer="16"/>
-<wire x1="58.42" y1="19.05" x2="58.42" y2="27.94" width="1.016" layer="16"/>
+<wire x1="58.42" y1="19.05" x2="58.42" y2="26.94" width="1.016" layer="16"/>
 <wire x1="11.3538" y1="2.1844" x2="10.0838" y2="2.6162" width="1.27" layer="16"/>
 <wire x1="10.0838" y1="2.6162" x2="7.62" y2="5.08" width="1.27" layer="16"/>
 <contactref element="JP6" pad="3"/>
@@ -2290,10 +2312,10 @@ design rules under a new name.</description>
 <via x="58" y="3" extent="1-16" drill="3.2"/>
 </signal>
 <signal name="N$43">
-<via x="58" y="35" extent="1-16" drill="3.2"/>
+<via x="58" y="33" extent="1-16" drill="3.2"/>
 </signal>
 <signal name="N$44">
-<via x="4" y="35" extent="1-16" drill="3.2"/>
+<via x="4" y="33" extent="1-16" drill="3.2"/>
 </signal>
 </signals>
 </board>
