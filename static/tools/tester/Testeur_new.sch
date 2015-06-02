@@ -10564,6 +10564,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R4" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="SWITCH1" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="TO_ARD" library="pinhead" deviceset="PINHD-1X2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10603,6 +10604,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R4" gate="G$1" x="88.9" y="96.52" rot="R90"/>
 <instance part="R5" gate="G$1" x="88.9" y="86.36" rot="R90"/>
 <instance part="SWITCH1" gate="A" x="-30.48" y="-22.86"/>
+<instance part="TO_ARD" gate="G$1" x="0" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -10712,6 +10714,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="88.9" y1="81.28" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="88.9" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TO_ARD" gate="G$1" pin="2"/>
+<wire x1="-2.54" y1="63.5" x2="-7.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="63.5" x2="-7.62" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="60.96" x2="-20.32" y2="60.96" width="0.1524" layer="91"/>
+<label x="-20.32" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -10918,6 +10927,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="I2C-IHM" gate="1" pin="1"/>
 <wire x1="104.14" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
 <label x="88.9" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TO_ARD" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="66.04" x2="-20.32" y2="66.04" width="0.1524" layer="91"/>
+<label x="-22.86" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
