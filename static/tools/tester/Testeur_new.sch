@@ -10379,6 +10379,61 @@ Source: avr.lbr</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="special">
+<description>&lt;b&gt;Special Devices&lt;/b&gt;&lt;p&gt;
+7-segment displays, switches, heatsinks, crystals, transformers, etc.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="QS">
+<description>&lt;B&gt;CRYSTAL&lt;/B&gt;</description>
+<wire x1="-3.429" y1="-2.286" x2="3.429" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="2.286" x2="-3.429" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-1.778" x2="3.429" y2="-1.778" width="0.0508" layer="21"/>
+<wire x1="3.429" y1="1.778" x2="-3.429" y2="1.778" width="0.0508" layer="21"/>
+<wire x1="3.429" y1="1.778" x2="3.429" y2="-1.778" width="0.0508" layer="21" curve="-180"/>
+<wire x1="3.429" y1="2.286" x2="3.429" y2="-2.286" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.429" y1="2.286" x2="-3.429" y2="-2.286" width="0.1524" layer="21" curve="180"/>
+<wire x1="-3.429" y1="1.778" x2="-3.429" y2="-1.778" width="0.0508" layer="21" curve="180"/>
+<pad name="1" x="-2.54" y="0" drill="0.6096" shape="long" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="0.6096" shape="long" rot="R90"/>
+<text x="-5.08" y="-3.937" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-5.08" y="2.667" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="XTAL">
+<wire x1="-1.27" y1="2.54" x2="1.397" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.397" y1="2.54" x2="1.397" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.397" y1="-2.54" x2="-1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="2.3368" y1="2.54" x2="2.3368" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-2.286" y1="2.54" x2="-2.286" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="XTAL/S" prefix="Q" uservalue="yes">
+<description>&lt;B&gt;CRYSTAL&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="XTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10434,6 +10489,9 @@ Source: avr.lbr</description>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="C3" library="capacitor-wima" deviceset="C" device="5/3.5"/>
 <part name="C4" library="capacitor-wima" deviceset="C" device="5/3.5"/>
+<part name="Q1" library="special" deviceset="XTAL/S" device=""/>
+<part name="C5" library="capacitor-wima" deviceset="C" device="5/5"/>
+<part name="C6" library="capacitor-wima" deviceset="C" device="5/5"/>
 </parts>
 <sheets>
 <sheet>
@@ -10473,6 +10531,9 @@ Source: avr.lbr</description>
 <instance part="JP1" gate="G$1" x="-210.82" y="-27.94" rot="R180"/>
 <instance part="C3" gate="G$1" x="-193.04" y="-27.94"/>
 <instance part="C4" gate="G$1" x="-167.64" y="-27.94"/>
+<instance part="Q1" gate="G$1" x="-210.82" y="101.6" rot="R90"/>
+<instance part="C5" gate="G$1" x="-223.52" y="106.68" rot="R90"/>
+<instance part="C6" gate="G$1" x="-223.52" y="96.52" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -10598,8 +10659,15 @@ Source: avr.lbr</description>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND@1"/>
-<wire x1="-200.66" y1="91.44" x2="-210.82" y2="91.44" width="0.1524" layer="91"/>
 <label x="-210.82" y="91.44" size="1.778" layer="95"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="-226.06" y1="106.68" x2="-226.06" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-226.06" y1="101.6" x2="-226.06" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-226.06" y1="101.6" x2="-228.6" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-228.6" y1="101.6" x2="-228.6" y2="91.44" width="0.1524" layer="91"/>
+<junction x="-226.06" y="101.6"/>
+<wire x1="-228.6" y1="91.44" x2="-200.66" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
@@ -10656,9 +10724,9 @@ Source: avr.lbr</description>
 <wire x1="-45.72" y1="86.36" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="86.36" x2="-45.72" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="83.82" x2="-71.12" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="83.82" x2="-71.12" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PD4(XCK/T0)"/>
-<wire x1="-71.12" y1="88.9" x2="-152.4" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="83.82" x2="-71.12" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PD3(INT1)"/>
+<wire x1="-71.12" y1="91.44" x2="-152.4" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -10923,10 +10991,8 @@ Source: avr.lbr</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="ENCODER" gate="A" pin="C"/>
-<wire x1="-66.04" y1="88.9" x2="-68.58" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="88.9" x2="-68.58" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PD3(INT1)"/>
-<wire x1="-68.58" y1="91.44" x2="-152.4" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PD4(XCK/T0)"/>
+<wire x1="-66.04" y1="88.9" x2="-152.4" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -10959,6 +11025,30 @@ Source: avr.lbr</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="IC2" gate="G$1" pin="PC2(ADC2)"/>
 <wire x1="-134.62" y1="116.84" x2="-152.4" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
+<wire x1="-200.66" y1="99.06" x2="-205.74" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="99.06" x2="-205.74" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="1"/>
+<wire x1="-205.74" y1="96.52" x2="-210.82" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="-210.82" y1="96.52" x2="-218.44" y2="96.52" width="0.1524" layer="91"/>
+<junction x="-210.82" y="96.52"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
+<wire x1="-200.66" y1="104.14" x2="-205.74" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="104.14" x2="-205.74" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="2"/>
+<wire x1="-205.74" y1="106.68" x2="-210.82" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="-210.82" y1="106.68" x2="-218.44" y2="106.68" width="0.1524" layer="91"/>
+<junction x="-210.82" y="106.68"/>
 </segment>
 </net>
 </nets>
