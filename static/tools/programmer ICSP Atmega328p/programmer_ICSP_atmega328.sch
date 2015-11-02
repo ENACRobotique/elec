@@ -6544,8 +6544,8 @@ Source: www.kingbright.com</description>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X5" device=""/>
 <part name="IC1" library="atmel" deviceset="MEGA8-P" device=""/>
 <part name="Q1" library="special" deviceset="XTAL/S" device=""/>
-<part name="C1" library="capacitor-wima" deviceset="C" device="5/5"/>
-<part name="C2" library="capacitor-wima" deviceset="C" device="5/5"/>
+<part name="C1" library="capacitor-wima" deviceset="C" device="5/5" value="20pF"/>
+<part name="C2" library="capacitor-wima" deviceset="C" device="5/5" value="20pF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0207/7"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0207/7"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
