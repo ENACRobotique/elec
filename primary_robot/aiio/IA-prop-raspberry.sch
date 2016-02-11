@@ -13076,6 +13076,7 @@ All pins connected</description>
 <part name="R16" library="SparkFun" deviceset="RESISTOR" device="AXIAL-0.3" value="10K"/>
 <part name="R17" library="SparkFun" deviceset="RESISTOR" device="AXIAL-0.3" value="10K"/>
 <part name="R18" library="SparkFun" deviceset="RESISTOR" device="AXIAL-0.3" value="10K"/>
+<part name="PWR_RP2" library="SparkFun" deviceset="TAC_SWITCH" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -13115,7 +13116,7 @@ All pins connected</description>
 <instance part="U1" gate="G$1" x="210.82" y="-116.84"/>
 <instance part="LED1" gate="G$1" x="91.44" y="-83.82" rot="R180"/>
 <instance part="R3" gate="G$1" x="91.44" y="-71.12" rot="R90"/>
-<instance part="RST_ARDU" gate="S" x="165.1" y="-111.76"/>
+<instance part="RST_ARDU" gate="S" x="167.64" y="-111.76"/>
 <instance part="5V_SAL" gate="-1" x="-58.42" y="60.96"/>
 <instance part="5V_SAL" gate="-2" x="-58.42" y="55.88"/>
 <instance part="LED2" gate="G$1" x="236.22" y="-134.62" rot="R90"/>
@@ -13145,6 +13146,7 @@ All pins connected</description>
 <instance part="R16" gate="G$1" x="-12.7" y="-43.18" rot="R90"/>
 <instance part="R17" gate="G$1" x="-12.7" y="-63.5" rot="R90"/>
 <instance part="R18" gate="G$1" x="-12.7" y="-81.28" rot="R90"/>
+<instance part="PWR_RP2" gate="S" x="129.54" y="-121.92"/>
 </instances>
 <busses>
 </busses>
@@ -13421,7 +13423,7 @@ All pins connected</description>
 <junction x="193.04" y="-139.7"/>
 <label x="190.5" y="-144.78" size="1.778" layer="95"/>
 <pinref part="RST_ARDU" gate="S" pin="2"/>
-<wire x1="160.02" y1="-114.3" x2="154.94" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-114.3" x2="154.94" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="-114.3" x2="154.94" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="-137.16" x2="193.04" y2="-137.16" width="0.1524" layer="91"/>
 </segment>
@@ -13504,6 +13506,11 @@ All pins connected</description>
 <junction x="91.44" y="7.62"/>
 <junction x="91.44" y="10.16"/>
 <label x="91.44" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PWR_RP2" gate="S" pin="4"/>
+<wire x1="134.62" y1="-124.46" x2="137.16" y2="-124.46" width="0.1524" layer="91"/>
+<label x="137.16" y="-124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -13834,7 +13841,7 @@ All pins connected</description>
 <pinref part="U1" gate="G$1" pin="RES"/>
 <wire x1="198.12" y1="-121.92" x2="193.04" y2="-121.92" width="0.1524" layer="91"/>
 <pinref part="RST_ARDU" gate="S" pin="4"/>
-<wire x1="170.18" y1="-114.3" x2="193.04" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-114.3" x2="193.04" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="-114.3" x2="193.04" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14100,6 +14107,13 @@ All pins connected</description>
 <wire x1="246.38" y1="-132.08" x2="220.98" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-119.38" x2="271.78" y2="-124.46" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="RP2_PWR" class="0">
+<segment>
+<pinref part="RP2" gate="G$1" pin="SPI_CE1"/>
+<pinref part="PWR_RP2" gate="S" pin="2"/>
+<wire x1="114.3" y1="-124.46" x2="124.46" y2="-124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

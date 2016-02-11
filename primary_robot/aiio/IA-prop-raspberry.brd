@@ -2566,6 +2566,7 @@ design rules under a new name.</description>
 <element name="R16" library="SparkFun" package="AXIAL-0.3" value="10K" x="-124.46" y="-35.56"/>
 <element name="R17" library="SparkFun" package="AXIAL-0.3" value="10K" x="-124.46" y="-40.64"/>
 <element name="R18" library="SparkFun" package="AXIAL-0.3" value="10K" x="-124.46" y="-45.72"/>
+<element name="PWR_RP2" library="SparkFun" package="TACTILE-PTH" value="" x="-137.16" y="-43.18"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -2746,21 +2747,23 @@ design rules under a new name.</description>
 <wire x1="10.16" y1="27.94" x2="10.16" y2="36.83" width="0.8128" layer="16"/>
 <wire x1="10.16" y1="36.83" x2="8.89" y2="38.1" width="0.8128" layer="16"/>
 <wire x1="11.43" y1="38.1" x2="8.89" y2="38.1" width="0.8128" layer="16"/>
-<wire x1="55.88" y1="68.58" x2="53.34" y2="105.41" width="0" layer="19" extent="1-1"/>
-<wire x1="53.34" y1="49.53" x2="55.88" y2="68.58" width="0" layer="19" extent="1-1"/>
-<wire x1="45.72" y1="21.59" x2="53.34" y2="49.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.475" y1="25.7778" x2="10.16" y2="27.94" width="0" layer="19" extent="1-16"/>
-<wire x1="-9.125" y1="25.7778" x2="-8.475" y2="25.7778" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.775" y1="25.7778" x2="-9.125" y2="25.7778" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.425" y1="25.7778" x2="-9.775" y2="25.7778" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.075" y1="25.7778" x2="-10.425" y2="25.7778" width="0" layer="19" extent="1-1"/>
+<contactref element="PWR_RP2" pad="4"/>
+<wire x1="-53.34" y1="0" x2="-133.9088" y2="-45.4406" width="0" layer="19" extent="16-16"/>
+<wire x1="-16.925" y1="25.7778" x2="-20.32" y2="25.4" width="0" layer="19" extent="1-16"/>
+<wire x1="-11.075" y1="25.7778" x2="-16.925" y2="25.7778" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.425" y1="25.7778" x2="-11.075" y2="25.7778" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.775" y1="25.7778" x2="-10.425" y2="25.7778" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.125" y1="25.7778" x2="-9.775" y2="25.7778" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.475" y1="25.7778" x2="-9.125" y2="25.7778" width="0" layer="19" extent="1-1"/>
 <wire x1="-11.075" y1="19.9422" x2="-11.075" y2="25.7778" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.925" y1="25.7778" x2="-11.075" y2="25.7778" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.32" y1="25.4" x2="-16.925" y2="25.7778" width="0" layer="19" extent="1-16"/>
+<wire x1="10.16" y1="27.94" x2="-8.475" y2="25.7778" width="0" layer="19" extent="1-16"/>
 <wire x1="-31.75" y1="60.96" x2="-35.56" y2="38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="16.51" y1="60.96" x2="11.43" y2="38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="15.76" y1="86.946" x2="16.51" y2="60.96" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.59" y1="106.68" x2="-25.4" y2="80.296" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="49.53" x2="45.72" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="68.58" x2="53.34" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="105.41" x2="55.88" y2="68.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U$2" pad="7"/>
@@ -3173,6 +3176,11 @@ design rules under a new name.</description>
 <wire x1="36.83" y1="50.8" x2="53.34" y2="115.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$50">
+</signal>
+<signal name="RP2_PWR">
+<contactref element="RP2" pad="26"/>
+<contactref element="PWR_RP2" pad="2"/>
+<wire x1="-9.64" y1="86.946" x2="-133.9088" y2="-40.9194" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
