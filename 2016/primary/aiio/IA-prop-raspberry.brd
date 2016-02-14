@@ -63,6 +63,10 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -71,6 +75,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
@@ -79,12 +84,33 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
@@ -110,9 +136,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -4818,6 +4856,103 @@ Comments / complaints / bug reports / suggestions to &lt;author&gt;eightbit@web.
 </package>
 </packages>
 </library>
+<library name="club">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find submitted parts from SparkFun users everywhere!&lt;br&gt;&lt;br&gt;
+These are not necessarily parts we carry, but are parts that other users have determined function well with other parts in our libraries. Please keep in mind that it is the end user's responsibility to ensure correctness and suitablity for a given componet or application.
+&lt;br&gt;&lt;br&gt;
+If you find these parts useful, please consider helping the open-source community by contributing your own through GitHub. https://github.com/sparkfun/SparkFun-Eagle-Libraries
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="BAU_30">
+<circle x="0" y="0" radius="10.5" width="0.127" layer="45"/>
+<circle x="0" y="0" radius="14.5" width="0.127" layer="21"/>
+<smd name="P1" x="-17" y="0" dx="3.81" dy="1.9304" layer="1"/>
+<smd name="P2" x="17" y="0" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+</package>
+<package name="FUSE_PROPU">
+<circle x="0" y="0" radius="7" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="9" width="0.127" layer="21"/>
+<smd name="P$1" x="-12" y="0" dx="3.81" dy="1.9304" layer="1"/>
+<smd name="P$2" x="12" y="0" dx="3.81" dy="1.9304" layer="1"/>
+</package>
+<package name="SWITCH_01">
+<wire x1="0" y1="0" x2="30.5" y2="0" width="0.127" layer="21"/>
+<wire x1="30.5" y1="0" x2="30.5" y2="11" width="0.127" layer="21"/>
+<wire x1="30.5" y1="11" x2="0" y2="11" width="0.127" layer="21"/>
+<wire x1="0" y1="11" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.5" x2="-1" y2="12.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="12.5" x2="31.5" y2="12.5" width="0.127" layer="21"/>
+<wire x1="31.5" y1="12.5" x2="31.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="31.5" y1="-1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
+<text x="1" y="9" size="1.27" layer="21">ON</text>
+<text x="26.5" y="8.5" size="1.27" layer="21">OFF</text>
+<smd name="P$1" x="13" y="5.5" dx="6.4516" dy="3.2512" layer="1" rot="R90"/>
+<smd name="P$2" x="4" y="5.5" dx="6.4516" dy="3.2512" layer="1" rot="R90"/>
+</package>
+<package name="FUSE_BOARDS">
+<circle x="0" y="0" radius="7.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="6.25" width="0.127" layer="21"/>
+<smd name="P$1" x="-11" y="0" dx="3.81" dy="1.9304" layer="1"/>
+<smd name="P$2" x="11" y="0" dx="3.81" dy="1.9304" layer="1"/>
+</package>
+<package name="PUSH_BUT_COL_SELEC">
+<circle x="0" y="0" radius="3.25" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
+<smd name="P$1" x="-7" y="0" dx="2.1844" dy="1.0668" layer="1"/>
+<smd name="P$2" x="7" y="0" dx="2.1844" dy="1.0668" layer="1"/>
+</package>
+<package name="CORD">
+<wire x1="0" y1="0" x2="20" y2="0" width="0.127" layer="21"/>
+<wire x1="20" y1="0" x2="20" y2="9" width="0.127" layer="21"/>
+<wire x1="20" y1="9" x2="0" y2="9" width="0.127" layer="21"/>
+<wire x1="0" y1="9" x2="0" y2="0" width="0.127" layer="21"/>
+<hole x="4.5" y="4.5" drill="0.6"/>
+<hole x="16" y="4.5" drill="0.6"/>
+<smd name="P$1" x="4" y="10.5" dx="3.81" dy="1.9304" layer="1"/>
+<smd name="P$2" x="16" y="10.5" dx="3.81" dy="1.9304" layer="1"/>
+</package>
+</packages>
+</library>
+<library name="adafruit">
+<packages>
+<package name="LED5MM">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+5 mm, round</description>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
+<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="LED5MMRGB">
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.127" layer="21" curve="-286.260205"/>
+<wire x1="-1.524" y1="0" x2="0.254" y2="0" width="0.127" layer="25"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-1.905" width="0.127" layer="25"/>
+<wire x1="0.254" y1="-1.905" x2="-1.524" y2="-1.905" width="0.127" layer="25"/>
+<wire x1="-1.524" y1="-1.905" x2="-1.524" y2="0" width="0.127" layer="25"/>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
+<pad name="1" x="-2.159" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="2" x="-0.635" y="-0.9684" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="3" x="0.889" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="4" x="2.159" y="-0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<text x="-3.175" y="3.175" size="1.27" layer="21">&gt;NAME</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5009,7 +5144,7 @@ design rules under a new name.</description>
 <element name="C4" library="resistor" package="E5-13" value="2.2m" x="-30.48" y="71.12" rot="R270"/>
 <element name="R5" library="resistor" package="0207/7" value="2.7k" x="-15.24" y="60.96" rot="R180"/>
 <element name="R6" library="resistor" package="0207/7" value="3.3k" x="-27.94" y="60.96"/>
-<element name="BAT_12V_BOARDS" library="con-ptr500" package="AK300/2" value="" x="-45.72" y="48.26" rot="R270">
+<element name="12V_BOARDS" library="con-ptr500" package="AK300/2" value="" x="-45.72" y="48.26" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="-45.72" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="-45.72" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="-45.72" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5163,6 +5298,42 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="-147.32" y="-127" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$3" library="footprintPrimaire2016" package="PRIMAIRE2016" value="FOOTPRINT_PRIMAIRE2016" x="-99.06" y="-20.32" locked="yes"/>
+<element name="BAT_12V_BOARDS" library="con-ptr500" package="AK300/2" value="" x="-170.18" y="-127">
+<attribute name="OC_NEWARK" value="unknown" x="-170.18" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-170.18" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-170.18" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="-170.18" y="-127" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$4" library="club" package="BAU_30" value="BAU" x="-156.21" y="-152.4"/>
+<element name="U$5" library="club" package="FUSE_PROPU" value="FUSE" x="-161.29" y="-176.53"/>
+<element name="U$6" library="club" package="SWITCH_01" value="SWITCH_01" x="-173.99" y="-199.39"/>
+<element name="12V_PROPU_SRC" library="con-ptr500" package="AK300/2" value="" x="-181.61" y="-190.5">
+<attribute name="OC_NEWARK" value="unknown" x="-181.61" y="-190.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-181.61" y="-190.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-181.61" y="-190.5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="-181.61" y="-190.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="LED4" library="adafruit" package="LED5MM" value="" x="-182.88" y="-204.47"/>
+<element name="R19" library="SparkFun" package="AXIAL-0.3" value="680" x="-181.61" y="-210.82"/>
+<element name="U$7" library="club" package="FUSE_BOARDS" value="FUSE_BOARDS" x="-173.99" y="-219.71"/>
+<element name="U$8" library="club" package="SWITCH_01" value="SWITCH_01" x="-185.42" y="-240.03"/>
+<element name="LED5" library="adafruit" package="LED5MM" value="" x="-182.88" y="-245.11"/>
+<element name="R20" library="SparkFun" package="AXIAL-0.3" value="680" x="-181.61" y="-251.46"/>
+<element name="12V_BOARDS_SRC" library="con-ptr500" package="AK300/2" value="" x="-193.04" y="-242.57">
+<attribute name="OC_NEWARK" value="unknown" x="-193.04" y="-242.57" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-193.04" y="-242.57" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-193.04" y="-242.57" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="-193.04" y="-242.57" size="1.778" layer="27" display="off"/>
+</element>
+<element name="BOARDIHM_CON_IHM" library="con-lsta" package="FE06" value="" x="-190.5" y="-256.54">
+<attribute name="OC_NEWARK" value="unknown" x="-190.5" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-190.5" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-190.5" y="-256.54" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="-190.5" y="-256.54" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$9" library="club" package="PUSH_BUT_COL_SELEC" value="PUSH_BUT_COL_SELEC" x="-190.5" y="-264.16"/>
+<element name="LED6" library="adafruit" package="LED5MMRGB" value="RGBLED_CA-5MM" x="-203.2" y="-265.43"/>
+<element name="U$10" library="club" package="CORD" value="CORD" x="-205.74" y="-281.94"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -5226,7 +5397,7 @@ design rules under a new name.</description>
 <signal name="+12V">
 <contactref element="C3" pad="+"/>
 <contactref element="U$2" pad="1"/>
-<contactref element="BAT_12V_BOARDS" pad="1"/>
+<contactref element="12V_BOARDS" pad="1"/>
 <contactref element="X3" pad="1"/>
 <wire x1="10.16" y1="60.96" x2="2.54" y2="53.34" width="1.016" layer="16"/>
 <wire x1="2.54" y1="53.34" x2="-30.48" y2="53.34" width="1.016" layer="16"/>
@@ -5238,7 +5409,7 @@ design rules under a new name.</description>
 <signal name="GND_12">
 <contactref element="U$2" pad="2"/>
 <contactref element="C3" pad="-"/>
-<contactref element="BAT_12V_BOARDS" pad="2"/>
+<contactref element="12V_BOARDS" pad="2"/>
 <contactref element="X3" pad="2"/>
 <wire x1="-45.72" y1="45.72" x2="-33.02" y2="45.72" width="1.016" layer="16"/>
 <wire x1="-33.02" y1="45.72" x2="-30.48" y2="48.26" width="1.016" layer="16"/>
@@ -5851,6 +6022,101 @@ design rules under a new name.</description>
 <wire x1="-129.54" y1="-58.42" x2="-129.54" y2="-66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="-129.54" y1="-50.8" x2="-129.54" y2="-58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="-129.54" y1="-134.62" x2="-129.54" y2="-119.38" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT_12V_PROPU+">
+<contactref element="BAT_12V_PROPU" pad="1"/>
+<contactref element="U$4" pad="P1"/>
+<wire x1="-149.8346" y1="-127" x2="-173.21" y2="-152.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="U$4" pad="P2"/>
+<contactref element="U$5" pad="P$1"/>
+<wire x1="-139.21" y1="-152.4" x2="-173.29" y2="-176.53" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="U$5" pad="P$2"/>
+<contactref element="U$6" pad="P$1"/>
+<wire x1="-149.29" y1="-176.53" x2="-160.99" y2="-193.89" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="U$6" pad="P$2"/>
+<contactref element="LED4" pad="A"/>
+<contactref element="12V_PROPU_SRC" pad="1"/>
+<wire x1="-184.1246" y1="-190.5" x2="-184.15" y2="-204.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-169.99" y1="-193.89" x2="-184.1246" y2="-190.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="LED4" pad="K"/>
+<contactref element="R19" pad="P$1"/>
+<wire x1="-181.61" y1="-204.47" x2="-185.42" y2="-210.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT_12V_BOARDS+">
+<contactref element="BAT_12V_BOARDS" pad="1"/>
+<contactref element="U$7" pad="P$1"/>
+<wire x1="-172.6946" y1="-127" x2="-184.99" y2="-219.71" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$13">
+<contactref element="U$7" pad="P$2"/>
+<contactref element="U$8" pad="P$1"/>
+<wire x1="-162.99" y1="-219.71" x2="-172.42" y2="-234.53" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$14">
+<contactref element="U$8" pad="P$2"/>
+<contactref element="LED5" pad="A"/>
+<contactref element="12V_BOARDS_SRC" pad="1"/>
+<wire x1="-184.15" y1="-245.11" x2="-195.5546" y2="-242.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-181.42" y1="-234.53" x2="-184.15" y2="-245.11" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT_12V_PROPU-">
+<contactref element="BAT_12V_PROPU" pad="2"/>
+<contactref element="R19" pad="P$2"/>
+<contactref element="12V_PROPU_SRC" pad="2"/>
+<wire x1="-179.1208" y1="-190.5" x2="-177.8" y2="-210.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-144.8308" y1="-127" x2="-179.1208" y2="-190.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="LED5" pad="K"/>
+<contactref element="R20" pad="P$1"/>
+<wire x1="-181.61" y1="-245.11" x2="-185.42" y2="-251.46" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT_12V_BOARDS-">
+<contactref element="BAT_12V_BOARDS" pad="2"/>
+<contactref element="R20" pad="P$2"/>
+<contactref element="12V_BOARDS_SRC" pad="2"/>
+<wire x1="-177.8" y1="-251.46" x2="-190.5508" y2="-242.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.6908" y1="-127" x2="-190.5508" y2="-242.57" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="BOARDIHM_CON_IHM" pad="1"/>
+<contactref element="U$9" pad="P$1"/>
+<wire x1="-196.85" y1="-256.54" x2="-197.5" y2="-264.16" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="BOARDIHM_CON_IHM" pad="2"/>
+<contactref element="LED6" pad="1"/>
+<wire x1="-194.31" y1="-256.54" x2="-205.359" y2="-264.4616" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BOARDIHM_GND">
+<contactref element="BOARDIHM_CON_IHM" pad="3"/>
+<contactref element="LED6" pad="2"/>
+<contactref element="U$10" pad="P$2"/>
+<wire x1="-189.74" y1="-271.44" x2="-203.835" y2="-266.3984" width="0" layer="19" extent="1-1"/>
+<wire x1="-191.77" y1="-256.54" x2="-189.74" y2="-271.44" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="BOARDIHM_CON_IHM" pad="4"/>
+<contactref element="U$10" pad="P$1"/>
+<wire x1="-189.23" y1="-256.54" x2="-201.74" y2="-271.44" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$51">
+<contactref element="BOARDIHM_CON_IHM" pad="5"/>
+<contactref element="LED6" pad="3"/>
+<wire x1="-186.69" y1="-256.54" x2="-202.311" y2="-264.4616" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$52">
+<contactref element="BOARDIHM_CON_IHM" pad="6"/>
+<contactref element="LED6" pad="4"/>
+<wire x1="-184.15" y1="-256.54" x2="-201.041" y2="-266.3984" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
