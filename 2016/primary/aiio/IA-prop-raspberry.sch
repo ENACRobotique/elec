@@ -34133,50 +34133,50 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="PWM12" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="LED12"/>
-<wire x1="134.62" y1="-7.62" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
-<label x="137.16" y="-7.62" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SRV12" gate="G$1" pin="3"/>
 <wire x1="175.26" y1="-30.48" x2="172.72" y2="-30.48" width="0.1524" layer="91"/>
 <label x="165.1" y="-30.48" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="PWM13" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="LED13"/>
-<wire x1="134.62" y1="-10.16" x2="137.16" y2="-10.16" width="0.1524" layer="91"/>
-<label x="137.16" y="-10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SRV13" gate="G$1" pin="3"/>
-<wire x1="218.44" y1="-30.48" x2="215.9" y2="-30.48" width="0.1524" layer="91"/>
-<label x="208.28" y="-30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PWM14" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="LED14"/>
-<wire x1="134.62" y1="-12.7" x2="137.16" y2="-12.7" width="0.1524" layer="91"/>
-<label x="137.16" y="-12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SRV14" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="-45.72" x2="172.72" y2="-45.72" width="0.1524" layer="91"/>
-<label x="167.64" y="-45.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PWM15" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="LED15"/>
 <wire x1="134.62" y1="-15.24" x2="137.16" y2="-15.24" width="0.1524" layer="91"/>
 <label x="137.16" y="-15.24" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="PWM13" class="0">
+<segment>
+<pinref part="SRV13" gate="G$1" pin="3"/>
+<wire x1="218.44" y1="-30.48" x2="215.9" y2="-30.48" width="0.1524" layer="91"/>
+<label x="208.28" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="LED14"/>
+<wire x1="134.62" y1="-12.7" x2="137.16" y2="-12.7" width="0.1524" layer="91"/>
+<label x="137.16" y="-12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM14" class="0">
+<segment>
+<pinref part="SRV14" gate="G$1" pin="3"/>
+<wire x1="175.26" y1="-45.72" x2="172.72" y2="-45.72" width="0.1524" layer="91"/>
+<label x="167.64" y="-45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="LED13"/>
+<wire x1="134.62" y1="-10.16" x2="137.16" y2="-10.16" width="0.1524" layer="91"/>
+<label x="137.16" y="-10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM15" class="0">
 <segment>
 <pinref part="SRV15" gate="G$1" pin="3"/>
 <wire x1="218.44" y1="-45.72" x2="215.9" y2="-45.72" width="0.1524" layer="91"/>
 <label x="208.28" y="-45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="LED12"/>
+<wire x1="134.62" y1="-7.62" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
+<label x="137.16" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA_ARDU" class="0">
