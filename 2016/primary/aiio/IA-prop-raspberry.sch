@@ -33580,7 +33580,8 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="312.42" y1="66.04" x2="325.12" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="66.04" x2="325.12" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="40.64" x2="325.12" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="12.7" x2="325.12" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="12.7" x2="325.12" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="-15.24" x2="325.12" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="-40.64" x2="325.12" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="SV3" gate="G$1" pin="5"/>
 <wire x1="337.82" y1="66.04" x2="350.52" y2="66.04" width="0.1524" layer="91"/>
@@ -33610,6 +33611,9 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="350.52" y="-15.24"/>
 <pinref part="SV9-1" gate="G$1" pin="5"/>
 <wire x1="353.06" y1="12.7" x2="350.52" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="SV11" gate="G$1" pin="5"/>
+<wire x1="312.42" y1="-15.24" x2="325.12" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="325.12" y="-15.24"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -33858,7 +33862,8 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="312.42" y1="55.88" x2="314.96" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="55.88" x2="314.96" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="30.48" x2="314.96" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="2.54" x2="314.96" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="2.54" x2="314.96" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="-25.4" x2="314.96" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="-48.26" x2="314.96" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <wire x1="287.02" y1="55.88" x2="289.56" y2="55.88" width="0.1524" layer="91"/>
@@ -33897,6 +33902,9 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="340.36" y="-25.4"/>
 <pinref part="SV9-1" gate="G$1" pin="1"/>
 <wire x1="353.06" y1="2.54" x2="340.36" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="SV11" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="-25.4" x2="314.96" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="314.96" y="-25.4"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -34705,7 +34713,8 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="312.42" y1="60.96" x2="320.04" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="60.96" x2="320.04" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="35.56" x2="320.04" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="7.62" x2="320.04" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="7.62" x2="320.04" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="-20.32" x2="320.04" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="-45.72" x2="320.04" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="3"/>
 <wire x1="287.02" y1="60.96" x2="294.64" y2="60.96" width="0.1524" layer="91"/>
@@ -34744,6 +34753,9 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="345.44" y="-20.32"/>
 <pinref part="SV9-1" gate="G$1" pin="3"/>
 <wire x1="353.06" y1="7.62" x2="345.44" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="SV11" gate="G$1" pin="3"/>
+<wire x1="312.42" y1="-20.32" x2="320.04" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="320.04" y="-20.32"/>
 </segment>
 <segment>
 <pinref part="RP2" gate="G$1" pin="SCL"/>
@@ -34763,7 +34775,8 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="312.42" y1="63.5" x2="322.58" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="63.5" x2="322.58" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="38.1" x2="322.58" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="10.16" x2="322.58" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="10.16" x2="322.58" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="-17.78" x2="322.58" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="-43.18" x2="322.58" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="4"/>
 <wire x1="287.02" y1="63.5" x2="297.18" y2="63.5" width="0.1524" layer="91"/>
@@ -34802,6 +34815,9 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="347.98" y="-17.78"/>
 <pinref part="SV9-1" gate="G$1" pin="4"/>
 <wire x1="353.06" y1="10.16" x2="347.98" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="SV11" gate="G$1" pin="4"/>
+<wire x1="312.42" y1="-17.78" x2="322.58" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="322.58" y="-17.78"/>
 </segment>
 <segment>
 <pinref part="RP2" gate="G$1" pin="SDA"/>
