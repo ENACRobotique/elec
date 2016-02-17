@@ -33579,6 +33579,85 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="271.78" y1="-86.36" x2="271.78" y2="-88.9" width="0.1524" layer="91"/>
 <label x="269.24" y="-91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV3" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="55.88" x2="322.58" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="55.88" x2="322.58" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SV2" gate="G$1" pin="1"/>
+<wire x1="322.58" y1="30.48" x2="322.58" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="2.54" x2="322.58" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="-25.4" x2="322.58" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="55.88" x2="297.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="55.88" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="30.48" x2="297.18" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="2.54" x2="297.18" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="-25.4" x2="297.18" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="-43.18" x2="297.18" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="55.88" x2="271.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="55.88" x2="271.78" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SV4" gate="G$1" pin="1"/>
+<wire x1="271.78" y1="30.48" x2="271.78" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="2.54" x2="271.78" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="-25.4" x2="271.78" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="30.48" x2="271.78" y2="30.48" width="0.1524" layer="91"/>
+<junction x="271.78" y="30.48"/>
+<pinref part="SV7" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="2.54" x2="271.78" y2="2.54" width="0.1524" layer="91"/>
+<junction x="271.78" y="2.54"/>
+<pinref part="SV10" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="-25.4" x2="271.78" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="271.78" y="-25.4"/>
+<wire x1="297.18" y1="-43.18" x2="271.78" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="297.18" y="-43.18"/>
+<wire x1="271.78" y1="-43.18" x2="261.62" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="271.78" y="-43.18"/>
+<label x="251.46" y="-43.18" size="1.778" layer="95"/>
+<pinref part="SV5" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="30.48" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
+<junction x="297.18" y="30.48"/>
+<pinref part="SV8" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="2.54" x2="297.18" y2="2.54" width="0.1524" layer="91"/>
+<junction x="297.18" y="2.54"/>
+<pinref part="SV6" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="30.48" x2="322.58" y2="30.48" width="0.1524" layer="91"/>
+<junction x="322.58" y="30.48"/>
+<pinref part="SV9" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="2.54" x2="322.58" y2="2.54" width="0.1524" layer="91"/>
+<junction x="322.58" y="2.54"/>
+<pinref part="SV12" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="-25.4" x2="322.58" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="322.58" y="-25.4"/>
+<pinref part="SV9-1" gate="G$1" pin="1"/>
+<wire x1="335.28" y1="2.54" x2="322.58" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="SV11" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="-25.4" x2="297.18" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="297.18" y="-25.4"/>
+<pinref part="CON_I2C_SONARS" gate="A" pin="3"/>
+</segment>
+<segment>
+<pinref part="CON_I2CARDU_1" gate="A" pin="3"/>
+<wire x1="172.72" y1="-127" x2="193.04" y2="-127" width="0.1524" layer="91"/>
+<pinref part="CON_I2CARDU" gate="A" pin="3"/>
+<wire x1="172.72" y1="-144.78" x2="193.04" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-144.78" x2="198.12" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-127" x2="193.04" y2="-144.78" width="0.1524" layer="91"/>
+<junction x="193.04" y="-144.78"/>
+<wire x1="198.12" y1="-144.78" x2="198.12" y2="-127" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND@2"/>
+<wire x1="220.98" y1="-124.46" x2="215.9" y2="-124.46" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND@1"/>
+<wire x1="220.98" y1="-127" x2="215.9" y2="-127" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-127" x2="215.9" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-127" x2="215.9" y2="-129.54" width="0.1524" layer="91"/>
+<junction x="215.9" y="-127"/>
+<pinref part="U1" gate="G$1" pin="GND@0"/>
+<wire x1="215.9" y1="-129.54" x2="220.98" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-129.54" x2="215.9" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="215.9" y="-129.54"/>
+<label x="213.36" y="-134.62" size="1.778" layer="95"/>
+<wire x1="198.12" y1="-127" x2="215.9" y2="-127" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -34429,31 +34508,6 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="58.42" y="-121.92"/>
 </segment>
 </net>
-<net name="GND2" class="0">
-<segment>
-<pinref part="CON_I2CARDU_1" gate="A" pin="3"/>
-<wire x1="172.72" y1="-127" x2="193.04" y2="-127" width="0.1524" layer="91"/>
-<pinref part="CON_I2CARDU" gate="A" pin="3"/>
-<wire x1="172.72" y1="-144.78" x2="193.04" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="-144.78" x2="198.12" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="-127" x2="193.04" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="193.04" y="-144.78"/>
-<wire x1="198.12" y1="-144.78" x2="198.12" y2="-127" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND@2"/>
-<wire x1="220.98" y1="-124.46" x2="215.9" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND@1"/>
-<wire x1="220.98" y1="-127" x2="215.9" y2="-127" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-127" x2="215.9" y2="-124.46" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-127" x2="215.9" y2="-129.54" width="0.1524" layer="91"/>
-<junction x="215.9" y="-127"/>
-<pinref part="U1" gate="G$1" pin="GND@0"/>
-<wire x1="215.9" y1="-129.54" x2="220.98" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-129.54" x2="215.9" y2="-132.08" width="0.1524" layer="91"/>
-<junction x="215.9" y="-129.54"/>
-<label x="213.36" y="-134.62" size="1.778" layer="95"/>
-<wire x1="198.12" y1="-127" x2="215.9" y2="-127" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="5VSIG" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -34744,64 +34798,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="294.64" y1="-15.24" x2="307.34" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="307.34" y="-15.24"/>
 <pinref part="CON_I2C_SONARS" gate="A" pin="4"/>
-</segment>
-</net>
-<net name="GND_SONARS" class="0">
-<segment>
-<pinref part="SV3" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="55.88" x2="322.58" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="55.88" x2="322.58" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="SV2" gate="G$1" pin="1"/>
-<wire x1="322.58" y1="30.48" x2="322.58" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="2.54" x2="322.58" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="-25.4" x2="322.58" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="55.88" x2="297.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="55.88" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="30.48" x2="297.18" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="2.54" x2="297.18" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="-25.4" x2="297.18" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="-43.18" x2="297.18" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="55.88" x2="271.78" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="55.88" x2="271.78" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="SV4" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="30.48" x2="271.78" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="2.54" x2="271.78" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="-25.4" x2="271.78" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="30.48" x2="271.78" y2="30.48" width="0.1524" layer="91"/>
-<junction x="271.78" y="30.48"/>
-<pinref part="SV7" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="2.54" x2="271.78" y2="2.54" width="0.1524" layer="91"/>
-<junction x="271.78" y="2.54"/>
-<pinref part="SV10" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="-25.4" x2="271.78" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="271.78" y="-25.4"/>
-<wire x1="297.18" y1="-43.18" x2="271.78" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="297.18" y="-43.18"/>
-<wire x1="271.78" y1="-43.18" x2="261.62" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="271.78" y="-43.18"/>
-<label x="241.3" y="-43.18" size="1.778" layer="95"/>
-<pinref part="SV5" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="30.48" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
-<junction x="297.18" y="30.48"/>
-<pinref part="SV8" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="2.54" x2="297.18" y2="2.54" width="0.1524" layer="91"/>
-<junction x="297.18" y="2.54"/>
-<pinref part="SV6" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="30.48" x2="322.58" y2="30.48" width="0.1524" layer="91"/>
-<junction x="322.58" y="30.48"/>
-<pinref part="SV9" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="2.54" x2="322.58" y2="2.54" width="0.1524" layer="91"/>
-<junction x="322.58" y="2.54"/>
-<pinref part="SV12" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="-25.4" x2="322.58" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="322.58" y="-25.4"/>
-<pinref part="SV9-1" gate="G$1" pin="1"/>
-<wire x1="335.28" y1="2.54" x2="322.58" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="SV11" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="-25.4" x2="297.18" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="297.18" y="-25.4"/>
-<pinref part="CON_I2C_SONARS" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="N$40" class="0">
