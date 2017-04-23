@@ -1,9 +1,9 @@
-PD0: 0  : servo2
-PD1: 1  : servo3
+PD0: 0  : servo1
+PD1: 1  : servo2
 PD2: 2  : codeur (interruption)
-PD3: 3  : codeur
-PD4: 4  : encodeur(a)
-PD5: 5  : encodeur(b)
+PD3: 3  : encodeur(a)
+PD4: 4  : encodeur(b)
+PD5: 5  : codeur
 PD6: 6  : encodeur-select
 PD7: 7  : LCD1
 
