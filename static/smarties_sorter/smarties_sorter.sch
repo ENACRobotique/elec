@@ -5314,6 +5314,7 @@ Grid 5.00 mm&lt;p&gt;
 <part name="D2" library="diode" deviceset="1N4933" device=""/>
 <part name="U$1" library="diy-modules" deviceset="DC-DC-STEP-DOWN-LM2596" device=""/>
 <part name="X1" library="con-wago-500" deviceset="W237-102" device=""/>
+<part name="C3" library="capacitor-wima" deviceset="C" device="5/3" value="200nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -5337,6 +5338,7 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="U$1" gate="G$1" x="-43.18" y="38.1"/>
 <instance part="X1" gate="-1" x="-78.74" y="43.18"/>
 <instance part="X1" gate="-2" x="-78.74" y="38.1"/>
+<instance part="C3" gate="G$1" x="-5.08" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -5408,6 +5410,15 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="-25.4" y1="33.02" x2="-20.32" y2="33.02" width="0.1524" layer="91"/>
 <label x="-22.86" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="5.08" y1="78.74" x2="0" y2="78.74" width="0.1524" layer="91"/>
+<label x="0" y="78.74" size="1.778" layer="95"/>
+<wire x1="0" y1="78.74" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="78.74" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="81.28" x2="-5.08" y2="81.28" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -5436,6 +5447,13 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="IC1" gate="G$1" pin="VCC@1"/>
 <wire x1="2.54" y1="48.26" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
 <label x="-12.7" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="AVCC"/>
+<wire x1="5.08" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
+<label x="0" y="73.66" size="1.778" layer="95"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="0" y1="73.66" x2="-5.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
