@@ -8669,6 +8669,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="JP4" library="pinhead" deviceset="PINHD-1X5" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0414/15" value="10Kohms"/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="C4" library="capacitor-wima" deviceset="C" device="5/5" value="10µF"/>
 </parts>
 <sheets>
 <sheet>
@@ -8694,6 +8695,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="JP4" gate="A" x="78.74" y="78.74"/>
 <instance part="R1" gate="G$1" x="91.44" y="50.8"/>
 <instance part="JP5" gate="A" x="68.58" y="60.96"/>
+<instance part="C4" gate="G$1" x="91.44" y="71.12" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -8791,12 +8793,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
 <label x="86.36" y="83.82" size="1.778" layer="95"/>
+<wire x1="91.44" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="76.2" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="D2" gate="1" pin="C"/>
 <junction x="86.36" y="76.2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<junction x="91.44" y="76.2"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="OUT+"/>
@@ -8844,10 +8849,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="93.98" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="68.58" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="68.58" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="D2" gate="1" pin="A"/>
 <junction x="96.52" y="68.58"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<junction x="91.44" y="68.58"/>
 </segment>
 </net>
 <net name="N$9" class="0">
