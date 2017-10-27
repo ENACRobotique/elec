@@ -15074,6 +15074,7 @@ Based on the following sources:
 <segment>
 <pinref part="DYNAMIXEL" gate="A" pin="2"/>
 <wire x1="-106.68" y1="-86.36" x2="-93.98" y2="-86.36" width="0.1524" layer="91"/>
+<label x="-99.06" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">
