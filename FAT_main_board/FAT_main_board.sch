@@ -10632,9 +10632,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="INTERRUPTOR" library="con-ptr500" deviceset="AK300/2" device=""/>
 <part name="BUCK_10V" library="diy-modules" deviceset="DC-DC-STEP-DOWN-LM2596" device=""/>
 <part name="BUCK_5V" library="diy-modules" deviceset="DC-DC-STEP-DOWN-LM2596" device=""/>
-<part name="BAT_POWER1" library="con-ptr500" deviceset="AK300/2" device=""/>
-<part name="BAT_POWER2" library="con-ptr500" deviceset="AK300/2" device=""/>
-<part name="BAT_SIG1" library="con-ptr500" deviceset="AK300/2" device=""/>
+<part name="POWER" library="con-ptr500" deviceset="AK300/2" device=""/>
+<part name="POWER2" library="con-ptr500" deviceset="AK300/2" device=""/>
+<part name="12VSIG" library="con-ptr500" deviceset="AK300/2" device=""/>
 <part name="DYN2" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="DYN3" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
@@ -10686,12 +10686,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="INTERRUPTOR" gate="-2" x="-63.5" y="121.92" rot="R270"/>
 <instance part="BUCK_10V" gate="G$1" x="-5.08" y="76.2"/>
 <instance part="BUCK_5V" gate="G$1" x="-7.62" y="109.22"/>
-<instance part="BAT_POWER1" gate="-1" x="-96.52" y="68.58"/>
-<instance part="BAT_POWER1" gate="-2" x="-96.52" y="63.5"/>
-<instance part="BAT_POWER2" gate="-1" x="-96.52" y="53.34"/>
-<instance part="BAT_POWER2" gate="-2" x="-96.52" y="48.26"/>
-<instance part="BAT_SIG1" gate="-1" x="-96.52" y="104.14"/>
-<instance part="BAT_SIG1" gate="-2" x="-96.52" y="99.06"/>
+<instance part="POWER" gate="-1" x="-96.52" y="68.58"/>
+<instance part="POWER" gate="-2" x="-96.52" y="63.5"/>
+<instance part="POWER2" gate="-1" x="-96.52" y="53.34"/>
+<instance part="POWER2" gate="-2" x="-96.52" y="48.26"/>
+<instance part="12VSIG" gate="-1" x="-96.52" y="104.14"/>
+<instance part="12VSIG" gate="-2" x="-96.52" y="99.06"/>
 <instance part="DYN2" gate="G$1" x="213.36" y="-132.08" rot="R180"/>
 <instance part="DYN3" gate="G$1" x="213.36" y="-147.32" rot="R180"/>
 <instance part="JP1" gate="G$1" x="40.64" y="-66.04"/>
@@ -10858,6 +10858,21 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U$1" gate="G$1" pin="GND2"/>
 <wire x1="20.32" y1="-12.7" x2="25.4" y2="-12.7" width="0.1524" layer="91"/>
 <label x="22.86" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="POWER2" gate="-2" pin="KL"/>
+<wire x1="-91.44" y1="48.26" x2="-88.9" y2="48.26" width="0.1524" layer="91"/>
+<label x="-88.9" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="POWER" gate="-2" pin="KL"/>
+<wire x1="-91.44" y1="63.5" x2="-88.9" y2="63.5" width="0.1524" layer="91"/>
+<label x="-88.9" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="12VSIG" gate="-2" pin="KL"/>
+<wire x1="-91.44" y1="99.06" x2="-88.9" y2="99.06" width="0.1524" layer="91"/>
+<label x="-88.9" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -11059,6 +11074,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="-43.18" y="81.28"/>
 <wire x1="-43.18" y1="88.9" x2="-38.1" y2="88.9" width="0.1524" layer="91"/>
 <label x="-40.64" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="POWER2" gate="-1" pin="KL"/>
+<wire x1="-91.44" y1="53.34" x2="-88.9" y2="53.34" width="0.1524" layer="91"/>
+<label x="-88.9" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="POWER" gate="-1" pin="KL"/>
+<wire x1="-91.44" y1="68.58" x2="-88.9" y2="68.58" width="0.1524" layer="91"/>
+<label x="-88.9" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -11632,72 +11657,48 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="BAT_POWER" gate="-1" pin="KL"/>
 <pinref part="BAU&amp;INT" gate="-2" pin="KL"/>
-<wire x1="-91.44" y1="81.28" x2="-88.9" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="81.28" x2="-83.82" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="81.28" x2="-63.5" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="81.28" x2="-63.5" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="81.28" x2="-63.5" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="BAT_POWER1" gate="-1" pin="KL"/>
-<wire x1="-91.44" y1="68.58" x2="-88.9" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="68.58" x2="-88.9" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-88.9" y="81.28"/>
-<pinref part="BAT_POWER2" gate="-1" pin="KL"/>
-<wire x1="-91.44" y1="53.34" x2="-83.82" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="53.34" x2="-83.82" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-83.82" y="81.28"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="BAT_SIG" gate="-1" pin="KL"/>
 <pinref part="INTERRUPTOR" gate="-2" pin="KL"/>
-<wire x1="-91.44" y1="114.3" x2="-88.9" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="114.3" x2="-63.5" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="114.3" x2="-63.5" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="114.3" x2="-63.5" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="BAT_SIG1" gate="-1" pin="KL"/>
-<wire x1="-91.44" y1="104.14" x2="-88.9" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="104.14" x2="-88.9" y2="114.3" width="0.1524" layer="91"/>
-<junction x="-88.9" y="114.3"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="12V_SIG" class="0">
 <segment>
 <pinref part="INTERRUPTOR" gate="-1" pin="KL"/>
 <wire x1="-58.42" y1="116.84" x2="-58.42" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="BUCK_5V" gate="G$1" pin="IN+"/>
 <wire x1="-58.42" y1="114.3" x2="-25.4" y2="114.3" width="0.1524" layer="91"/>
+<label x="-50.8" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="12VSIG" gate="-1" pin="KL"/>
+<wire x1="-91.44" y1="104.14" x2="-88.9" y2="104.14" width="0.1524" layer="91"/>
+<label x="-88.9" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="BAT_POWER" gate="-2" pin="KL"/>
-<wire x1="-91.44" y1="76.2" x2="-86.36" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="76.2" x2="-81.28" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="76.2" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="76.2" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="76.2" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="BUCK_10V" gate="G$1" pin="IN-"/>
 <wire x1="-25.4" y1="71.12" x2="-22.86" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="BAT_POWER1" gate="-2" pin="KL"/>
-<wire x1="-91.44" y1="63.5" x2="-86.36" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="63.5" x2="-86.36" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-86.36" y="76.2"/>
-<pinref part="BAT_POWER2" gate="-2" pin="KL"/>
-<wire x1="-91.44" y1="48.26" x2="-81.28" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="48.26" x2="-81.28" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-81.28" y="76.2"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="BAT_SIG" gate="-2" pin="KL"/>
-<wire x1="-91.44" y1="109.22" x2="-86.36" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="109.22" x2="-30.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="109.22" x2="-30.48" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="109.22" x2="-30.48" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="BUCK_5V" gate="G$1" pin="IN-"/>
 <wire x1="-30.48" y1="104.14" x2="-25.4" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="BAT_SIG1" gate="-2" pin="KL"/>
-<wire x1="-91.44" y1="99.06" x2="-86.36" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="99.06" x2="-86.36" y2="109.22" width="0.1524" layer="91"/>
-<junction x="-86.36" y="109.22"/>
 </segment>
 </net>
 <net name="N$19" class="0">
