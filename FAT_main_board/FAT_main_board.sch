@@ -10874,6 +10874,22 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-91.44" y1="99.06" x2="-88.9" y2="99.06" width="0.1524" layer="91"/>
 <label x="-88.9" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="BAT_POWER" gate="-2" pin="KL"/>
+<wire x1="-91.44" y1="76.2" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="76.2" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="BUCK_10V" gate="G$1" pin="IN-"/>
+<wire x1="-25.4" y1="71.12" x2="-22.86" y2="71.12" width="0.1524" layer="91"/>
+<label x="-88.9" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BAT_SIG" gate="-2" pin="KL"/>
+<wire x1="-91.44" y1="109.22" x2="-30.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="109.22" x2="-30.48" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="BUCK_5V" gate="G$1" pin="IN-"/>
+<wire x1="-30.48" y1="104.14" x2="-25.4" y2="104.14" width="0.1524" layer="91"/>
+<label x="-86.36" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -11311,11 +11327,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="HB3" gate="G$1" pin="SENSE"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="-48.26" x2="157.48" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-48.26" x2="157.48" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="-48.26" x2="157.48" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="-55.88" x2="109.22" y2="-55.88" width="0.1524" layer="91"/>
 <label x="109.22" y="-55.88" size="1.778" layer="95"/>
+<wire x1="154.94" y1="-48.26" x2="157.48" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="157.48" y="-48.26"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A21/DAC0"/>
@@ -11577,9 +11594,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="N$18" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="-73.66" y1="7.62" x2="-55.88" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="7.62" x2="-55.88" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="15.24" x2="-20.32" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="SV2" gate="1" pin="8"/>
+<wire x1="-55.88" y1="7.62" x2="-71.12" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -11683,24 +11701,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="-88.9" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="BAT_POWER" gate="-2" pin="KL"/>
-<wire x1="-91.44" y1="76.2" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="76.2" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="BUCK_10V" gate="G$1" pin="IN-"/>
-<wire x1="-25.4" y1="71.12" x2="-22.86" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="BAT_SIG" gate="-2" pin="KL"/>
-<wire x1="-91.44" y1="109.22" x2="-30.48" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="109.22" x2="-30.48" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="BUCK_5V" gate="G$1" pin="IN-"/>
-<wire x1="-30.48" y1="104.14" x2="-25.4" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="RESET"/>
@@ -11731,6 +11731,43 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,124.46,71.12,HB1,VS,12V_POWER,,,"/>
+<approved hash="104,1,124.46,22.86,HB2,VS,12V_POWER,,,"/>
+<approved hash="104,1,124.46,-22.86,HB3,VS,12V_POWER,,,"/>
+<approved hash="202,1,127,-116.84,IC1A,A2,,,,"/>
+<approved hash="202,1,127,-119.38,IC1A,A3,,,,"/>
+<approved hash="202,1,127,-121.92,IC1A,A4,,,,"/>
+<approved hash="202,1,127,-137.16,IC1B,A1,,,,"/>
+<approved hash="202,1,127,-139.7,IC1B,A2,,,,"/>
+<approved hash="202,1,127,-142.24,IC1B,A3,,,,"/>
+<approved hash="208,1,127,-149.86,N$21,,,,,"/>
+<approved hash="208,1,127,-127,N$21,,,,,"/>
+<approved hash="115,1,182.922,58.2253,MOTOR1,,,,,"/>
+<approved hash="115,1,182.922,9.96527,MOTOR2,,,,,"/>
+<approved hash="115,1,182.922,-35.7547,MOTOR3,,,,,"/>
+<approved hash="115,1,208.322,-118.305,DYN1,,,,,"/>
+<approved hash="115,1,-106.722,25.5947,UART1,,,,,"/>
+<approved hash="115,1,-106.722,7.81473,UART2,,,,,"/>
+<approved hash="115,1,-137.202,25.5947,I2C0,,,,,"/>
+<approved hash="115,1,-137.202,7.81473,I2C1,,,,,"/>
+<approved hash="115,1,-106.722,-12.5053,UART3,,,,,"/>
+<approved hash="115,1,-106.722,-32.8253,UART4,,,,,"/>
+<approved hash="115,1,-137.202,-12.5053,I2C2,,,,,"/>
+<approved hash="115,1,-73.7023,2.73473,SV2,,,,,"/>
+<approved hash="115,1,-101.866,81.28,BAT_POWER,,,,,"/>
+<approved hash="115,1,-99.2504,114.3,BAT_SIG,,,,,"/>
+<approved hash="115,1,-58.42,91.7732,BAU&amp;INT,,,,,"/>
+<approved hash="115,1,-58.42,128.471,INTERRUPTOR,,,,,"/>
+<approved hash="115,1,-98.688,68.58,POWER,,,,,"/>
+<approved hash="115,1,-99.3932,53.34,POWER2,,,,,"/>
+<approved hash="115,1,-98.331,104.14,12VSIG,,,,,"/>
+<approved hash="115,1,208.322,-133.545,DYN2,,,,,"/>
+<approved hash="115,1,208.322,-148.785,DYN3,,,,,"/>
+<approved hash="115,1,38.3371,-63.3688,JP1,,,,,"/>
+<approved hash="115,1,15.24,-56.2695,S1,,,,,"/>
+<approved hash="115,1,-22.6229,-48.1288,JP2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
