@@ -157,9 +157,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="9.144" y1="-0.381" x2="103.937" y2="-0.381" width="0" layer="20"/>
-<wire x1="103.937" y1="-0.381" x2="103.937" y2="74.031" width="0" layer="20"/>
-<wire x1="103.937" y1="74.031" x2="9.144" y2="74.031" width="0" layer="20"/>
+<wire x1="9.144" y1="-0.381" x2="101.6" y2="-0.381" width="0" layer="20"/>
+<wire x1="101.6" y1="-0.381" x2="101.6" y2="74.031" width="0" layer="20"/>
+<wire x1="101.6" y1="74.031" x2="9.144" y2="74.031" width="0" layer="20"/>
 <wire x1="9.144" y1="74.031" x2="9.144" y2="-0.381" width="0" layer="20"/>
 <circle x="15.24" y="69.85" radius="1.79605" width="1.016" layer="16"/>
 <circle x="93.091" y="69.723" radius="1.79605" width="1.016" layer="16"/>
@@ -2533,8 +2533,8 @@ design rules under a new name.</description>
 <vertex x="10.033" y="0.381"/>
 <vertex x="10.16" y="73.279"/>
 <vertex x="98.044" y="73.533"/>
-<vertex x="98.806" y="73.533"/>
-<vertex x="99.187" y="0.254"/>
+<vertex x="99.568" y="73.533"/>
+<vertex x="99.568" y="0.254"/>
 </polygon>
 <via x="32.131" y="32.385" extent="1-16" drill="0.6" diameter="1.778"/>
 <via x="48.514" y="32.385" extent="1-16" drill="0.6" diameter="1.778"/>
@@ -3455,9 +3455,6 @@ design rules under a new name.</description>
 <wire x1="92.583" y1="32.512" x2="93.345" y2="32.512" width="0.6096" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="18,29,31be4835f70ff02b"/>
-</errors>
 </board>
 </drawing>
 </eagle>
