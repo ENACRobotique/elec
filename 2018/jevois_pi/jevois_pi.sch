@@ -826,9 +826,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <label x="45.72" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="15.24" y1="86.36" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
-<label x="5.08" y="86.36" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="15.24" y1="106.68" x2="5.08" y2="106.68" width="0.1524" layer="91"/>
+<label x="5.08" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX1" class="0">
@@ -862,9 +862,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <label x="48.26" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="15.24" y1="106.68" x2="5.08" y2="106.68" width="0.1524" layer="91"/>
-<label x="5.08" y="106.68" size="1.778" layer="95"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="15.24" y1="86.36" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
+<label x="5.08" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX1A" class="0">
