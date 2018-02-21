@@ -7076,6 +7076,7 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
 <part name="U1" library="_traco_tsr-1" deviceset="TSR_1-*" device="" technology="2450"/>
 <part name="CAV_STP" library="pinhead" deviceset="PINHD-2X2" device=""/>
 <part name="CAV_LED" library="pinhead" deviceset="PINHD-2X2" device=""/>
+<part name="C3" library="rcl" deviceset="C-EU" device="025-050X050" value="100uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -7114,7 +7115,8 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
 <instance part="X1" gate="-2" x="5.08" y="134.62"/>
 <instance part="U1" gate="G$1" x="20.32" y="111.76"/>
 <instance part="CAV_STP" gate="A" x="127" y="142.24"/>
-<instance part="CAV_LED" gate="A" x="127" y="129.54"/>
+<instance part="CAV_LED" gate="A" x="127" y="121.92"/>
+<instance part="C3" gate="G$1" x="124.46" y="134.62" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7220,10 +7222,10 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
 <segment>
 <pinref part="CAV_LED" gate="A" pin="1"/>
 <pinref part="CAV_LED" gate="A" pin="3"/>
-<wire x1="121.92" y1="132.08" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="129.54" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
-<junction x="121.92" y="129.54"/>
-<label x="111.76" y="129.54" size="1.778" layer="95"/>
+<wire x1="121.92" y1="124.46" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
+<junction x="121.92" y="121.92"/>
+<label x="111.76" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="CAV_STP" gate="A" pin="3"/>
@@ -7232,6 +7234,8 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
 <wire x1="121.92" y1="142.24" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
 <junction x="121.92" y="142.24"/>
 <label x="111.76" y="142.24" size="1.778" layer="95"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="134.62" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -7445,8 +7449,8 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
 </segment>
 <segment>
 <pinref part="CAV_LED" gate="A" pin="4"/>
-<wire x1="129.54" y1="129.54" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
-<label x="134.62" y="129.54" size="1.778" layer="95"/>
+<wire x1="129.54" y1="121.92" x2="139.7" y2="121.92" width="0.1524" layer="91"/>
+<label x="134.62" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB2" class="0">
@@ -7617,8 +7621,8 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
 </segment>
 <segment>
 <pinref part="CAV_LED" gate="A" pin="2"/>
-<wire x1="129.54" y1="132.08" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
-<label x="134.62" y="132.08" size="1.778" layer="95"/>
+<wire x1="129.54" y1="124.46" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
+<label x="134.62" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="CAV_STP" gate="A" pin="2"/>
@@ -7636,6 +7640,9 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
 <pinref part="CAV_STP" gate="A" pin="4"/>
 <wire x1="129.54" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
 <label x="134.62" y="142.24" size="1.778" layer="95"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="134.62" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
+<junction x="129.54" y="142.24"/>
 </segment>
 </net>
 </nets>
