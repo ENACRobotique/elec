@@ -7155,6 +7155,7 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
 <segment>
 <pinref part="STEPPER_DRIVER" gate="G$1" pin="GND"/>
 <wire x1="114.3" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
+<label x="116.84" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="1" pin="S"/>
@@ -7271,6 +7272,7 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
 <segment>
 <pinref part="STEPPER_DRIVER" gate="G$1" pin="VDD"/>
 <wire x1="114.3" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
+<label x="116.84" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VCC@1"/>
