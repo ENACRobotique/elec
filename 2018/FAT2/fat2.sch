@@ -4971,12 +4971,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="LIDAR_MOT" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="DYNUART" library="pinhead" deviceset="PINHD-1X5" device=""/>
 <part name="I2C1" library="pinhead" deviceset="PINHD-1X4" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="UART4" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="M4" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="SPARE" library="pinhead" deviceset="PINHD-1X5" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X2" device="/90"/>
 </parts>
 <sheets>
 <sheet>
@@ -5011,12 +5013,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="LIDAR_MOT" gate="G$1" x="195.58" y="7.62"/>
 <instance part="DYNUART" gate="A" x="-25.4" y="83.82"/>
 <instance part="I2C1" gate="A" x="-25.4" y="60.96"/>
-<instance part="R3" gate="G$1" x="142.24" y="203.2" rot="R90"/>
-<instance part="R4" gate="G$1" x="142.24" y="215.9" rot="R90"/>
-<instance part="R5" gate="G$1" x="142.24" y="185.42" rot="R90"/>
-<instance part="R6" gate="G$1" x="142.24" y="172.72" rot="R90"/>
 <instance part="UART4" gate="A" x="-25.4" y="43.18"/>
 <instance part="M4" gate="A" x="-25.4" y="25.4"/>
+<instance part="R7" gate="G$1" x="142.24" y="215.9" rot="R90"/>
+<instance part="R8" gate="G$1" x="142.24" y="203.2" rot="R90"/>
+<instance part="R9" gate="G$1" x="142.24" y="185.42" rot="R90"/>
+<instance part="R10" gate="G$1" x="142.24" y="172.72" rot="R90"/>
+<instance part="SPARE" gate="A" x="99.06" y="83.82"/>
+<instance part="JP1" gate="G$1" x="66.04" y="116.84" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5170,16 +5174,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="30.48" y1="198.12" x2="48.26" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="142.24" y1="167.64" x2="154.94" y2="167.64" width="0.1524" layer="91"/>
-<label x="152.4" y="167.64" size="1.778" layer="95"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="142.24" y1="198.12" x2="154.94" y2="198.12" width="0.1524" layer="91"/>
-<label x="152.4" y="198.12" size="1.778" layer="95"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="LIDAR_MOT" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="7.62" x2="182.88" y2="7.62" width="0.1524" layer="91"/>
 <label x="182.88" y="7.62" size="1.778" layer="95"/>
@@ -5208,6 +5202,22 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="M4" gate="A" pin="1"/>
 <wire x1="-27.94" y1="27.94" x2="-45.72" y2="27.94" width="0.1524" layer="91"/>
 <label x="-45.72" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="1" pin="S"/>
+<wire x1="167.64" y1="96.52" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="1" pin="S"/>
+<wire x1="167.64" y1="86.36" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="86.36" x2="208.28" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
+<junction x="167.64" y="86.36"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="88.9" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="88.9" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
+<junction x="200.66" y="86.36"/>
+<label x="180.34" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V_SIG" class="0">
@@ -5255,6 +5265,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="UART4" gate="A" pin="1"/>
 <wire x1="-27.94" y1="48.26" x2="-48.26" y2="48.26" width="0.1524" layer="91"/>
 <label x="-48.26" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
+<label x="76.2" y="101.6" size="1.778" layer="95"/>
+<wire x1="73.66" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="101.6" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="101.6" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIR3" class="0">
@@ -5339,7 +5358,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="142.24" y1="190.5" x2="142.24" y2="193.04" width="0.1524" layer="91"/>
 <label x="142.24" y="193.04" size="1.778" layer="95"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5366,7 +5385,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="142.24" y1="220.98" x2="142.24" y2="223.52" width="0.1524" layer="91"/>
 <label x="142.24" y="223.52" size="1.778" layer="95"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="X2" gate="-1" pin="KL"/>
@@ -5386,23 +5405,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="Q2" gate="1" pin="D"/>
 <wire x1="210.82" y1="116.84" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="116.84" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="Q1" gate="1" pin="S"/>
-<wire x1="167.64" y1="96.52" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="1" pin="S"/>
-<wire x1="167.64" y1="86.36" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="86.36" x2="208.28" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
-<junction x="167.64" y="86.36"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="88.9" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="88.9" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
-<junction x="200.66" y="86.36"/>
 </segment>
 </net>
 <net name="MOT2" class="0">
@@ -5546,9 +5548,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="142.24" y1="177.8" x2="142.24" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="177.8" x2="152.4" y2="177.8" width="0.1524" layer="91"/>
 <label x="149.86" y="177.8" size="1.778" layer="95"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <junction x="142.24" y="177.8"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A21/DAC0"/>
@@ -5561,9 +5563,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="142.24" y1="208.28" x2="152.4" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="208.28" x2="142.24" y2="210.82" width="0.1524" layer="91"/>
 <label x="149.86" y="208.28" size="1.778" layer="95"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <junction x="142.24" y="208.28"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A22/DAC1"/>
@@ -5643,13 +5645,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="76.2" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="17/A3"/>
-<wire x1="81.28" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
-<label x="76.2" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="TX4" class="0">
 <segment>
 <pinref part="UART4" gate="A" pin="3"/>
@@ -5698,9 +5693,102 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="15.24" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="GND2" class="0">
+<segment>
+<wire x1="142.24" y1="167.64" x2="154.94" y2="167.64" width="0.1524" layer="91"/>
+<label x="149.86" y="167.64" size="1.778" layer="95"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="142.24" y1="198.12" x2="154.94" y2="198.12" width="0.1524" layer="91"/>
+<label x="149.86" y="198.12" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND2"/>
+<wire x1="68.58" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
+<label x="71.12" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="17/A3"/>
+<pinref part="SPARE" gate="A" pin="5"/>
+<wire x1="68.58" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="SPARE" gate="A" pin="4"/>
+<pinref part="U$1" gate="G$1" pin="18/A4/SDA"/>
+<wire x1="96.52" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="19/A5/SCL"/>
+<pinref part="SPARE" gate="A" pin="3"/>
+<wire x1="68.58" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="SPARE" gate="A" pin="2"/>
+<pinref part="U$1" gate="G$1" pin="20/A6"/>
+<wire x1="96.52" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="21/A7"/>
+<pinref part="SPARE" gate="A" pin="1"/>
+<wire x1="68.58" y1="88.9" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="VUSB"/>
+<wire x1="60.96" y1="119.38" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="119.38" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,22.86,165.1,VI,12V_SIG,,,,"/>
+<approved hash="102,1,35.56,187.96,VI,12V_POW,,,,"/>
+<approved hash="102,1,38.1,205.74,VI,12V_POW,,,,"/>
+<approved hash="201,1,38.1,205.74,VI,12V_SIG\, 12V_POW,,,,"/>
+<approved hash="201,1,35.56,187.96,VI,12V_SIG\, 12V_POW,,,,"/>
+<approved hash="201,1,22.86,165.1,VI,12V_SIG\, 12V_POW,,,,"/>
+<approved hash="104,1,43.18,165.1,RG5V_SIG,VO,5V_SIG,,,"/>
+<approved hash="104,1,55.88,187.96,RG5V_POW,VO,5V_POW,,,"/>
+<approved hash="104,1,58.42,205.74,RG3V3,VO,3V3,,,"/>
+<approved hash="115,1,6.16544,165.1,X1,,,,,"/>
+<approved hash="115,1,6.16544,187.96,X2,,,,,"/>
+<approved hash="115,1,-96.2829,113.161,M1,,,,,"/>
+<approved hash="115,1,-96.2829,100.461,M2,,,,,"/>
+<approved hash="115,1,-96.2829,87.7612,M3,,,,,"/>
+<approved hash="115,1,-96.2829,68.7112,E1,,,,,"/>
+<approved hash="115,1,-96.2829,53.4712,E2,,,,,"/>
+<approved hash="115,1,-96.2829,38.2312,E3,,,,,"/>
+<approved hash="115,1,173.435,119.511,CON_MOT1,,,,,"/>
+<approved hash="115,1,214.075,119.511,CON_MOT2,,,,,"/>
+<approved hash="115,1,193.277,67.4412,SRV1,,,,,"/>
+<approved hash="115,1,193.277,54.7412,SRV2,,,,,"/>
+<approved hash="115,1,193.277,42.0412,SRV3,,,,,"/>
+<approved hash="115,1,-27.5816,116.971,UART1,,,,,"/>
+<approved hash="115,1,-27.5816,101.731,UART2,,,,,"/>
+<approved hash="115,1,196.505,10.2912,LIDAR_MOT,,,,,"/>
+<approved hash="115,1,-25.6001,85.2212,DYNUART,,,,,"/>
+<approved hash="115,1,-27.7029,63.6312,I2C1,,,,,"/>
+<approved hash="115,1,-27.5816,45.8512,UART4,,,,,"/>
+<approved hash="115,1,-27.7029,26.8012,M4,,,,,"/>
+<approved hash="115,1,97.0212,85.2212,SPARE,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
