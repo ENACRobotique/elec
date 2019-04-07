@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 22-03-5035
+D Header 2.5mm SPOX,WTB,vert, shrouded, 3w Molex SPOX Series, Series Number 5267, 2.5mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 3A
+F http://www.molex.com/pdm_docs/sd/022035035_sd.pdf
+$ENDCMP
+#
+$CMP A4403GEU
+D Valley current mode buck converter, 46V, 3A, up to 2MHz, QFN-16
+K buck regulator adjustable
+F https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx
+$ENDCMP
+#
+$CMP RF_Receiver_433_MHz
+D An RF receiver at 433 MHz
+K rf, receiver, 433
+$ENDCMP
+#
+$CMP RF_Transmitter_433_MHz
+D An RF transmitter at 433 MHz
+K rf, transmitter, 433
+$ENDCMP
+#
+$CMP TLE52052GAUMA1
+D Infineon TLE52052GAUMA1, BLDC DC Motor Driver, 40 V 5A 7-Pin, TO-263
+F https://www.infineon.com/dgdl/Infineon-TLE5205_2-DS-v01_01-en.pdf?fileId=db3a30431f848401011fc747c7a0797f
+$ENDCMP
+#
+$CMP TSR_2-24120
+D Non-Isolated DC/DC Converters 15-36Vin 12V 2A SIP switching regulator
+F https://assets.tracopower.com/20180205131340/TSR2/documents/tsr2-datasheet.pdf
+$ENDCMP
+#
+$CMP TSR_2-2450
+D Non-Isolated DC/DC Converters 15-36Vin 12V 2A SIP switching regulator
+F https://assets.tracopower.com/20180205131340/TSR2/documents/tsr2-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
