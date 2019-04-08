@@ -1,16 +1,17 @@
 EESchema Schematic File Version 4
+LIBS:principal2019_elec-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Title "Principal2019"
+Date "2019-04-08"
+Rev "0.1"
+Comp "ENAC Robotique"
+Comment1 "et al."
+Comment2 "Elie GRENIER"
+Comment3 "Adrien CAILLET"
 Comment4 ""
 $EndDescr
 $Comp
@@ -19,7 +20,7 @@ U 1 1 5CAA1D73
 P 5000 3750
 F 0 "U?" H 5000 6137 60  0000 C CNN
 F 1 "Teensy3.5" H 5000 6031 60  0000 C CNN
-F 2 "" H 5000 3750 60  0000 C CNN
+F 2 "myFootprints:Teensy35_36" H 5000 3750 60  0000 C CNN
 F 3 "" H 5000 3750 60  0000 C CNN
 	1    5000 3750
 	1    0    0    -1  
@@ -30,7 +31,7 @@ U 1 1 5CAA3087
 P 1200 3450
 F 0 "J?" H 1308 3731 50  0000 C CNN
 F 1 "doigt_display" H 1308 3640 50  0000 C CNN
-F 2 "" H 1200 3450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1200 3450 50  0001 C CNN
 F 3 "~" H 1200 3450 50  0001 C CNN
 	1    1200 3450
 	1    0    0    -1  
@@ -41,7 +42,7 @@ U 1 1 5CAA40AA
 P 9150 1750
 F 0 "J?" H 9258 2031 50  0000 C CNN
 F 1 "enc_mot2" H 9258 1940 50  0000 C CNN
-F 2 "" H 9150 1750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9150 1750 50  0001 C CNN
 F 3 "~" H 9150 1750 50  0001 C CNN
 	1    9150 1750
 	1    0    0    -1  
@@ -52,7 +53,7 @@ U 1 1 5CAA6C4E
 P 9150 2350
 F 0 "J?" H 9258 2631 50  0000 C CNN
 F 1 "mot1" H 9258 2540 50  0000 C CNN
-F 2 "" H 9150 2350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9150 2350 50  0001 C CNN
 F 3 "~" H 9150 2350 50  0001 C CNN
 	1    9150 2350
 	1    0    0    -1  
@@ -63,7 +64,7 @@ U 1 1 5CAA82F1
 P 9150 2800
 F 0 "J?" H 9258 3081 50  0000 C CNN
 F 1 "mot2" H 9258 2990 50  0000 C CNN
-F 2 "" H 9150 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9150 2800 50  0001 C CNN
 F 3 "~" H 9150 2800 50  0001 C CNN
 	1    9150 2800
 	1    0    0    -1  
@@ -200,7 +201,7 @@ U 1 1 5CAB1CFD
 P 6850 950
 F 0 "U?" H 7450 1215 50  0000 C CNN
 F 1 "regu_5V" H 7450 1124 50  0000 C CNN
-F 2 "TSR-2" H 7900 1050 50  0001 L CNN
+F 2 "myFootprints:TSR-2" H 7900 1050 50  0001 L CNN
 F 3 "https://assets.tracopower.com/20180205131340/TSR2/documents/tsr2-datasheet.pdf" H 7900 950 50  0001 L CNN
 F 4 "Non-Isolated DC/DC Converters 15-36Vin 5V 2A SIP switching regulator" H 7900 850 50  0001 L CNN "Description"
 F 5 "Traco Power" H 7900 650 50  0001 L CNN "Manufacturer_Name"
@@ -248,17 +249,6 @@ F 3 "" H 6600 950 50  0001 C CNN
 	1    6600 950 
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J?
-U 1 1 5CABFCDB
-P 7100 1350
-F 0 "J?" H 7180 1342 50  0000 L CNN
-F 1 "conn_bat" H 7180 1251 50  0000 L CNN
-F 2 "" H 7100 1350 50  0001 C CNN
-F 3 "~" H 7100 1350 50  0001 C CNN
-	1    7100 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6900 1450 6550 1450
 Wire Wire Line
@@ -291,7 +281,7 @@ U 1 1 5CAC7091
 P 1150 1000
 F 0 "J?" H 1258 1181 50  0000 C CNN
 F 1 "tirette" H 1258 1090 50  0000 C CNN
-F 2 "" H 1150 1000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1150 1000 50  0001 C CNN
 F 3 "~" H 1150 1000 50  0001 C CNN
 	1    1150 1000
 	1    0    0    -1  
@@ -306,7 +296,7 @@ U 1 1 5CACC278
 P 1150 1400
 F 0 "J?" H 1258 1581 50  0000 C CNN
 F 1 "couleur" H 1258 1490 50  0000 C CNN
-F 2 "" H 1150 1400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1150 1400 50  0001 C CNN
 F 3 "~" H 1150 1400 50  0001 C CNN
 	1    1150 1400
 	1    0    0    -1  
@@ -321,7 +311,7 @@ U 1 1 5CACE41B
 P 1900 1050
 F 0 "C?" H 2015 1096 50  0000 L CNN
 F 1 "100n" H 2015 1005 50  0000 L CNN
-F 2 "" H 1938 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1938 900 50  0001 C CNN
 F 3 "~" H 1900 1050 50  0001 C CNN
 	1    1900 1050
 	1    0    0    -1  
@@ -340,7 +330,7 @@ U 1 1 5CAD1335
 P 9150 3700
 F 0 "J?" H 9258 4081 50  0000 C CNN
 F 1 "dynamixel" H 9258 3990 50  0000 C CNN
-F 2 "" H 9150 3700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9150 3700 50  0001 C CNN
 F 3 "~" H 9150 3700 50  0001 C CNN
 	1    9150 3700
 	1    0    0    -1  
@@ -389,7 +379,7 @@ U 1 1 5CADAC11
 P 1200 2800
 F 0 "J?" H 1308 3081 50  0000 C CNN
 F 1 "Raspi" H 1308 2990 50  0000 C CNN
-F 2 "" H 1200 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1200 2800 50  0001 C CNN
 F 3 "~" H 1200 2800 50  0001 C CNN
 	1    1200 2800
 	1    0    0    -1  
@@ -445,7 +435,7 @@ U 1 1 5CAE5975
 P 9200 4450
 F 0 "J?" H 9308 4631 50  0000 C CNN
 F 1 "pompe" H 9308 4540 50  0000 C CNN
-F 2 "" H 9200 4450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9200 4450 50  0001 C CNN
 F 3 "~" H 9200 4450 50  0001 C CNN
 	1    9200 4450
 	1    0    0    -1  
@@ -497,7 +487,7 @@ U 1 1 5CB0712D
 P 7850 5350
 F 0 "J?" H 7958 5531 50  0000 C CNN
 F 1 "vanne" H 7958 5440 50  0000 C CNN
-F 2 "" H 7850 5350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7850 5350 50  0001 C CNN
 F 3 "~" H 7850 5350 50  0001 C CNN
 	1    7850 5350
 	1    0    0    -1  
@@ -577,7 +567,7 @@ U 1 1 5CB1DDD8
 P 2100 4350
 F 0 "R?" V 1893 4350 50  0000 C CNN
 F 1 "68" V 1984 4350 50  0000 C CNN
-F 2 "" V 2030 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 4350 50  0001 C CNN
 F 3 "~" H 2100 4350 50  0001 C CNN
 	1    2100 4350
 	0    1    1    0   
@@ -588,7 +578,7 @@ U 1 1 5CB1E3B9
 P 2100 4450
 F 0 "R?" V 1893 4450 50  0000 C CNN
 F 1 "10" V 1984 4450 50  0000 C CNN
-F 2 "" V 2030 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 4450 50  0001 C CNN
 F 3 "~" H 2100 4450 50  0001 C CNN
 	1    2100 4450
 	0    1    1    0   
@@ -599,7 +589,7 @@ U 1 1 5CB1E640
 P 2100 4550
 F 0 "R?" V 1893 4550 50  0000 C CNN
 F 1 "10" V 1984 4550 50  0000 C CNN
-F 2 "" V 2030 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 4550 50  0001 C CNN
 F 3 "~" H 2100 4550 50  0001 C CNN
 	1    2100 4550
 	0    1    1    0   
@@ -725,7 +715,7 @@ U 1 1 5CB73A3E
 P 1150 1950
 F 0 "J?" H 1258 2131 50  0000 C CNN
 F 1 "selecteur" H 1258 2040 50  0000 C CNN
-F 2 "" H 1150 1950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1150 1950 50  0001 C CNN
 F 3 "~" H 1150 1950 50  0001 C CNN
 	1    1150 1950
 	1    0    0    -1  
@@ -740,7 +730,7 @@ U 1 1 5CB73A4A
 P 1900 2000
 F 0 "C?" H 2015 2046 50  0000 L CNN
 F 1 "100n" H 2015 1955 50  0000 L CNN
-F 2 "" H 1938 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1938 1850 50  0001 C CNN
 F 3 "~" H 1900 2000 50  0001 C CNN
 	1    1900 2000
 	1    0    0    -1  
@@ -832,7 +822,7 @@ U 1 1 5CBD56BD
 P 2050 6900
 F 0 "R?" H 2120 6946 50  0000 L CNN
 F 1 "2.2k" H 2120 6855 50  0000 L CNN
-F 2 "" V 1980 6900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1980 6900 50  0001 C CNN
 F 3 "~" H 2050 6900 50  0001 C CNN
 	1    2050 6900
 	1    0    0    -1  
@@ -843,7 +833,7 @@ U 1 1 5CBD5BD8
 P 2050 6500
 F 0 "R?" H 2120 6546 50  0000 L CNN
 F 1 "10k" H 2120 6455 50  0000 L CNN
-F 2 "" V 1980 6500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1980 6500 50  0001 C CNN
 F 3 "~" H 2050 6500 50  0001 C CNN
 	1    2050 6500
 	1    0    0    -1  
@@ -878,7 +868,7 @@ U 1 1 5CC1018E
 P 2750 6900
 F 0 "R?" H 2820 6946 50  0000 L CNN
 F 1 "2.2k" H 2820 6855 50  0000 L CNN
-F 2 "" V 2680 6900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2680 6900 50  0001 C CNN
 F 3 "~" H 2750 6900 50  0001 C CNN
 	1    2750 6900
 	1    0    0    -1  
@@ -889,7 +879,7 @@ U 1 1 5CC10194
 P 2750 6500
 F 0 "R?" H 2820 6546 50  0000 L CNN
 F 1 "10k" H 2820 6455 50  0000 L CNN
-F 2 "" V 2680 6500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2680 6500 50  0001 C CNN
 F 3 "~" H 2750 6500 50  0001 C CNN
 	1    2750 6500
 	1    0    0    -1  
@@ -938,7 +928,7 @@ U 1 1 5CC270AD
 P 8050 3750
 F 0 "J?" H 8158 4031 50  0000 C CNN
 F 1 "Servo" H 8158 3940 50  0000 C CNN
-F 2 "" H 8050 3750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8050 3750 50  0001 C CNN
 F 3 "~" H 8050 3750 50  0001 C CNN
 	1    8050 3750
 	1    0    0    -1  
@@ -991,7 +981,7 @@ U 1 1 5CC60229
 P 4150 6950
 F 0 "J?" H 4258 7231 50  0000 C CNN
 F 1 "UART2" H 4258 7140 50  0000 C CNN
-F 2 "" H 4150 6950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4150 6950 50  0001 C CNN
 F 3 "~" H 4150 6950 50  0001 C CNN
 	1    4150 6950
 	1    0    0    -1  
@@ -1030,4 +1020,97 @@ Text Label 4700 7050 2    50   ~ 0
 Tx2
 Text Label 4700 7150 2    50   ~ 0
 Rx2
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5CABFCDB
+P 7100 1350
+F 0 "J?" H 7180 1342 50  0000 L CNN
+F 1 "conn_bat_sig" H 7180 1251 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7100 1350 50  0001 C CNN
+F 3 "~" H 7100 1350 50  0001 C CNN
+	1    7100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5CAD1383
+P 9150 1150
+F 0 "J?" H 9258 1431 50  0000 C CNN
+F 1 "enc_mot1" H 9258 1340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9150 1150 50  0001 C CNN
+F 3 "~" H 9150 1150 50  0001 C CNN
+	1    9150 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1050 9700 1050
+Wire Wire Line
+	9350 1150 9700 1150
+Wire Wire Line
+	9350 1250 9700 1250
+Wire Wire Line
+	9350 1350 9700 1350
+$Comp
+L power:+5V #PWR?
+U 1 1 5CAD138D
+P 9700 1050
+F 0 "#PWR?" H 9700 900 50  0001 C CNN
+F 1 "+5V" V 9715 1178 50  0000 L CNN
+F 2 "" H 9700 1050 50  0001 C CNN
+F 3 "" H 9700 1050 50  0001 C CNN
+	1    9700 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CAD1393
+P 9700 1150
+F 0 "#PWR?" H 9700 900 50  0001 C CNN
+F 1 "GND" V 9705 1022 50  0000 R CNN
+F 2 "" H 9700 1150 50  0001 C CNN
+F 3 "" H 9700 1150 50  0001 C CNN
+	1    9700 1150
+	0    -1   -1   0   
+$EndComp
+Text Label 9700 1250 2    50   ~ 0
+enc1_A
+Text Label 9700 1350 2    50   ~ 0
+enc1_B
+Wire Wire Line
+	6900 1850 6550 1850
+Wire Wire Line
+	6550 1750 6900 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5CACE2C5
+P 6550 1850
+F 0 "#PWR?" H 6550 1600 50  0001 C CNN
+F 1 "GND" V 6555 1722 50  0000 R CNN
+F 2 "" H 6550 1850 50  0001 C CNN
+F 3 "" H 6550 1850 50  0001 C CNN
+	1    6550 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5CACE2CB
+P 7100 1750
+F 0 "J?" H 7180 1742 50  0000 L CNN
+F 1 "conn_bat_pow" H 7180 1651 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7100 1750 50  0001 C CNN
+F 3 "~" H 7100 1750 50  0001 C CNN
+	1    7100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12P #PWR?
+U 1 1 5CAD3BF4
+P 6550 1750
+F 0 "#PWR?" H 6550 1600 50  0001 C CNN
+F 1 "+12P" V 6565 1877 50  0000 L CNN
+F 2 "" H 6550 1750 50  0001 C CNN
+F 3 "" H 6550 1750 50  0001 C CNN
+	1    6550 1750
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
