@@ -19,7 +19,7 @@ U 1 1 5E44B032
 P 1950 3100
 F 0 "U1" H 1950 3781 50  0000 C CNN
 F 1 "PCA9554D" H 1950 3690 50  0000 C CNN
-F 2 "myFootprints:SOP-16_7.5x10.4mm_P1.27mm" H 1950 3200 50  0001 C CNN
+F 2 "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm" H 1950 3200 50  0001 C CNN
 F 3 "" H 1950 3200 50  0001 C CNN
 	1    1950 3100
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5E454AE0
 P 10750 800
 F 0 "J5" H 10830 792 50  0000 L CNN
 F 1 "Encoder_1" H 10830 701 50  0000 L CNN
-F 2 "" H 10750 800 50  0001 C CNN
+F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 10750 800 50  0001 C CNN
 F 3 "~" H 10750 800 50  0001 C CNN
 	1    10750 800 
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 5E462A40
 P 10750 1350
 F 0 "J6" H 10830 1342 50  0000 L CNN
 F 1 "Encoder_2" H 10830 1251 50  0000 L CNN
-F 2 "" H 10750 1350 50  0001 C CNN
+F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 10750 1350 50  0001 C CNN
 F 3 "~" H 10750 1350 50  0001 C CNN
 	1    10750 1350
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 5E4631CF
 P 10750 1850
 F 0 "J7" H 10830 1842 50  0000 L CNN
 F 1 "Encoder_M1" H 10830 1751 50  0000 L CNN
-F 2 "" H 10750 1850 50  0001 C CNN
+F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 10750 1850 50  0001 C CNN
 F 3 "~" H 10750 1850 50  0001 C CNN
 	1    10750 1850
 	1    0    0    -1  
@@ -165,7 +165,7 @@ U 1 1 5E4638A4
 P 10750 2350
 F 0 "J8" H 10830 2342 50  0000 L CNN
 F 1 "Encoder_M2" H 10830 2251 50  0000 L CNN
-F 2 "" H 10750 2350 50  0001 C CNN
+F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 10750 2350 50  0001 C CNN
 F 3 "~" H 10750 2350 50  0001 C CNN
 	1    10750 2350
 	1    0    0    -1  
@@ -238,7 +238,7 @@ U 1 1 5E470B4C
 P 9000 850
 F 0 "J3" H 9080 892 50  0000 L CNN
 F 1 "Motor_1" H 9080 801 50  0000 L CNN
-F 2 "" H 9000 850 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 9000 850 50  0001 C CNN
 F 3 "~" H 9000 850 50  0001 C CNN
 	1    9000 850 
 	1    0    0    -1  
@@ -270,7 +270,7 @@ U 1 1 5E488BB5
 P 9000 1350
 F 0 "J4" H 9080 1392 50  0000 L CNN
 F 1 "Motor_2" H 9080 1301 50  0000 L CNN
-F 2 "" H 9000 1350 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 9000 1350 50  0001 C CNN
 F 3 "~" H 9000 1350 50  0001 C CNN
 	1    9000 1350
 	1    0    0    -1  
@@ -333,7 +333,7 @@ U 1 1 5E4A3F62
 P 6000 900
 F 0 "J1" H 6080 892 50  0000 L CNN
 F 1 "UART_1" H 6080 801 50  0000 L CNN
-F 2 "" H 6000 900 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 6000 900 50  0001 C CNN
 F 3 "~" H 6000 900 50  0001 C CNN
 	1    6000 900 
 	1    0    0    -1  
@@ -386,7 +386,7 @@ U 1 1 5E4AFF58
 P 6000 1400
 F 0 "J2" H 6080 1392 50  0000 L CNN
 F 1 "I2C_3" H 6080 1301 50  0000 L CNN
-F 2 "" H 6000 1400 50  0001 C CNN
+F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 6000 1400 50  0001 C CNN
 F 3 "~" H 6000 1400 50  0001 C CNN
 	1    6000 1400
 	1    0    0    -1  
@@ -617,7 +617,7 @@ $EndComp
 Wire Wire Line
 	2300 3450 2850 3450
 Text Label 2850 3450 2    50   ~ 0
-tirette
+out_lidar_1
 Wire Wire Line
 	2300 3350 2850 3350
 Wire Wire Line
@@ -633,19 +633,387 @@ Wire Wire Line
 Wire Wire Line
 	2850 2750 2300 2750
 Text Label 2850 3350 2    50   ~ 0
-color
+out_lidar_2
 Text Label 2850 3250 2    50   ~ 0
-out_lidar_1
+out_lidar_3
 Text Label 950  3050 0    50   ~ 0
 SDA_I2C_PCA
 Text Label 2850 3150 2    50   ~ 0
-out_lidar_2
-Text Label 2850 3050 2    50   ~ 0
-out_lidar_3
-Text Label 2850 2950 2    50   ~ 0
 in_lidar_1
-Text Label 2850 2850 2    50   ~ 0
+Text Label 2850 3050 2    50   ~ 0
 in_lidar_2
-Text Label 2850 2750 2    50   ~ 0
+Text Label 2850 2950 2    50   ~ 0
 in_lidar_3
+Text Label 2850 2850 2    50   ~ 0
+in_lidar_4
+Text Label 2850 2750 2    50   ~ 0
+in_lidar_5
+$Comp
+L mySymbols:PCA9554D U?
+U 1 1 5E59E0AE
+P 2900 1600
+F 0 "U?" H 2900 2281 50  0000 C CNN
+F 1 "PCA9554D" H 2900 2190 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm" H 2900 1700 50  0001 C CNN
+F 3 "" H 2900 1700 50  0001 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1550 2550 1550
+Wire Wire Line
+	2550 1650 1900 1650
+Text Label 1900 1650 0    50   ~ 0
+SCL_I2C_PCA
+Wire Wire Line
+	2900 1100 2900 750 
+Wire Wire Line
+	2900 2100 2900 2350
+$Comp
+L power:+5V #PWR?
+U 1 1 5E59E0B9
+P 2900 750
+F 0 "#PWR?" H 2900 600 50  0001 C CNN
+F 1 "+5V" V 2915 878 50  0000 L CNN
+F 2 "" H 2900 750 50  0001 C CNN
+F 3 "" H 2900 750 50  0001 C CNN
+	1    2900 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E59E0BF
+P 2900 2350
+F 0 "#PWR?" H 2900 2100 50  0001 C CNN
+F 1 "GND" V 2905 2222 50  0000 R CNN
+F 2 "" H 2900 2350 50  0001 C CNN
+F 3 "" H 2900 2350 50  0001 C CNN
+	1    2900 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1950 3800 1950
+Text Label 3800 1950 2    50   ~ 0
+tirette
+Wire Wire Line
+	3250 1850 3800 1850
+Wire Wire Line
+	3800 1750 3250 1750
+Wire Wire Line
+	3250 1650 3800 1650
+Wire Wire Line
+	3250 1550 3800 1550
+Wire Wire Line
+	3800 1450 3250 1450
+Wire Wire Line
+	3800 1350 3250 1350
+Wire Wire Line
+	3800 1250 3250 1250
+Text Label 3800 1850 2    50   ~ 0
+color
+Text Label 3800 1750 2    50   ~ 0
+led_1
+Text Label 1900 1550 0    50   ~ 0
+SDA_I2C_PCA
+Text Label 3800 1650 2    50   ~ 0
+led_2
+Text Label 3800 1550 2    50   ~ 0
+led_3
+$Comp
+L mySymbols:IRLML6344 U?
+U 1 1 5E5BB6A8
+P 8300 4950
+F 0 "U?" H 8406 4996 50  0000 L CNN
+F 1 "IRLML6344" H 8406 4905 50  0000 L CNN
+F 2 "myFootprints:SOT-23" H 8650 4800 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf" H 8350 5400 50  0001 C CNN
+	1    8300 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4950 8000 5300
+Text Label 8000 5300 1    50   ~ 0
+lidar_in_1
+Wire Wire Line
+	8300 5150 8300 5550
+Wire Wire Line
+	8300 4750 9000 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5E5D2F44
+P 8300 5550
+F 0 "#PWR?" H 8300 5300 50  0001 C CNN
+F 1 "GND" H 8305 5377 50  0000 C CNN
+F 2 "" H 8300 5550 50  0001 C CNN
+F 3 "" H 8300 5550 50  0001 C CNN
+	1    8300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L mySymbols:IRLML6344 U?
+U 1 1 5E5F6322
+P 8700 5250
+F 0 "U?" H 8806 5296 50  0000 L CNN
+F 1 "IRLML6344" H 8806 5205 50  0000 L CNN
+F 2 "myFootprints:SOT-23" H 9050 5100 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf" H 8750 5700 50  0001 C CNN
+	1    8700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 5250 8400 5600
+Text Label 8400 5600 1    50   ~ 0
+lidar_in_2
+Wire Wire Line
+	8700 5450 8700 5850
+Wire Wire Line
+	8700 5050 9100 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5E5F632C
+P 8700 5850
+F 0 "#PWR?" H 8700 5600 50  0001 C CNN
+F 1 "GND" H 8705 5677 50  0000 C CNN
+F 2 "" H 8700 5850 50  0001 C CNN
+F 3 "" H 8700 5850 50  0001 C CNN
+	1    8700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5E5C7E49
+P 9200 3650
+F 0 "J?" V 9164 3362 50  0000 R CNN
+F 1 "Conn_01x05" V 9073 3362 50  0000 R CNN
+F 2 "" H 9200 3650 50  0001 C CNN
+F 3 "~" H 9200 3650 50  0001 C CNN
+	1    9200 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mySymbols:IRLML6344 U?
+U 1 1 5E6056E6
+P 9200 4600
+F 0 "U?" H 9306 4646 50  0000 L CNN
+F 1 "IRLML6344" H 9306 4555 50  0000 L CNN
+F 2 "myFootprints:SOT-23" H 9550 4450 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf" H 9250 5050 50  0001 C CNN
+	1    9200 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 4600 8900 5000
+Text Label 8900 5000 1    50   ~ 0
+lidar_in_3
+Wire Wire Line
+	9200 4800 9200 5100
+Wire Wire Line
+	9200 4400 9200 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5E6056F0
+P 9200 5100
+F 0 "#PWR?" H 9200 4850 50  0001 C CNN
+F 1 "GND" H 9205 4927 50  0000 C CNN
+F 2 "" H 9200 5100 50  0001 C CNN
+F 3 "" H 9200 5100 50  0001 C CNN
+	1    9200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L mySymbols:IRLML6344 U?
+U 1 1 5E6312EB
+P 9650 5200
+F 0 "U?" H 9756 5246 50  0000 L CNN
+F 1 "IRLML6344" H 9756 5155 50  0000 L CNN
+F 2 "myFootprints:SOT-23" H 10000 5050 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf" H 9700 5650 50  0001 C CNN
+	1    9650 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5200 9350 5550
+Text Label 9350 5550 1    50   ~ 0
+lidar_in_4
+Wire Wire Line
+	9650 5400 9650 5800
+Wire Wire Line
+	9650 5000 9300 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5E6312F5
+P 9650 5800
+F 0 "#PWR?" H 9650 5550 50  0001 C CNN
+F 1 "GND" H 9655 5627 50  0000 C CNN
+F 2 "" H 9650 5800 50  0001 C CNN
+F 3 "" H 9650 5800 50  0001 C CNN
+	1    9650 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L mySymbols:IRLML6344 U?
+U 1 1 5E63562A
+P 10200 4900
+F 0 "U?" H 10306 4946 50  0000 L CNN
+F 1 "IRLML6344" H 10306 4855 50  0000 L CNN
+F 2 "myFootprints:SOT-23" H 10550 4750 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf" H 10250 5350 50  0001 C CNN
+	1    10200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 4900 9900 5200
+Text Label 9900 5200 1    50   ~ 0
+lidar_in_5
+Wire Wire Line
+	10200 5100 10200 5450
+Wire Wire Line
+	10200 4700 9400 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5E635634
+P 10200 5450
+F 0 "#PWR?" H 10200 5200 50  0001 C CNN
+F 1 "GND" H 10205 5277 50  0000 C CNN
+F 2 "" H 10200 5450 50  0001 C CNN
+F 3 "" H 10200 5450 50  0001 C CNN
+	1    10200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E68558D
+P 1150 5650
+F 0 "D?" H 1143 5395 50  0000 C CNN
+F 1 "LED" H 1143 5486 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1150 5650 50  0001 C CNN
+F 3 "~" H 1150 5650 50  0001 C CNN
+	1    1150 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 5650 700  5650
+Wire Wire Line
+	1300 5650 1400 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5E68F2AD
+P 1400 5650
+F 0 "#PWR?" H 1400 5400 50  0001 C CNN
+F 1 "GND" V 1405 5522 50  0000 R CNN
+F 2 "" H 1400 5650 50  0001 C CNN
+F 3 "" H 1400 5650 50  0001 C CNN
+	1    1400 5650
+	0    -1   -1   0   
+$EndComp
+Text Label 700  5650 0    50   ~ 0
+led_1
+$Comp
+L Device:LED D?
+U 1 1 5E695553
+P 1150 6050
+F 0 "D?" H 1143 5795 50  0000 C CNN
+F 1 "LED" H 1143 5886 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1150 6050 50  0001 C CNN
+F 3 "~" H 1150 6050 50  0001 C CNN
+	1    1150 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 6050 700  6050
+Wire Wire Line
+	1300 6050 1400 6050
+$Comp
+L power:GND #PWR?
+U 1 1 5E69555B
+P 1400 6050
+F 0 "#PWR?" H 1400 5800 50  0001 C CNN
+F 1 "GND" V 1405 5922 50  0000 R CNN
+F 2 "" H 1400 6050 50  0001 C CNN
+F 3 "" H 1400 6050 50  0001 C CNN
+	1    1400 6050
+	0    -1   -1   0   
+$EndComp
+Text Label 700  6050 0    50   ~ 0
+led_2
+$Comp
+L Device:LED D?
+U 1 1 5E699511
+P 1150 6450
+F 0 "D?" H 1143 6195 50  0000 C CNN
+F 1 "LED" H 1143 6286 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1150 6450 50  0001 C CNN
+F 3 "~" H 1150 6450 50  0001 C CNN
+	1    1150 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 6450 700  6450
+Wire Wire Line
+	1300 6450 1400 6450
+$Comp
+L power:GND #PWR?
+U 1 1 5E699519
+P 1400 6450
+F 0 "#PWR?" H 1400 6200 50  0001 C CNN
+F 1 "GND" V 1405 6322 50  0000 R CNN
+F 2 "" H 1400 6450 50  0001 C CNN
+F 3 "" H 1400 6450 50  0001 C CNN
+	1    1400 6450
+	0    -1   -1   0   
+$EndComp
+Text Label 700  6450 0    50   ~ 0
+led_3
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5E6B8A19
+P 6950 1400
+F 0 "J?" H 7030 1392 50  0000 L CNN
+F 1 "I2C_3" H 7030 1301 50  0000 L CNN
+F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 6950 1400 50  0001 C CNN
+F 3 "~" H 6950 1400 50  0001 C CNN
+	1    6950 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1600 6750 1600
+Connection ~ 5800 1600
+Wire Wire Line
+	5800 1500 6750 1500
+Connection ~ 5800 1500
+Wire Wire Line
+	5800 1400 6750 1400
+Connection ~ 5800 1400
+Wire Wire Line
+	5800 1300 6750 1300
+Connection ~ 5800 1300
+Text Label 3800 1450 2    50   ~ 0
+aux_1
+Text Label 3800 1350 2    50   ~ 0
+aux_2
+Text Label 3800 1250 2    50   ~ 0
+aux_2
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5E6D70C7
+P 4550 900
+F 0 "J?" H 4630 942 50  0000 L CNN
+F 1 "Conn_01x03" H 4630 851 50  0000 L CNN
+F 2 "" H 4550 900 50  0001 C CNN
+F 3 "~" H 4550 900 50  0001 C CNN
+	1    4550 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 800  4100 800 
+Wire Wire Line
+	4350 900  4100 900 
+Wire Wire Line
+	4350 1000 4100 1000
+Text Label 4100 800  0    50   ~ 0
+aux_1
+Text Label 4100 900  0    50   ~ 0
+aux_2
+Text Label 4100 1000 0    50   ~ 0
+aux_3
 $EndSCHEMATC

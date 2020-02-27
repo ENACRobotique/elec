@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name FBO-libs)(type Legacy)(uri /home/antoine/Documents/robot/elec/kicad_libs_FBO/mySymbols.lib)(options "")(descr ""))
+  (lib (name carte_PCA9685-rescue)(type Legacy)(uri ${KIPRJMOD}/carte_PCA9685-rescue.lib)(options "")(descr "")(disabled))
+)
