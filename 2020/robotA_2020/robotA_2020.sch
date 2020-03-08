@@ -30,7 +30,7 @@ U 1 1 5E454AE0
 P 10750 800
 F 0 "J5" H 10830 792 50  0000 L CNN
 F 1 "Encoder_1" H 10830 701 50  0000 L CNN
-F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 10750 800 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 10750 800 50  0001 C CNN
 F 3 "~" H 10750 800 50  0001 C CNN
 	1    10750 800 
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 5E462A40
 P 10750 1350
 F 0 "J6" H 10830 1342 50  0000 L CNN
 F 1 "Encoder_2" H 10830 1251 50  0000 L CNN
-F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 10750 1350 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 10750 1350 50  0001 C CNN
 F 3 "~" H 10750 1350 50  0001 C CNN
 	1    10750 1350
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 5E4631CF
 P 10750 1850
 F 0 "J7" H 10830 1842 50  0000 L CNN
 F 1 "Encoder_M1" H 10830 1751 50  0000 L CNN
-F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 10750 1850 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 10750 1850 50  0001 C CNN
 F 3 "~" H 10750 1850 50  0001 C CNN
 	1    10750 1850
 	1    0    0    -1  
@@ -165,7 +165,7 @@ U 1 1 5E4638A4
 P 10750 2350
 F 0 "J8" H 10830 2342 50  0000 L CNN
 F 1 "Encoder_M2" H 10830 2251 50  0000 L CNN
-F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 10750 2350 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 10750 2350 50  0001 C CNN
 F 3 "~" H 10750 2350 50  0001 C CNN
 	1    10750 2350
 	1    0    0    -1  
@@ -204,34 +204,6 @@ F 3 "" H 10200 2250 50  0001 C CNN
 	1    10200 2250
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6450 2800 7000 2800
-Wire Wire Line
-	7000 2900 6450 2900
-Wire Wire Line
-	7000 3600 6450 3600
-Wire Wire Line
-	7000 3700 6450 3700
-Wire Wire Line
-	7000 4000 6450 4000
-Wire Wire Line
-	7000 3300 6450 3300
-Wire Wire Line
-	7000 3400 6450 3400
-Text Label 7000 2800 2    50   ~ 0
-Enc_1A
-Text Label 7000 2900 2    50   ~ 0
-Enc_1B
-Text Label 7000 3300 2    50   ~ 0
-Enc_2A
-Text Label 7000 3400 2    50   ~ 0
-Enc_2B
-Text Label 7000 3600 2    50   ~ 0
-Enc_M1A
-Text Label 7000 3700 2    50   ~ 0
-Enc_M1B
-Text Label 7000 4000 2    50   ~ 0
-Enc_M2A
 $Comp
 L Connector_Generic:Conn_01x03 J3
 U 1 1 5E470B4C
@@ -296,37 +268,6 @@ Text Label 8250 1350 0    50   ~ 0
 mot_2_PWM
 Text Label 8250 1450 0    50   ~ 0
 mot_2_DIR
-Wire Wire Line
-	6450 3100 7000 3100
-Wire Wire Line
-	7000 3200 6450 3200
-Text Label 7000 3100 2    50   ~ 0
-mot_1_PWM
-Text Label 7000 3200 2    50   ~ 0
-mot_1_DIR
-Text Label 4800 3700 0    50   ~ 0
-Enc_M2B
-Wire Wire Line
-	4800 3700 5450 3700
-$Comp
-L MCU_ST_STM32L4:STM32L432KCUx U2
-U 1 1 5E44662F
-P 5950 3500
-F 0 "U2" H 5950 4581 50  0000 C CNN
-F 1 "STM32L432KCUx" H 5950 4490 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 5550 2600 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf" H 5950 3500 50  0001 C CNN
-	1    5950 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 3900 7000 3900
-Text Label 7000 3900 2    50   ~ 0
-mot_2_PWM
-Wire Wire Line
-	5450 4100 4800 4100
-Text Label 4800 4100 0    50   ~ 0
-mot_2_DIR
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5E4A3F62
@@ -372,21 +313,13 @@ Text Label 5400 1000 0    50   ~ 0
 Tx_UART_1
 Text Label 5400 1100 0    50   ~ 0
 Rx_UART_1
-Wire Wire Line
-	6450 3800 7000 3800
-Wire Wire Line
-	5450 4200 4800 4200
-Text Label 7000 3800 2    50   ~ 0
-Rx_UART_1
-Text Label 4800 4200 0    50   ~ 0
-Tx_UART_1
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 5E4AFF58
 P 6000 1400
 F 0 "J2" H 6080 1392 50  0000 L CNN
 F 1 "I2C_3" H 6080 1301 50  0000 L CNN
-F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 6000 1400 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 6000 1400 50  0001 C CNN
 F 3 "~" H 6000 1400 50  0001 C CNN
 	1    6000 1400
 	1    0    0    -1  
@@ -425,14 +358,6 @@ Text Label 5400 1500 0    50   ~ 0
 SDA_I2C_3
 Text Label 5400 1600 0    50   ~ 0
 SCL_I2C_3
-Wire Wire Line
-	5450 4000 4800 4000
-Wire Wire Line
-	6450 3500 7000 3500
-Text Label 7000 3500 2    50   ~ 0
-SCL_I2C_3
-Text Label 4800 4000 0    50   ~ 0
-SDA_I2C_3
 $Comp
 L Device:R R1
 U 1 1 5E4B86FF
@@ -490,15 +415,11 @@ Wire Wire Line
 	4600 5350 4600 5400
 Text Label 4050 5350 0    50   ~ 0
 bat_meas
-Wire Wire Line
-	5450 3800 4800 3800
-Text Label 4800 3800 0    50   ~ 0
-bat_meas
 $Comp
-L mySymbols:LM2596_module U?
+L mySymbols:LM2596_module U4
 U 1 1 5E4CCF6A
 P 3150 5350
-F 0 "U?" H 3175 5675 50  0000 C CNN
+F 0 "U4" H 3175 5675 50  0000 C CNN
 F 1 "LM2596_module" H 3175 5584 50  0000 C CNN
 F 2 "myFootprints:LM2596_module" H 3450 5100 50  0001 C CNN
 F 3 "" H 3150 5350 50  0001 C CNN
@@ -506,10 +427,10 @@ F 3 "" H 3150 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0101
 U 1 1 5E4CF563
 P 2850 5250
-F 0 "#PWR?" H 2850 5100 50  0001 C CNN
+F 0 "#PWR0101" H 2850 5100 50  0001 C CNN
 F 1 "+12V" V 2865 5378 50  0000 L CNN
 F 2 "" H 2850 5250 50  0001 C CNN
 F 3 "" H 2850 5250 50  0001 C CNN
@@ -517,10 +438,10 @@ F 3 "" H 2850 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0102
 U 1 1 5E4D0FBD
 P 3500 5250
-F 0 "#PWR?" H 3500 5100 50  0001 C CNN
+F 0 "#PWR0102" H 3500 5100 50  0001 C CNN
 F 1 "+5V" V 3515 5378 50  0000 L CNN
 F 2 "" H 3500 5250 50  0001 C CNN
 F 3 "" H 3500 5250 50  0001 C CNN
@@ -528,10 +449,10 @@ F 3 "" H 3500 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5E4D3906
 P 3500 5450
-F 0 "#PWR?" H 3500 5200 50  0001 C CNN
+F 0 "#PWR0103" H 3500 5200 50  0001 C CNN
 F 1 "GND" V 3505 5322 50  0000 R CNN
 F 2 "" H 3500 5450 50  0001 C CNN
 F 3 "" H 3500 5450 50  0001 C CNN
@@ -539,10 +460,10 @@ F 3 "" H 3500 5450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 5E4D5EF3
 P 2850 5450
-F 0 "#PWR?" H 2850 5200 50  0001 C CNN
+F 0 "#PWR0104" H 2850 5200 50  0001 C CNN
 F 1 "GND" V 2855 5322 50  0000 R CNN
 F 2 "" H 2850 5450 50  0001 C CNN
 F 3 "" H 2850 5450 50  0001 C CNN
@@ -554,16 +475,16 @@ Wire Wire Line
 Wire Wire Line
 	1600 3150 950  3150
 Text Label 950  3150 0    50   ~ 0
-SCL_I2C_PCA
+SCL_I2C_3
 Wire Wire Line
 	1950 2600 1950 2250
 Wire Wire Line
 	1950 3600 1950 3850
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0105
 U 1 1 5E46BDC5
 P 1950 2250
-F 0 "#PWR?" H 1950 2100 50  0001 C CNN
+F 0 "#PWR0105" H 1950 2100 50  0001 C CNN
 F 1 "+5V" V 1965 2378 50  0000 L CNN
 F 2 "" H 1950 2250 50  0001 C CNN
 F 3 "" H 1950 2250 50  0001 C CNN
@@ -571,10 +492,10 @@ F 3 "" H 1950 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 5E46C315
 P 1950 3850
-F 0 "#PWR?" H 1950 3600 50  0001 C CNN
+F 0 "#PWR0106" H 1950 3600 50  0001 C CNN
 F 1 "GND" V 1955 3722 50  0000 R CNN
 F 2 "" H 1950 3850 50  0001 C CNN
 F 3 "" H 1950 3850 50  0001 C CNN
@@ -582,10 +503,10 @@ F 3 "" H 1950 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J10
 U 1 1 5E471818
 P 4600 6450
-F 0 "J?" H 4680 6442 50  0000 L CNN
+F 0 "J10" H 4680 6442 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 4680 6351 50  0000 L CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical" H 4600 6450 50  0001 C CNN
 F 3 "~" H 4600 6450 50  0001 C CNN
@@ -593,10 +514,10 @@ F 3 "~" H 4600 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0107
 U 1 1 5E471FBE
 P 4400 6450
-F 0 "#PWR?" H 4400 6300 50  0001 C CNN
+F 0 "#PWR0107" H 4400 6300 50  0001 C CNN
 F 1 "+12V" V 4415 6578 50  0000 L CNN
 F 2 "" H 4400 6450 50  0001 C CNN
 F 3 "" H 4400 6450 50  0001 C CNN
@@ -604,10 +525,10 @@ F 3 "" H 4400 6450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 5E473C14
 P 4400 6550
-F 0 "#PWR?" H 4400 6300 50  0001 C CNN
+F 0 "#PWR0108" H 4400 6300 50  0001 C CNN
 F 1 "GND" V 4405 6422 50  0000 R CNN
 F 2 "" H 4400 6550 50  0001 C CNN
 F 3 "" H 4400 6550 50  0001 C CNN
@@ -617,7 +538,7 @@ $EndComp
 Wire Wire Line
 	2300 3450 2850 3450
 Text Label 2850 3450 2    50   ~ 0
-out_lidar_1
+lidar_out_1
 Wire Wire Line
 	2300 3350 2850 3350
 Wire Wire Line
@@ -633,26 +554,26 @@ Wire Wire Line
 Wire Wire Line
 	2850 2750 2300 2750
 Text Label 2850 3350 2    50   ~ 0
-out_lidar_2
+lidar_out_2
 Text Label 2850 3250 2    50   ~ 0
-out_lidar_3
+lidar_out_3
 Text Label 950  3050 0    50   ~ 0
-SDA_I2C_PCA
+SDA_I2C_3
 Text Label 2850 3150 2    50   ~ 0
-in_lidar_1
+lidar_in_1
 Text Label 2850 3050 2    50   ~ 0
-in_lidar_2
+lidar_in_2
 Text Label 2850 2950 2    50   ~ 0
-in_lidar_3
+lidar_in_3
 Text Label 2850 2850 2    50   ~ 0
-in_lidar_4
+lidar_in_4
 Text Label 2850 2750 2    50   ~ 0
-in_lidar_5
+lidar_in_5
 $Comp
-L mySymbols:PCA9554D U?
+L mySymbols:PCA9554D U3
 U 1 1 5E59E0AE
 P 2900 1600
-F 0 "U?" H 2900 2281 50  0000 C CNN
+F 0 "U3" H 2900 2281 50  0000 C CNN
 F 1 "PCA9554D" H 2900 2190 50  0000 C CNN
 F 2 "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm" H 2900 1700 50  0001 C CNN
 F 3 "" H 2900 1700 50  0001 C CNN
@@ -664,16 +585,16 @@ Wire Wire Line
 Wire Wire Line
 	2550 1650 1900 1650
 Text Label 1900 1650 0    50   ~ 0
-SCL_I2C_PCA
+SCL_I2C_3
 Wire Wire Line
 	2900 1100 2900 750 
 Wire Wire Line
 	2900 2100 2900 2350
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0109
 U 1 1 5E59E0B9
 P 2900 750
-F 0 "#PWR?" H 2900 600 50  0001 C CNN
+F 0 "#PWR0109" H 2900 600 50  0001 C CNN
 F 1 "+5V" V 2915 878 50  0000 L CNN
 F 2 "" H 2900 750 50  0001 C CNN
 F 3 "" H 2900 750 50  0001 C CNN
@@ -681,10 +602,10 @@ F 3 "" H 2900 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 5E59E0BF
 P 2900 2350
-F 0 "#PWR?" H 2900 2100 50  0001 C CNN
+F 0 "#PWR0110" H 2900 2100 50  0001 C CNN
 F 1 "GND" V 2905 2222 50  0000 R CNN
 F 2 "" H 2900 2350 50  0001 C CNN
 F 3 "" H 2900 2350 50  0001 C CNN
@@ -710,20 +631,20 @@ Wire Wire Line
 Wire Wire Line
 	3800 1250 3250 1250
 Text Label 3800 1850 2    50   ~ 0
-color
-Text Label 3800 1750 2    50   ~ 0
 led_1
-Text Label 1900 1550 0    50   ~ 0
-SDA_I2C_PCA
-Text Label 3800 1650 2    50   ~ 0
+Text Label 3800 1750 2    50   ~ 0
 led_2
-Text Label 3800 1550 2    50   ~ 0
+Text Label 1900 1550 0    50   ~ 0
+SDA_I2C_3
+Text Label 3800 1650 2    50   ~ 0
 led_3
+Text Label 3800 1550 2    50   ~ 0
+color
 $Comp
-L mySymbols:IRLML6344 U?
+L mySymbols:IRLML6344 U5
 U 1 1 5E5BB6A8
 P 8300 4950
-F 0 "U?" H 8406 4996 50  0000 L CNN
+F 0 "U5" H 8406 4996 50  0000 L CNN
 F 1 "IRLML6344" H 8406 4905 50  0000 L CNN
 F 2 "myFootprints:SOT-23" H 8650 4800 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf" H 8350 5400 50  0001 C CNN
@@ -739,10 +660,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 4750 9000 3850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 5E5D2F44
 P 8300 5550
-F 0 "#PWR?" H 8300 5300 50  0001 C CNN
+F 0 "#PWR0111" H 8300 5300 50  0001 C CNN
 F 1 "GND" H 8305 5377 50  0000 C CNN
 F 2 "" H 8300 5550 50  0001 C CNN
 F 3 "" H 8300 5550 50  0001 C CNN
@@ -750,10 +671,10 @@ F 3 "" H 8300 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mySymbols:IRLML6344 U?
+L mySymbols:IRLML6344 U6
 U 1 1 5E5F6322
 P 8700 5250
-F 0 "U?" H 8806 5296 50  0000 L CNN
+F 0 "U6" H 8806 5296 50  0000 L CNN
 F 1 "IRLML6344" H 8806 5205 50  0000 L CNN
 F 2 "myFootprints:SOT-23" H 9050 5100 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf" H 8750 5700 50  0001 C CNN
@@ -769,10 +690,10 @@ Wire Wire Line
 Wire Wire Line
 	8700 5050 9100 3850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0112
 U 1 1 5E5F632C
 P 8700 5850
-F 0 "#PWR?" H 8700 5600 50  0001 C CNN
+F 0 "#PWR0112" H 8700 5600 50  0001 C CNN
 F 1 "GND" H 8705 5677 50  0000 C CNN
 F 2 "" H 8700 5850 50  0001 C CNN
 F 3 "" H 8700 5850 50  0001 C CNN
@@ -780,21 +701,21 @@ F 3 "" H 8700 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J?
+L Connector_Generic:Conn_01x05 J12
 U 1 1 5E5C7E49
 P 9200 3650
-F 0 "J?" V 9164 3362 50  0000 R CNN
+F 0 "J12" V 9164 3362 50  0000 R CNN
 F 1 "Conn_01x05" V 9073 3362 50  0000 R CNN
-F 2 "" H 9200 3650 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 9200 3650 50  0001 C CNN
 F 3 "~" H 9200 3650 50  0001 C CNN
 	1    9200 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L mySymbols:IRLML6344 U?
+L mySymbols:IRLML6344 U7
 U 1 1 5E6056E6
 P 9200 4600
-F 0 "U?" H 9306 4646 50  0000 L CNN
+F 0 "U7" H 9306 4646 50  0000 L CNN
 F 1 "IRLML6344" H 9306 4555 50  0000 L CNN
 F 2 "myFootprints:SOT-23" H 9550 4450 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf" H 9250 5050 50  0001 C CNN
@@ -810,10 +731,10 @@ Wire Wire Line
 Wire Wire Line
 	9200 4400 9200 3850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0113
 U 1 1 5E6056F0
 P 9200 5100
-F 0 "#PWR?" H 9200 4850 50  0001 C CNN
+F 0 "#PWR0113" H 9200 4850 50  0001 C CNN
 F 1 "GND" H 9205 4927 50  0000 C CNN
 F 2 "" H 9200 5100 50  0001 C CNN
 F 3 "" H 9200 5100 50  0001 C CNN
@@ -821,10 +742,10 @@ F 3 "" H 9200 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mySymbols:IRLML6344 U?
+L mySymbols:IRLML6344 U8
 U 1 1 5E6312EB
 P 9650 5200
-F 0 "U?" H 9756 5246 50  0000 L CNN
+F 0 "U8" H 9756 5246 50  0000 L CNN
 F 1 "IRLML6344" H 9756 5155 50  0000 L CNN
 F 2 "myFootprints:SOT-23" H 10000 5050 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf" H 9700 5650 50  0001 C CNN
@@ -840,10 +761,10 @@ Wire Wire Line
 Wire Wire Line
 	9650 5000 9300 3850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0114
 U 1 1 5E6312F5
 P 9650 5800
-F 0 "#PWR?" H 9650 5550 50  0001 C CNN
+F 0 "#PWR0114" H 9650 5550 50  0001 C CNN
 F 1 "GND" H 9655 5627 50  0000 C CNN
 F 2 "" H 9650 5800 50  0001 C CNN
 F 3 "" H 9650 5800 50  0001 C CNN
@@ -851,10 +772,10 @@ F 3 "" H 9650 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mySymbols:IRLML6344 U?
+L mySymbols:IRLML6344 U9
 U 1 1 5E63562A
 P 10200 4900
-F 0 "U?" H 10306 4946 50  0000 L CNN
+F 0 "U9" H 10306 4946 50  0000 L CNN
 F 1 "IRLML6344" H 10306 4855 50  0000 L CNN
 F 2 "myFootprints:SOT-23" H 10550 4750 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf" H 10250 5350 50  0001 C CNN
@@ -870,10 +791,10 @@ Wire Wire Line
 Wire Wire Line
 	10200 4700 9400 3850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0115
 U 1 1 5E635634
 P 10200 5450
-F 0 "#PWR?" H 10200 5200 50  0001 C CNN
+F 0 "#PWR0115" H 10200 5200 50  0001 C CNN
 F 1 "GND" H 10205 5277 50  0000 C CNN
 F 2 "" H 10200 5450 50  0001 C CNN
 F 3 "" H 10200 5450 50  0001 C CNN
@@ -881,10 +802,10 @@ F 3 "" H 10200 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 5E68558D
 P 1150 5650
-F 0 "D?" H 1143 5395 50  0000 C CNN
+F 0 "D1" H 1143 5395 50  0000 C CNN
 F 1 "LED" H 1143 5486 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 1150 5650 50  0001 C CNN
 F 3 "~" H 1150 5650 50  0001 C CNN
@@ -896,10 +817,10 @@ Wire Wire Line
 Wire Wire Line
 	1300 5650 1400 5650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 5E68F2AD
 P 1400 5650
-F 0 "#PWR?" H 1400 5400 50  0001 C CNN
+F 0 "#PWR0116" H 1400 5400 50  0001 C CNN
 F 1 "GND" V 1405 5522 50  0000 R CNN
 F 2 "" H 1400 5650 50  0001 C CNN
 F 3 "" H 1400 5650 50  0001 C CNN
@@ -909,10 +830,10 @@ $EndComp
 Text Label 700  5650 0    50   ~ 0
 led_1
 $Comp
-L Device:LED D?
+L Device:LED D2
 U 1 1 5E695553
 P 1150 6050
-F 0 "D?" H 1143 5795 50  0000 C CNN
+F 0 "D2" H 1143 5795 50  0000 C CNN
 F 1 "LED" H 1143 5886 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 1150 6050 50  0001 C CNN
 F 3 "~" H 1150 6050 50  0001 C CNN
@@ -924,10 +845,10 @@ Wire Wire Line
 Wire Wire Line
 	1300 6050 1400 6050
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 5E69555B
 P 1400 6050
-F 0 "#PWR?" H 1400 5800 50  0001 C CNN
+F 0 "#PWR0117" H 1400 5800 50  0001 C CNN
 F 1 "GND" V 1405 5922 50  0000 R CNN
 F 2 "" H 1400 6050 50  0001 C CNN
 F 3 "" H 1400 6050 50  0001 C CNN
@@ -937,10 +858,10 @@ $EndComp
 Text Label 700  6050 0    50   ~ 0
 led_2
 $Comp
-L Device:LED D?
+L Device:LED D3
 U 1 1 5E699511
 P 1150 6450
-F 0 "D?" H 1143 6195 50  0000 C CNN
+F 0 "D3" H 1143 6195 50  0000 C CNN
 F 1 "LED" H 1143 6286 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 1150 6450 50  0001 C CNN
 F 3 "~" H 1150 6450 50  0001 C CNN
@@ -952,10 +873,10 @@ Wire Wire Line
 Wire Wire Line
 	1300 6450 1400 6450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 5E699519
 P 1400 6450
-F 0 "#PWR?" H 1400 6200 50  0001 C CNN
+F 0 "#PWR0118" H 1400 6200 50  0001 C CNN
 F 1 "GND" V 1405 6322 50  0000 R CNN
 F 2 "" H 1400 6450 50  0001 C CNN
 F 3 "" H 1400 6450 50  0001 C CNN
@@ -965,12 +886,12 @@ $EndComp
 Text Label 700  6450 0    50   ~ 0
 led_3
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J11
 U 1 1 5E6B8A19
 P 6950 1400
-F 0 "J?" H 7030 1392 50  0000 L CNN
+F 0 "J11" H 7030 1392 50  0000 L CNN
 F 1 "I2C_3" H 7030 1301 50  0000 L CNN
-F 2 "myFootprints:TerminalBlock_bornier-2_P5.08mm" H 6950 1400 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 6950 1400 50  0001 C CNN
 F 3 "~" H 6950 1400 50  0001 C CNN
 	1    6950 1400
 	1    0    0    -1  
@@ -992,14 +913,14 @@ aux_1
 Text Label 3800 1350 2    50   ~ 0
 aux_2
 Text Label 3800 1250 2    50   ~ 0
-aux_2
+aux_3
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J9
 U 1 1 5E6D70C7
 P 4550 900
-F 0 "J?" H 4630 942 50  0000 L CNN
+F 0 "J9" H 4630 942 50  0000 L CNN
 F 1 "Conn_01x03" H 4630 851 50  0000 L CNN
-F 2 "" H 4550 900 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 4550 900 50  0001 C CNN
 F 3 "~" H 4550 900 50  0001 C CNN
 	1    4550 900 
 	1    0    0    -1  
@@ -1016,4 +937,213 @@ Text Label 4100 900  0    50   ~ 0
 aux_2
 Text Label 4100 1000 0    50   ~ 0
 aux_3
+$Comp
+L Connector_Generic:Conn_01x03 J13
+U 1 1 5E70DE70
+P 9400 3300
+F 0 "J13" H 9480 3342 50  0000 L CNN
+F 1 "Conn_01x03" H 9480 3251 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 9400 3300 50  0001 C CNN
+F 3 "~" H 9400 3300 50  0001 C CNN
+	1    9400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3200 8750 3200
+Wire Wire Line
+	9200 3300 8750 3300
+Wire Wire Line
+	9200 3400 8750 3400
+Text Label 8750 3200 0    50   ~ 0
+lidar_out_1
+Text Label 8750 3300 0    50   ~ 0
+lidar_out_2
+Text Label 8750 3400 0    50   ~ 0
+lidar_out_3
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5E7851DA
+P 4550 1400
+F 0 "J14" H 4630 1392 50  0000 L CNN
+F 1 "Conn_01x02" H 4630 1301 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 4550 1400 50  0001 C CNN
+F 3 "~" H 4550 1400 50  0001 C CNN
+	1    4550 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1400 4100 1400
+Text Label 4100 1400 0    50   ~ 0
+color
+$Comp
+L power:GND #PWR0119
+U 1 1 5E7945AB
+P 4350 1500
+F 0 "#PWR0119" H 4350 1250 50  0001 C CNN
+F 1 "GND" V 4355 1372 50  0000 R CNN
+F 2 "" H 4350 1500 50  0001 C CNN
+F 3 "" H 4350 1500 50  0001 C CNN
+	1    4350 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 5E795FA3
+P 4550 1700
+F 0 "J15" H 4630 1692 50  0000 L CNN
+F 1 "Conn_01x02" H 4630 1601 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 4550 1700 50  0001 C CNN
+F 3 "~" H 4550 1700 50  0001 C CNN
+	1    4550 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1700 4100 1700
+Text Label 4100 1700 0    50   ~ 0
+tirette
+$Comp
+L power:GND #PWR0120
+U 1 1 5E795FAB
+P 4350 1800
+F 0 "#PWR0120" H 4350 1550 50  0001 C CNN
+F 1 "GND" V 4355 1672 50  0000 R CNN
+F 2 "" H 4350 1800 50  0001 C CNN
+F 3 "" H 4350 1800 50  0001 C CNN
+	1    4350 1800
+	0    1    1    0   
+$EndComp
+Text Label 3750 3250 0    50   ~ 0
+Enc_M2B
+Wire Wire Line
+	3750 3250 4400 3250
+$Comp
+L mySymbols:NUCLEO32-L432KC U2
+U 1 1 5E6C1167
+P 4850 3450
+F 0 "U2" H 4850 4375 50  0000 C CNN
+F 1 "NUCLEO32-L432KC" H 4850 4284 50  0000 C CNN
+F 2 "myFootprints:NUCLEO32" H 4550 4150 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/user_manual/e3/0e/88/05/e8/74/43/a0/DM00231744.pdf/files/DM00231744.pdf/jcr:content/translations/en.DM00231744.pdf" H 4650 4250 50  0001 C CNN
+	1    4850 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3850 5850 3850
+Text Label 5850 3850 2    50   ~ 0
+Enc_1A
+Wire Wire Line
+	5850 3750 5300 3750
+Text Label 5850 3750 2    50   ~ 0
+Enc_1B
+Wire Wire Line
+	5300 3650 5850 3650
+Text Label 5850 3650 2    50   ~ 0
+mot_1_PWM
+Wire Wire Line
+	5300 3550 5850 3550
+Wire Wire Line
+	5300 3450 5850 3450
+Wire Wire Line
+	5300 3350 5850 3350
+Wire Wire Line
+	5300 3250 5850 3250
+Wire Wire Line
+	5300 2850 5550 2850
+Wire Wire Line
+	4400 3450 3750 3450
+Wire Wire Line
+	4400 3550 3750 3550
+Wire Wire Line
+	4400 3850 3750 3850
+Wire Wire Line
+	4400 3950 3750 3950
+Wire Wire Line
+	3750 4050 4400 4050
+Wire Wire Line
+	3750 4150 4400 4150
+Text Label 3750 4150 0    50   ~ 0
+SDA_I2C_3
+Text Label 3750 4050 0    50   ~ 0
+mot_2_DIR
+Text Label 3750 3150 0    50   ~ 0
+Enc_M2A
+Text Label 3750 3950 0    50   ~ 0
+mot_2_PWM
+Text Label 3750 2850 0    50   ~ 0
+Rx_UART_1
+Text Label 3750 2750 0    50   ~ 0
+Enc_M1B
+Text Label 3750 3850 0    50   ~ 0
+Enc_M1A
+Text Label 5850 3250 2    50   ~ 0
+SCL_I2C_3
+Text Label 3750 3450 0    50   ~ 0
+Tx_UART_1
+Text Label 5850 3350 2    50   ~ 0
+Enc_2B
+Text Label 5850 3450 2    50   ~ 0
+Enc_2A
+Text Label 5850 3550 2    50   ~ 0
+mot_1_DIR
+Wire Wire Line
+	3750 2750 4400 2750
+Wire Wire Line
+	4400 2850 3750 2850
+Text Label 3750 3550 0    50   ~ 0
+bat_meas
+Wire Wire Line
+	3750 3150 4400 3150
+$Comp
+L power:GND #PWR0121
+U 1 1 5E8500EC
+P 5850 2850
+F 0 "#PWR0121" H 5850 2600 50  0001 C CNN
+F 1 "GND" V 5855 2722 50  0000 R CNN
+F 2 "" H 5850 2850 50  0001 C CNN
+F 3 "" H 5850 2850 50  0001 C CNN
+	1    5850 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0122
+U 1 1 5E85053D
+P 5850 3050
+F 0 "#PWR0122" H 5850 2900 50  0001 C CNN
+F 1 "+5V" V 5865 3178 50  0000 L CNN
+F 2 "" H 5850 3050 50  0001 C CNN
+F 3 "" H 5850 3050 50  0001 C CNN
+	1    5850 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E8563FA
+P 6350 2950
+F 0 "C1" H 6465 2996 50  0000 L CNN
+F 1 "100nF" H 6465 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6388 2800 50  0001 C CNN
+F 3 "~" H 6350 2950 50  0001 C CNN
+	1    6350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3150 6350 3150
+Wire Wire Line
+	6350 3150 6350 3100
+Wire Wire Line
+	5300 3050 5550 3050
+Wire Wire Line
+	5550 3150 5550 3050
+Connection ~ 5550 3050
+Wire Wire Line
+	5550 3050 5850 3050
+Wire Wire Line
+	6350 2700 5550 2700
+Wire Wire Line
+	5550 2700 5550 2850
+Connection ~ 5550 2850
+Wire Wire Line
+	5550 2850 5850 2850
+Wire Wire Line
+	6350 2800 6350 2700
 $EndSCHEMATC
