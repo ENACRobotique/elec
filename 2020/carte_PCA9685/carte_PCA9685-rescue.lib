@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# IRLML6344-FBO-libs
+#
+DEF IRLML6344-FBO-libs U 0 40 Y Y 1 F N
+F0 "U" 100 150 50 H V C CNN
+F1 "IRLML6344-FBO-libs" -300 150 50 H V C CNN
+F2 "mosfets:SOT-23" 350 -150 50 H I C CNN
+F3 "https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf" 50 450 50 H I C CNN
+DRAW
+C -35 0 111 1 1 10 N
+C 0 -70 11 1 1 0 F
+C 0 70 11 1 1 0 F
+P 2 1 1 0 -200 0 -90 0 N
+P 2 1 1 0 -70 -70 0 -70 N
+P 2 1 1 10 -70 -50 -70 -90 N
+P 2 1 1 0 -70 0 0 0 N
+P 2 1 1 10 -70 20 -70 -20 N
+P 2 1 1 0 -70 70 0 70 N
+P 2 1 1 10 -70 90 -70 50 N
+P 2 1 1 0 0 -70 0 -100 N
+P 2 1 1 0 0 -70 0 0 N
+P 2 1 1 0 0 100 0 70 N
+P 3 1 1 10 -90 75 -90 -75 -90 -75 N
+P 4 1 1 0 -60 0 -20 15 -20 -15 -60 0 F
+P 4 1 1 0 0 -70 30 -70 30 70 0 70 N
+P 4 1 1 0 10 20 15 15 45 15 50 10 N
+P 4 1 1 0 30 15 15 -10 45 -10 30 15 N
+X G 1 -300 0 100 R 50 50 1 1 I
+X S 2 0 -200 100 U 50 50 1 1 P
+X D 3 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LM2596_module-FBO-libs
+#
+DEF LM2596_module-FBO-libs U 0 40 Y Y 1 F N
+F0 "U" -150 200 50 H V C CNN
+F1 "LM2596_module-FBO-libs" 50 -200 50 H V C CNN
+F2 "myFootprints:LM2596_module" 300 -250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 150 250 -150 0 1 0 f
+X In+ 1 -300 100 100 R 50 50 1 1 W
+X In- 2 -300 -100 100 R 50 50 1 1 W
+X Out- 2 350 -100 100 L 50 50 1 1 w
+X Out+ 3 350 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

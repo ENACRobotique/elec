@@ -117,12 +117,12 @@ Wire Wire Line
 Text Label 7300 4000 2    50   ~ 0
 ev_6
 $Comp
-L Connector_Generic:Conn_01x03 J11
+L Connector_Generic:Conn_01x03 Servo_1
 U 1 1 5E4DC2C0
 P 10100 1100
-F 0 "J11" H 10180 1142 50  0000 L CNN
-F 1 "Servo_1" H 10180 1051 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 10100 1100 50  0001 C CNN
+F 0 "Servo_1" H 10180 1142 50  0000 L CNN
+F 1 "Conn_01x03" H 10180 1051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 1100 50  0001 C CNN
 F 3 "~" H 10100 1100 50  0001 C CNN
 	1    10100 1100
 	1    0    0    -1  
@@ -147,12 +147,12 @@ $EndComp
 Text Label 9350 1200 0    50   ~ 0
 PWM_servo_1
 $Comp
-L Connector_Generic:Conn_01x03 J12
+L Connector_Generic:Conn_01x03 Servo_2
 U 1 1 5E591485
 P 10100 1550
-F 0 "J12" H 10180 1592 50  0000 L CNN
-F 1 "Servo_2" H 10180 1501 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 10100 1550 50  0001 C CNN
+F 0 "Servo_2" H 10180 1592 50  0000 L CNN
+F 1 "Conn_01x03" H 10180 1501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 1550 50  0001 C CNN
 F 3 "~" H 10100 1550 50  0001 C CNN
 	1    10100 1550
 	1    0    0    -1  
@@ -175,12 +175,12 @@ F 3 "" H 9350 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J13
+L Connector_Generic:Conn_01x03 Servo_3
 U 1 1 5E591C68
 P 10100 2000
-F 0 "J13" H 10180 2042 50  0000 L CNN
-F 1 "Servo_3" H 10180 1951 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 10100 2000 50  0001 C CNN
+F 0 "Servo_3" H 10180 2042 50  0000 L CNN
+F 1 "Conn_01x03" H 10180 1951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 2000 50  0001 C CNN
 F 3 "~" H 10100 2000 50  0001 C CNN
 	1    10100 2000
 	1    0    0    -1  
@@ -205,12 +205,12 @@ $EndComp
 Text Label 9350 2100 0    50   ~ 0
 PWM_servo_3
 $Comp
-L Connector_Generic:Conn_01x03 J14
+L Connector_Generic:Conn_01x03 Servo_4
 U 1 1 5E592690
 P 10100 2450
-F 0 "J14" H 10180 2492 50  0000 L CNN
-F 1 "Servo_4" H 10180 2401 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 10100 2450 50  0001 C CNN
+F 0 "Servo_4" H 10180 2492 50  0000 L CNN
+F 1 "Conn_01x03" H 10180 2401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 2450 50  0001 C CNN
 F 3 "~" H 10100 2450 50  0001 C CNN
 	1    10100 2450
 	1    0    0    -1  
@@ -235,12 +235,12 @@ $EndComp
 Text Label 9350 2550 0    50   ~ 0
 PWM_servo_4
 $Comp
-L Connector_Generic:Conn_01x03 J15
+L Connector_Generic:Conn_01x03 Servo_5
 U 1 1 5E5934AF
 P 10100 2900
-F 0 "J15" H 10180 2942 50  0000 L CNN
-F 1 "Servo_5" H 10180 2851 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 10100 2900 50  0001 C CNN
+F 0 "Servo_5" H 10180 2942 50  0000 L CNN
+F 1 "Conn_01x03" H 10180 2851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 2900 50  0001 C CNN
 F 3 "~" H 10100 2900 50  0001 C CNN
 	1    10100 2900
 	1    0    0    -1  
@@ -267,12 +267,12 @@ PWM_servo_5
 Text Label 9350 1650 0    50   ~ 0
 PWM_servo_2
 $Comp
-L Connector_Generic:Conn_01x03 J17
+L Connector_Generic:Conn_01x03 Servo_10
 U 1 1 5E596CCA
 P 10150 4150
-F 0 "J17" H 10230 4192 50  0000 L CNN
-F 1 "Servo_10" H 10230 4101 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 10150 4150 50  0001 C CNN
+F 0 "Servo_10" H 10230 4192 50  0000 L CNN
+F 1 "Conn_01x03" H 10230 4101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10150 4150 50  0001 C CNN
 F 3 "~" H 10150 4150 50  0001 C CNN
 	1    10150 4150
 	1    0    0    -1  
@@ -299,12 +299,12 @@ PWM_servo_10
 Wire Wire Line
 	4400 2600 5150 2600
 $Comp
-L Connector_Generic:Conn_01x03 J16
+L Connector_Generic:Conn_01x03 Servo_6
 U 1 1 5E5A372B
 P 10100 3550
-F 0 "J16" H 10180 3592 50  0000 L CNN
-F 1 "Servo_6" H 10180 3501 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 10100 3550 50  0001 C CNN
+F 0 "Servo_6" H 10180 3592 50  0000 L CNN
+F 1 "Conn_01x03" H 10180 3501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 3550 50  0001 C CNN
 F 3 "~" H 10100 3550 50  0001 C CNN
 	1    10100 3550
 	1    0    0    -1  
@@ -445,10 +445,10 @@ F 3 "" H 6600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J5
+L Connector_Generic:Conn_01x02 Ev_2
 U 1 1 5E71409B
 P 6500 4900
-F 0 "J5" V 6464 4712 50  0000 R CNN
+F 0 "Ev_2" V 6464 4712 50  0000 R CNN
 F 1 "Conn_01x02" V 6373 4712 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 6500 4900 50  0001 C CNN
 F 3 "~" H 6500 4900 50  0001 C CNN
@@ -497,10 +497,10 @@ F 3 "" H 8100 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J6
+L Connector_Generic:Conn_01x02 Ev_3
 U 1 1 5E72FE37
 P 8000 4950
-F 0 "J6" V 7964 4762 50  0000 R CNN
+F 0 "Ev_3" V 7964 4762 50  0000 R CNN
 F 1 "Conn_01x02" V 7873 4762 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8000 4950 50  0001 C CNN
 F 3 "~" H 8000 4950 50  0001 C CNN
@@ -549,10 +549,10 @@ F 3 "" H 9350 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J10
+L Connector_Generic:Conn_01x02 Ev_4
 U 1 1 5E7321AC
 P 9250 4950
-F 0 "J10" V 9214 4762 50  0000 R CNN
+F 0 "Ev_4" V 9214 4762 50  0000 R CNN
 F 1 "Conn_01x02" V 9123 4762 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9250 4950 50  0001 C CNN
 F 3 "~" H 9250 4950 50  0001 C CNN
@@ -601,10 +601,10 @@ F 3 "" H 10550 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J18
+L Connector_Generic:Conn_01x02 Ev_5
 U 1 1 5E73476F
 P 10450 4950
-F 0 "J18" V 10414 4762 50  0000 R CNN
+F 0 "Ev_5" V 10414 4762 50  0000 R CNN
 F 1 "Conn_01x02" V 10323 4762 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10450 4950 50  0001 C CNN
 F 3 "~" H 10450 4950 50  0001 C CNN
@@ -653,10 +653,10 @@ F 3 "" H 5450 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector_Generic:Conn_01x02 Ev_1
 U 1 1 5E736984
 P 5350 4950
-F 0 "J4" V 5314 4762 50  0000 R CNN
+F 0 "Ev_1" V 5314 4762 50  0000 R CNN
 F 1 "Conn_01x02" V 5223 4762 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5350 4950 50  0001 C CNN
 F 3 "~" H 5350 4950 50  0001 C CNN
@@ -705,10 +705,10 @@ F 3 "" H 4300 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J3
+L Connector_Generic:Conn_01x02 Ev_6
 U 1 1 5E73A269
 P 4200 4950
-F 0 "J3" V 4164 4762 50  0000 R CNN
+F 0 "Ev_6" V 4164 4762 50  0000 R CNN
 F 1 "Conn_01x02" V 4073 4762 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4200 4950 50  0001 C CNN
 F 3 "~" H 4200 4950 50  0001 C CNN
@@ -729,12 +729,12 @@ F 3 "" H 4200 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J7
+L Connector_Generic:Conn_01x03 Servo_7
 U 1 1 5E760592
 P 8600 1150
-F 0 "J7" H 8680 1192 50  0000 L CNN
-F 1 "Servo_7" H 8680 1101 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 8600 1150 50  0001 C CNN
+F 0 "Servo_7" H 8680 1192 50  0000 L CNN
+F 1 "Conn_01x03" H 8680 1101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8600 1150 50  0001 C CNN
 F 3 "~" H 8600 1150 50  0001 C CNN
 	1    8600 1150
 	1    0    0    -1  
@@ -759,12 +759,12 @@ $EndComp
 Text Label 7850 1250 0    50   ~ 0
 PWM_servo_7
 $Comp
-L Connector_Generic:Conn_01x03 J8
+L Connector_Generic:Conn_01x03 Servo_8
 U 1 1 5E761F8A
 P 8650 1650
-F 0 "J8" H 8730 1692 50  0000 L CNN
-F 1 "Servo_8" H 8730 1601 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 8650 1650 50  0001 C CNN
+F 0 "Servo_8" H 8730 1692 50  0000 L CNN
+F 1 "Conn_01x03" H 8730 1601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8650 1650 50  0001 C CNN
 F 3 "~" H 8650 1650 50  0001 C CNN
 	1    8650 1650
 	1    0    0    -1  
@@ -789,12 +789,12 @@ $EndComp
 Text Label 7900 1750 0    50   ~ 0
 PWM_servo_8
 $Comp
-L Connector_Generic:Conn_01x03 J9
+L Connector_Generic:Conn_01x03 Servo_9
 U 1 1 5E7640D4
 P 8650 2100
-F 0 "J9" H 8730 2142 50  0000 L CNN
-F 1 "Servo_9" H 8730 2051 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 8650 2100 50  0001 C CNN
+F 0 "Servo_9" H 8730 2142 50  0000 L CNN
+F 1 "Conn_01x03" H 8730 2051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8650 2100 50  0001 C CNN
 F 3 "~" H 8650 2100 50  0001 C CNN
 	1    8650 2100
 	1    0    0    -1  
@@ -819,11 +819,11 @@ $EndComp
 Text Label 7900 2200 0    50   ~ 0
 PWM_servo_9
 $Comp
-L Connector_Generic:Conn_01x04 J2
+L Connector_Generic:Conn_01x04 I2C1
 U 1 1 5E779B02
 P 3900 1050
-F 0 "J2" H 3980 1042 50  0000 L CNN
-F 1 "i2c" H 3980 951 50  0000 L CNN
+F 0 "I2C1" H 3980 1042 50  0000 L CNN
+F 1 "Conn_01x04" H 3980 951 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3900 1050 50  0001 C CNN
 F 3 "~" H 3900 1050 50  0001 C CNN
 	1    3900 1050
