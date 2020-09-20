@@ -1,0 +1,69 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 22-03-5035
+D Header 2.5mm SPOX,WTB,vert, shrouded, 3w Molex SPOX Series, Series Number 5267, 2.5mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 3A
+F http://www.molex.com/pdm_docs/sd/022035035_sd.pdf
+$ENDCMP
+#
+$CMP A4403GEU
+D Valley current mode buck converter, 46V, 3A, up to 2MHz, QFN-16
+K buck regulator adjustable
+F https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx
+$ENDCMP
+#
+$CMP ESP-12E
+D 802.11 b/g/n Wi-Fi Module
+K 802.11 Wi-Fi
+F http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
+$ENDCMP
+#
+$CMP ESP-12F
+D 802.11 b/g/n Wi-Fi Module
+K 802.11 Wi-Fi
+F http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
+$ENDCMP
+#
+$CMP MAX6818
+D Octal Switch  Debouncer, SSOP
+K Switch Debouncer
+F https://datasheets.maximintegrated.com/en/ds/MAX6816-MAX6818.pdf
+$ENDCMP
+#
+$CMP MCP2551-I-SN
+D High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC8 package
+K High-Speed CAN Transceiver
+F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
+$ENDCMP
+#
+$CMP RF_Receiver_433_MHz
+D An RF receiver at 433 MHz
+K rf, receiver, 433
+$ENDCMP
+#
+$CMP RF_Transmitter_433_MHz
+D An RF transmitter at 433 MHz
+K rf, transmitter, 433
+$ENDCMP
+#
+$CMP R_POT
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP TLE52052GAUMA1
+D Infineon TLE52052GAUMA1, BLDC DC Motor Driver, 40 V 5A 7-Pin, TO-263
+F https://www.infineon.com/dgdl/Infineon-TLE5205_2-DS-v01_01-en.pdf?fileId=db3a30431f848401011fc747c7a0797f
+$ENDCMP
+#
+$CMP TSR_2-24120
+D Non-Isolated DC/DC Converters 15-36Vin 12V 2A SIP switching regulator
+F https://assets.tracopower.com/20180205131340/TSR2/documents/tsr2-datasheet.pdf
+$ENDCMP
+#
+$CMP TSR_2-2450
+D Non-Isolated DC/DC Converters 15-36Vin 12V 2A SIP switching regulator
+F https://assets.tracopower.com/20180205131340/TSR2/documents/tsr2-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
