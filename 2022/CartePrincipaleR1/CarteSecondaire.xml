@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Sync\Code\Robotique\CDR2022\Coupe2022\CartesElec\CartePrincipaleR1\CarteSecondaire.kicad_sch</source>
+    <date>03/02/2022 22:38:39</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CarteSecondaire.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b365d3a6-04fc-4dee-b86b-93649688af53</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c1a28ad-7351-486b-877a-d4e5b194debb</tstamps>
+    </comp>
+    <comp ref="CONN_COL2">
+      <value>POMPE1</value>
+      <footprint>library:HE14_EMBASE_1x02</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13c4a1df-b40d-402e-9343-5efea0ffdf4c</tstamps>
+    </comp>
+    <comp ref="CONN_COL3">
+      <value>EV1</value>
+      <footprint>library:HE14_EMBASE_1x02</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d087d9ba-7b4f-41d0-afac-e2dbf443a17a</tstamps>
+    </comp>
+    <comp ref="CONN_COL4">
+      <value>CONTACT_1</value>
+      <footprint>library:HE14_EMBASE_1x02</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9a59887-77f4-4a2b-8747-034916bf0927</tstamps>
+    </comp>
+    <comp ref="CONN_COL5">
+      <value>POMPE2</value>
+      <footprint>library:HE14_EMBASE_1x02</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ec504c1-4308-4b86-b406-ce8b0036fd0f</tstamps>
+    </comp>
+    <comp ref="CONN_COL6">
+      <value>EV2</value>
+      <footprint>library:HE14_EMBASE_1x02</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35fb0c1a-248b-4306-ad98-e8cd19a8a2bc</tstamps>
+    </comp>
+    <comp ref="CONN_TIR2">
+      <value>CONTACT_2</value>
+      <footprint>library:HE14_EMBASE_1x02</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1c3832d-e01b-4e5b-89bc-440040e02fea</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>PMEG2020EH</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG2020EH_EJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG2020EH" description="20V, 2A very low Vf MEGA Schottky barrier rectifier, SOD-123F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35e4a6a5-8dee-49b6-806c-4764235a14eb</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>PMEG2020EH</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG2020EH_EJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG2020EH" description="20V, 2A very low Vf MEGA Schottky barrier rectifier, SOD-123F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fa1f8e9-9add-4081-a9e5-9834b32c553a</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>PMEG2020EH</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG2020EH_EJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG2020EH" description="20V, 2A very low Vf MEGA Schottky barrier rectifier, SOD-123F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56c0ee45-8c67-4efc-aca1-b5cc6c8cc7be</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>PMEG2020EH</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG2020EH_EJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG2020EH" description="20V, 2A very low Vf MEGA Schottky barrier rectifier, SOD-123F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba757cd3-4cf6-439d-910a-2635c02069fd</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_02x08_Top_Bottom</value>
+      <footprint>Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Top_Bottom" description="Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff5c4be0-6e32-47bc-a233-32fa9596aceb</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>SERVO3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4eceffd3-9c08-482f-8aae-64eb00095a13</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>SERVO2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7be33d4-1043-42b0-a7ab-90a605ae85f0</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0ae9bea-2587-4218-bce9-7bc717f7f04b</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>MOT_PWM_2</value>
+      <footprint>library:HE14_EMBASE_1x03</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53b25b36-64a3-4815-a74c-60fbd4a5e8c6</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>MOT_PWM_1</value>
+      <footprint>library:HE14_EMBASE_1x03</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d04480a4-a10e-4d94-81fe-47ab5b708459</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>SERVO1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca801397-c0cc-4f60-aa81-1b804aae5ce9</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_02x08_Top_Bottom</value>
+      <footprint>Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Top_Bottom" description="Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>029e7749-f7df-4f7f-8fed-35fb6c89450c</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>ENC_FOL_1</value>
+      <footprint>library:HE14_EMBASE_1x04</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e34ca53f-d6fe-4789-a7d2-f1c5feb8d07e</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>ENC_MOT_1</value>
+      <footprint>library:HE14_EMBASE_1x04</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04c68a21-e2b1-4b2f-9cc8-62e44c8c17f0</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>ENC_FOL_2</value>
+      <footprint>library:HE14_EMBASE_1x04</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d060a9d2-03b4-40b6-8eed-9fbdd12b608a</tstamps>
+    </comp>
+    <comp ref="J22">
+      <value>ENC_MOT_2</value>
+      <footprint>library:HE14_EMBASE_1x04</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>489020b5-4697-4c09-a878-26f189f20bfa</tstamps>
+    </comp>
+    <comp ref="J23">
+      <value>AX12_1</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc196f82-9531-41e0-a64c-9c1a5c275aef</tstamps>
+    </comp>
+    <comp ref="J24">
+      <value>AX12_2</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f255e9a-5663-4dc1-a5d8-14469013dafa</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML0030</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML0030" description="5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72962331-ffd4-47d0-a7e1-aa5df5bdad9f</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IRLML0030</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML0030" description="5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>032fe11c-bcd0-4196-9b16-b7592fec4c4b</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>IRLML0030</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML0030" description="5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56455ef7-922b-4e17-8742-873a1da6354c</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>IRLML0030</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML0030" description="5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15051188-e899-45d5-80ce-eadd7f0d9542</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63c3dd63-4d85-4d44-a3f1-1c22b5384c16</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11617000-9a19-49ff-971c-0ff54519e01f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c704358-027c-4033-980e-2b2d05e2fd7d</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fc053cc-fb87-4fed-a519-c04f02d8451e</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0788eb3e-4517-48d5-b1ce-1092eccbd9d6</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TSR_1-2450</value>
+      <footprint>Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</footprint>
+      <datasheet>http://www.tracopower.com/products/tsr1.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TSR_1-2450" description="1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CarteSecondaire.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9acca813-2d93-4041-9233-ba6eeb3c0673</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Top_Bottom">
+      <description>Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="PMEG2020EH">
+      <description>20V, 2A very low Vf MEGA Schottky barrier rectifier, SOD-123F</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PMEG2020EH_EJ.pdf</docs>
+      <footprints>
+        <fp>D*SOD?123F*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PMEG2020EH</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PMEG2020EH_EJ.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TSR_1-2450">
+      <description>1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement</description>
+      <docs>http://www.tracopower.com/products/tsr1.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*TRACO*TSR?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSR_1-2450</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</field>
+        <field name="Datasheet">http://www.tracopower.com/products/tsr1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRLML0030">
+      <description>5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23</description>
+      <docs>https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLML0030</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J18" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J18" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J18" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J22" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="Vout" pintype="power_out"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="CONN_COL2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="CONN_COL3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="CONN_COL5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="CONN_COL6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J24" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="Vin" pintype="power_in"/>
+    </net>
+    <net code="4" name="CONTACTEUR1_GPIO">
+      <node ref="CONN_COL4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="5" name="CONTACTEUR2_GPIO">
+      <node ref="CONN_TIR2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="6" name="DataAX12_TX">
+      <node ref="J23" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J24" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="EV1">
+      <node ref="J18" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="EV2">
+      <node ref="J18" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="CONN_COL4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="CONN_TIR2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J22" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J24" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="10" name="MC1A">
+      <node ref="J20" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="11" name="MC1B">
+      <node ref="J20" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="12" name="MC2A">
+      <node ref="J22" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="13" name="MC2B">
+      <node ref="J22" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="14" name="Mot1DIR">
+      <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J18" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="15" name="Mot1PWM">
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J18" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="16" name="Mot2DIR">
+      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J18" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="17" name="Mot2PWM">
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J18" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(CONN_COL2-Pad2)">
+      <node ref="CONN_COL2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(CONN_COL3-Pad2)">
+      <node ref="CONN_COL3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(CONN_COL5-Pad2)">
+      <node ref="CONN_COL5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(CONN_COL6-Pad2)">
+      <node ref="CONN_COL6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="22" name="POMPE1">
+      <node ref="J18" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="POMPE2">
+      <node ref="J18" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="RC_1A">
+      <node ref="J19" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="25" name="RC_1B">
+      <node ref="J19" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="26" name="RC_2A">
+      <node ref="J21" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="27" name="RC_2B">
+      <node ref="J21" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="28" name="S1">
+      <node ref="J17" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J18" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="29" name="S2">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J18" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="30" name="S3">
+      <node ref="J18" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(J7-Pad11)">
+      <node ref="J7" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

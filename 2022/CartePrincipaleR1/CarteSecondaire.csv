@@ -1,0 +1,21 @@
+"Source:","D:\Sync\Code\Robotique\CDR2022\Coupe2022\CartesElec\CartePrincipaleR1\CarteSecondaire.kicad_sch"
+
+"Date:","03/02/2022 22:38:39"
+
+"Tool:","Eeschema (6.0.1)"
+
+"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py"
+
+"Component Count:","36"
+
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
+
+"C3, C4, ","2","C","C","Capacitor_SMD:C_0805_2012Metric","Unpolarized capacitor",""
+
+
+"R3, R7, R8, R9, ","4","10k","R","Resistor_SMD:R_0805_2012Metric","Resistor",""
+
+"R10, ","1","1k","R","Resistor_SMD:R_0805_2012Metric","Resistor",""
+
+"U3, ","1","TSR_1-2450","TSR_1-2450","Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT","1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40Â°C to +85Â°C temperature range, TO-220 compatible LM78xx replacement",""
+

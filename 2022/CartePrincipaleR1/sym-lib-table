@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "CartePrincipale")(type "Legacy")(uri "${KIPRJMOD}/library/NUCLEO-F401RE.lib")(options "")(descr ""))
+  (lib (name "TM1637")(type "Legacy")(uri "${KIPRJMOD}/library/TM1637.lib")(options "")(descr ""))
+  (lib (name "DRV8840PWP")(type "Legacy")(uri "${KIPRJMOD}/library/DRV8840PWP.lib")(options "")(descr ""))
+  (lib (name "NUCLEO-F401RE")(type "Legacy")(uri "${KIPRJMOD}/library/NUCLEO-F401RE.lib")(options "")(descr ""))
+)
