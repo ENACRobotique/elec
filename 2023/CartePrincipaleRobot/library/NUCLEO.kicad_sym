@@ -634,7 +634,7 @@
     (property "Reference" "U" (id 0) (at -15.24 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Value" "NUCLEO-F476RG" (id 1) (at -15.24 -44.45 0)
+    (property "Value" "NUCLEO-F476RG" (id 1) (at -7.62 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "ST_NUCLEO-F476RG" (id 2) (at -8.89 20.32 0)

@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRLML6344-mySymbols
+F https://docs-emea.rs-online.com/webdocs/0f87/0900766b80f8731b.pdf
+$ENDCMP
+#
+$CMP NUCLEO32-L432KC-mySymbols
+F https://www.st.com/content/ccc/resource/technical/document/user_manual/e3/0e/88/05/e8/74/43/a0/DM00231744.pdf/files/DM00231744.pdf/jcr:content/translations/en.DM00231744.pdf
+$ENDCMP
+#
+#End Doc Library
