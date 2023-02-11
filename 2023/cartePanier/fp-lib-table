@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib/doit-esp32-devkit-kicad")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
+)

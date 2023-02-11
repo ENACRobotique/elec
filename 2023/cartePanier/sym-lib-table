@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "esp32")(type "Legacy")(uri "${KIPRJMOD}/lib/doit-esp32-devkit-kicad/doit-esp32-devkit-v1.lib")(options "")(descr ""))
+  (lib (name "Ampli_H0110-1")(type "KiCad")(uri "${KIPRJMOD}/lib/Ampli_H0110-1.kicad_sym")(options "")(descr ""))
+)
