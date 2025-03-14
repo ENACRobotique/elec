@@ -1512,7 +1512,6 @@
     )
   )
 
-
   (junction (at 172.72 16.51) (diameter 0) (color 0 0 0 0)
     (uuid 02813a7d-5b6b-484a-a46d-50a6f33ccd86)
   )
@@ -1909,6 +1908,11 @@
   (text "Afficheur 7 segments" (at 252.73 86.36 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 99ecf79e-db0a-4156-a3ce-a32ea70348b4)
+  )
+  (text "FOR ENCODER 1:\nREMOVE R34 AND R36\nSOLDER SB48 AND SB49"
+    (at 96.52 66.04 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid baeadee9-45b7-458d-9a7b-a017770489d5)
   )
   (text "Input utilisateur" (at 254 104.14 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
