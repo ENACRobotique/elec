@@ -187,6 +187,8 @@
       ],
       "track_widths": [
         0.0,
+        0.7,
+        0.8,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -463,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HubSTS3032.kicad_pro",
+    "filename": "HubCAN.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -623,7 +625,7 @@
   },
   "sheets": [
     [
-      "1dd5cc10-841b-4e10-b824-87c22b1acba4",
+      "bfc3ac56-3185-4f76-b311-9446681eb5ae",
       "Root"
     ]
   ],
