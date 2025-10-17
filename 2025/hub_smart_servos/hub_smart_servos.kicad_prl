@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 0,
     "active_layer_preset": "All Layers",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "HubCAN.kicad_prl",
+    "filename": "hub_smart_servos.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
