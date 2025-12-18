@@ -3,4 +3,6 @@
 *.pdf
 *.epf
 *.png
+*backups/
+fp-info-cache
 
