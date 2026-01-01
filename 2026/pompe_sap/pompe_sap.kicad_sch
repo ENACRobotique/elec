@@ -592,6 +592,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2940,10 +3123,6 @@
 		(uuid "f38022f7-6e01-4d5b-8e33-b483350724dd")
 	)
 	(no_connect
-		(at 60.96 115.57)
-		(uuid "1e830ff8-5999-4e9b-a203-10a23c8168f5")
-	)
-	(no_connect
 		(at 86.36 107.95)
 		(uuid "275f8f1b-29d5-4d22-ac1c-7411c65e2b01")
 	)
@@ -2962,14 +3141,6 @@
 	(no_connect
 		(at 86.36 92.71)
 		(uuid "4de80bc3-897c-40dc-b4f5-4c512f6bdc02")
-	)
-	(no_connect
-		(at 60.96 118.11)
-		(uuid "4f92d843-e7a5-40d1-a9a0-6392ace9017d")
-	)
-	(no_connect
-		(at 60.96 107.95)
-		(uuid "78174f88-a73c-4c87-b1b2-e72f0be9fa9b")
 	)
 	(no_connect
 		(at 86.36 113.03)
@@ -3269,6 +3440,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 107.95) (xy 41.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c52509-3855-417b-ab42-4cd31ef495c3")
+	)
+	(wire
+		(pts
 			(xy 240.03 72.39) (xy 246.38 72.39)
 		)
 		(stroke
@@ -3326,6 +3507,16 @@
 			(type default)
 		)
 		(uuid "9aefa189-50d8-4365-8970-40b803afec37")
+	)
+	(wire
+		(pts
+			(xy 49.53 107.95) (xy 60.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3a67e5-3d08-4794-a84f-02410617adf4")
 	)
 	(wire
 		(pts
@@ -3419,6 +3610,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 118.11) (xy 60.96 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2150c30-2224-4111-bfc1-715c13ec897c")
+	)
+	(wire
+		(pts
 			(xy 73.66 73.66) (xy 73.66 77.47)
 		)
 		(stroke
@@ -3456,6 +3657,16 @@
 			(type default)
 		)
 		(uuid "cbce6848-30f0-49ab-8579-1e8b6504a01d")
+	)
+	(wire
+		(pts
+			(xy 57.15 115.57) (xy 60.96 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbebe3a-328c-4569-9f60-7d83987a00ac")
 	)
 	(wire
 		(pts
@@ -3506,6 +3717,16 @@
 			(type default)
 		)
 		(uuid "dc53471d-f5a0-4ea2-b003-bd15326cf199")
+	)
+	(wire
+		(pts
+			(xy 27.94 107.95) (xy 31.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fb3cde-38f8-4598-b177-802b8dad0366")
 	)
 	(wire
 		(pts
@@ -3861,6 +4082,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f624696-3e14-4974-8ea9-934ac945c375")
+		(property "Reference" "TP6"
+			(at 52.07 116.8401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U1_TX"
+			(at 47.244 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 57.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f2b608d-1109-4bc4-a946-4a74313004a9")
+		)
+		(instances
+			(project "pompe_sap"
+				(path "/d89ce5ab-13f5-46cf-afde-62006d16389b"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 52.07 68.58 0)
 		(unit 1)
@@ -3925,6 +4212,72 @@
 			(project ""
 				(path "/d89ce5ab-13f5-46cf-afde-62006d16389b"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fcbc3e7-1484-4c6c-a4cc-446b2fb32479")
+		(property "Reference" "TP7"
+			(at 52.07 119.3801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U1_RX"
+			(at 47.244 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 57.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c7391cc-f964-4096-b7e1-9acc0f009db6")
+		)
+		(instances
+			(project "pompe_sap"
+				(path "/d89ce5ab-13f5-46cf-afde-62006d16389b"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -5418,6 +5771,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 27.94 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd1a3f0-cccf-44c7-bd5f-95be8401103e")
+		(property "Reference" "#PWR05"
+			(at 21.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9981c2f1-799f-48f1-b3f3-a6b9f9f31ee7")
+		)
+		(instances
+			(project "pompe_sap"
+				(path "/d89ce5ab-13f5-46cf-afde-62006d16389b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a71ac7d-9451-48d2-a02d-cfacdf955943")
+		(property "Reference" "R2"
+			(at 45.72 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "390"
+			(at 45.72 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 45.72 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea7f1547-cc77-40bc-941d-17354178cd44")
+		)
+		(pin "1"
+			(uuid "67c6b297-4cd6-4823-bee3-49d7c2c4f003")
+		)
+		(instances
+			(project "pompe_sap"
+				(path "/d89ce5ab-13f5-46cf-afde-62006d16389b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 179.07 38.1 0)
 		(unit 1)
@@ -6101,6 +6589,83 @@
 			(project "carte_pompe"
 				(path "/d89ce5ab-13f5-46cf-afde-62006d16389b"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 35.56 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed65748b-da3d-4169-bac8-2b083239b9d3")
+		(property "Reference" "D1"
+			(at 33.9725 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 33.9725 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca9b5487-0ea7-48f7-8784-9a2398e3c234")
+		)
+		(pin "2"
+			(uuid "45f376b8-ff30-45da-89b6-336cec74fd4c")
+		)
+		(instances
+			(project ""
+				(path "/d89ce5ab-13f5-46cf-afde-62006d16389b"
+					(reference "D1")
 					(unit 1)
 				)
 			)
