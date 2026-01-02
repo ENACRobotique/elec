@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "hspace": "5mm",
+        "vspace": "5mm",
+        "rows": "2",
+        "cols": "2"
+    },
+    "tabs": {
+        "vwidth": "5mm",
+        "hwidth": "5mm"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "frame",
+        "width": "8mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "20.5mm",
+        "voffset": "4mm",
+        "size": "3mm"
+    }
+}
